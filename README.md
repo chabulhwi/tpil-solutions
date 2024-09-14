@@ -6,8 +6,8 @@ Kong][sk] and [Sebastian Ullrich][su], with contributions from the [Lean
 Community][lean-comm]. You are free to reuse the content under the terms of
 [Apache License Version 2.0](./LICENSE).
 
-I've also included in this repository a quiz for each chapter of the text and my
-solutions to the questions of each quiz.
+I've also included in this repository a quiz I made for each chapter of the text
+and my solutions to the questions of each quiz.
 
 ## Contributing
 
