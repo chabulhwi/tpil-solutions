@@ -11,9 +11,10 @@ and my solutions to the questions of each quiz.
 
 ## Directories and files
 
+* [`quiz`](./quiz)
+  * `chapterXX.md`: My additional quiz for Chapter XX of the text.
 * [`TPIL`](./TPIL)
   * `ChapterXX`: Chapter XX of the text.
-    * `Quiz.md`: My additional quiz for the chapter.
     * `Question*`: Solutions to the question(s) of my quiz. Yet to be public.
 
 ## Contributing
