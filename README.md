@@ -9,6 +9,13 @@ Community][lean-comm]. You are free to reuse the content under the terms of
 I've also included in this repository a quiz I made for each chapter of the text
 and my solutions to the questions of each quiz.
 
+## Directories and files
+
+* [`TPIL`](./TPIL)
+  * `ChapterXX`: Chapter XX of the text.
+    * `Quiz.md`: My additional quiz for the chapter.
+    * `Question*`: Solutions to the question(s) of my quiz. Yet to be public.
+
 ## Contributing
 
 If you've found errors in my solutions and want to fix them, please send an
