@@ -24,7 +24,7 @@ Use the `#eval` command to give the value of each expression listed below.
 
 ## Question 3
 
-There's an error in the following code; fix the expression after the `#eval`
+There's an error in the following code. Fix the expression after the `#eval`
 command to evaluate it.
 
 ```lean
@@ -201,7 +201,7 @@ end Question22
 
 ## Question 23
 
-There's an error in the following code; fix the expression after the `#eval`
+There's an error in the following code. Fix the expression after the `#eval`
 command by providing the missing arguments to the function `compose`.
 
 ```lean
@@ -291,7 +291,7 @@ Is the type `(α : Type) × Prop` a dependent product type?
 
 ## Question 34
 
-There's an error in the following code; fix the definition of the dependent
+There's an error in the following code. Fix the definition of the dependent
 function `f`.
 
 ```lean
