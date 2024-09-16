@@ -326,7 +326,7 @@ Replace the underscore in each expression listed below with an appropriate type,
 then check the value of each expression.
 
 \(a\) `@List.cons _ 0 [1, 2, 3]` \
-\(b\) `@List.append _ [0, 1] [2, 3]`
+\(b\) `@List.append _ [0, 1] [2, 3]` \
 \(c\) `@List.cons _ "Lean" ["4"]` \
 \(d\) `@List.append _ ["Lean"] ["4"]`
 
