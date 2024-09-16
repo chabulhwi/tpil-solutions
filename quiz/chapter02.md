@@ -90,7 +90,8 @@ Define a constant of each type listed below.
 ## Question 10
 
 Define the following two universe-polymorphic functions, replacing each `sorry`
-identifier with an actual definition.
+identifier with an actual definition. The functions `f` and `g` shouldn't be
+definitionally equal.
 
 ```lean
 namespace Question10
