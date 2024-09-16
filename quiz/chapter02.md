@@ -235,7 +235,7 @@ Give the value and type of each expression listed below.
 ## Question 25
 
 Use the `print` command to check the type of the function `List.cons`, then
-answer by true or false each statement about the function listed below.
+answer by true or false each of the following statements about the function.
 
 \(a\) It is universe-polymorphic. \
 \(b\) It is parametrically polymorphic. \
@@ -244,8 +244,8 @@ answer by true or false each statement about the function listed below.
 
 ## Question 26
 
-Answer by true or false each statement about the function `Type.id` of [Question
-8](#question-8) listed below.
+Answer by true or false each of the following statements about the function
+`Type.id` of [Question 8](#question-8).
 
 \(a\) It is parametrically polymorphic. \
 \(b\) It is a dependent function. \
@@ -253,8 +253,8 @@ Answer by true or false each statement about the function `Type.id` of [Question
 
 ## Question 27
 
-Answer by true or false each statement about the constants you defined in
-[Question 9](#question-9) listed below.
+Answer by true or false each of the following statements about the constants you
+defined in [Question 9](#question-9).
 
 \(a\) At least one of them is parametrically polymorphic. \
 \(b\) At least one of them is a dependent function. \
