@@ -180,3 +180,156 @@ def foo := let a := Nat; fun x : a => x + 2
   def bar := (fun a => fun x : a => x + 2) Nat
 -/
 ```
+
+## Question 22
+
+Use the `#print` command to check the definitions of the following functions:
+
+```lean
+namespace Question22
+
+variable (α β γ : Type)
+variable (g : β → γ) (f : α → β) (h : α → α)
+variable (x : α)
+
+def compose := g (f x)
+def doTwice := h (h x)
+def doThrice := h (h (h x))
+
+end Question22
+```
+
+## Question 23
+
+There's an error in the following code; fix the expression after the `#eval`
+command by providing the missing arguments to the function `compose`.
+
+```lean
+namespace Question23
+
+section
+
+variable (α β γ : Type)
+variable (g : β → γ) (f : α → β) (h : α → α)
+variable (x : α)
+
+def compose := g (f x)
+
+end
+
+#eval List.tail [0, 1, 2, 3] -- output: [1, 2, 3]
+#eval List.reverse [1, 2, 3] -- [3, 2, 1]
+#eval compose List.reverse List.tail [0, 1, 2, 3]
+
+end Question23
+```
+
+## Question 24
+
+Give the value and type of each expression listed below.
+
+\(a\) `List.cons 0 [1, 2, 3]` \
+\(b\) `List.cons true []` \
+\(c\) `List.cons "Lean" ["4"]`
+
+## Question 25
+
+Use the `print` command to check the type of the function `List.cons`, then
+answer by true or false each statement about the function listed below.
+
+\(a\) It is universe-polymorphic. \
+\(b\) It is parametrically polymorphic. \
+\(c\) It is a dependent function. \
+\(d\) It has a dependent function type.
+
+## Question 26
+
+Answer by true or false each statement about the function `Type.id` of [Question
+8](#question-8) listed below.
+
+\(a\) It is parametrically polymorphic. \
+\(b\) It is a dependent function. \
+\(c\) It has a dependent function type.
+
+## Question 27
+
+Answer by true or false each statement about the constants you defined in
+[Question 9](#question-9) listed below.
+
+\(a\) At least one of them is parametrically polymorphic. \
+\(b\) At least one of them is a dependent function. \
+\(c\) At least one of them has a dependent function type. \
+\(d\) At least one of them is a dependent product. \
+\(e\) At least one of them has a dependent product type. \
+
+## Question 28
+
+Is the type `(α : Type) → (β : α → Type) → (a : α) → β a` a dependent function
+type?
+
+## Question 29
+
+Is the type `(α : Type) → (β : α → Type) → (a : α) × β a` a dependent product
+type?
+
+## Question 30
+
+Is the type `(α : Type) → (β : α → Type) → Σ (a : α), β a` a Sigma type?
+
+## Question 31
+
+Are the types of [Question 29](#question-29) and [Question 30](#question-30) the
+same?
+
+## Question 32
+
+Is the type `(α : Type) → Prop` a dependent function type?
+
+## Question 33
+
+Is the type `(α : Type) × Prop` a dependent product type?
+
+## Question 34
+
+There's an error in the following code; fix the definition of the dependent
+function `f`.
+
+```lean
+namespace Question34
+
+universe u v
+
+def f (α : Type u) (β : α → Type v) (a : α) (b : β a) : (a : α) × β a :=
+  (a, b)
+
+end Question34
+```
+
+## Question 35
+
+Give the value of each expression containing the function `f` of [Question
+34](#question-34) listed below.
+
+\(a\) `(f Nat (fun _n => Int) 1 (-1)).1` \
+\(b\) `(f Nat (fun _n => Int) 1 (-1)).2`
+
+## Question 36
+
+Give the value and type of each expression listed below.
+
+\(a\) `@List.nil Nat` \
+\(b\) `List.append [0, 1] [2, 3]`
+
+## Question 37
+
+Replace the underscore in each expression listed below with an appropriate type,
+then check the value of each expression.
+
+\(a\) `@List.cons _ 0 [1, 2, 3]` \
+\(b\) `@List.append _ [0, 1] [2, 3]`
+\(c\) `@List.cons _ "Lean" ["4"]` \
+\(d\) `@List.append _ ["Lean"] ["4"]`
+
+## Question 38
+
+Give an example of a function that takes one or more implicit arguments.
