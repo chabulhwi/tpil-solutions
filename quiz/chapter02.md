@@ -165,7 +165,7 @@ end Question19
 ## Question 20
 
 Define a function that takes two natural numbers as input arguments, and returns
-the one less than or equal to the other one.
+the one less than or equal to the other.
 
 You can type the less-than-or-equal-to sign `≤` with `\le`.
 
