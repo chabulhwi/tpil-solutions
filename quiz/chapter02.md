@@ -72,7 +72,7 @@ Give the type of each expression listed below.
 
 ## Question 8
 
-Let `Type.id` be a function from `Type` to `Type`, defined as follows:
+Let `Type.id` be a function from `Type` to `Type` defined as follows:
 
 ```lean
 def Type.id : Type → Type := fun x : Type ↦ x
@@ -118,8 +118,8 @@ Give the value of the expression `(λ x : Int => -x + 2) 3`.
 
 ## Question 14
 
-Define a function that takes a natural number as input, and returns `true :
-Bool` if the number is non-zero and `false : Bool` if the number is zero.
+Define a function that takes a natural number as input and returns `true : Bool`
+if the number is non-zero and `false : Bool` if the number is zero.
 
 ## Question 15
 
@@ -164,7 +164,7 @@ end Question19
 
 ## Question 20
 
-Define a function that takes two natural numbers as input arguments, and returns
+Define a function that takes two natural numbers as input arguments and returns
 the one less than or equal to the other.
 
 Note that you can type the less-than-or-equal-to sign `≤` with `\le`.
