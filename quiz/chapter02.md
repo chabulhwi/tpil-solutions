@@ -308,8 +308,8 @@ end Question34
 
 ## Question 35
 
-Give the value of each expression containing the function `f` of [Question
-34](#question-34) listed below.
+Give the value of each of the following expressions, where `f` is the function
+defined in [Question 34](#question-34).
 
 \(a\) `(f Nat (fun _n => Int) 1 (-1)).1` \
 \(b\) `(f Nat (fun _n => Int) 1 (-1)).2`
