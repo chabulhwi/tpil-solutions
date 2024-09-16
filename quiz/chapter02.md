@@ -119,8 +119,8 @@ Give the value of the expression `(λ x : Int => -x + 2) 3`.
 
 ## Question 14
 
-Define a function that takes a natural number as input and returns `true : Bool`
-if the number is non-zero and `false : Bool` if the number is zero.
+Define a function that takes a natural number as input and returns `true` if the
+number is non-zero and `false` if the number is zero.
 
 ## Question 15
 
