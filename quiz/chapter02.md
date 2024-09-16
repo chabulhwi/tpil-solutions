@@ -260,7 +260,7 @@ Answer by true or false each statement about the constants you defined in
 \(b\) At least one of them is a dependent function. \
 \(c\) At least one of them has a dependent function type. \
 \(d\) At least one of them is a dependent product. \
-\(e\) At least one of them has a dependent product type. \
+\(e\) At least one of them has a dependent product type.
 
 ## Question 28
 
