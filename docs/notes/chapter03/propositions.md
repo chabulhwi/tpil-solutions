@@ -13,7 +13,8 @@
 ### Propositions in School Mathematics in South Korea
 
 > 문장 ‘2는 소수이다.’는 참이고, 식 ‘`√2 + √3 = √5`’는 거짓이다. 이와 같이 참,
-> 거짓을 명확하게 판별할 수 있는 문장이나 식을 **명제**라고 한다. (전인태 n.d.)
+> 거짓을 명확하게 판별할 수 있는 문장이나 식을 **명제**라고 한다. (전인태 n.d.,
+> 83)
 >
 > The sentence ‘2 is prime’ is true and the expression ‘`√2 + √3 = √5`’ is
 > false. We refer to a sentence or expression whose truth or falsehood can be
