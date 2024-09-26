@@ -48,8 +48,10 @@ teachers in South Korea would *have to* answer no. However, the conjecture can
 be defined as a proposition in the Lean theorem prover as follows:
 
 ```lean
+import Mathlib.Data.Nat.Prime.Defs
+
 def goldbach_conjecture : Prop :=
-  ∀ n : Nat, even n ∧ n > 2 → ∃ p q : Nat, (prime p ∧ prime q) ∧ n = p + q
+  ∀ n : ℕ, Even n ∧ n > 2 → ∃ p q : ℕ, (Prime p ∧ Prime q) ∧ n = p + q
 ```
 
 ### My Closing Thoughts
