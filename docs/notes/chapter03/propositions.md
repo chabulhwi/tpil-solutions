@@ -44,10 +44,8 @@ Goldbach's conjecture states that:
 > Every even natural number greater than 2 is the sum of two prime numbers.
 
 We don't know whether it's true or false as of 2024, so high school mathematics
-teachers in South Korea would *have to* answer no.
-
-However, the conjecture can be defined as a proposition in the Lean theorem
-prover as follows:
+teachers in South Korea would *have to* answer no. However, the conjecture can
+be defined as a proposition in the Lean theorem prover as follows:
 
 ```lean
 def goldbach_conjecture : Prop :=
