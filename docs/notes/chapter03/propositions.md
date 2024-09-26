@@ -60,6 +60,10 @@ I don't think the usage of the term 'proposition' in Korean high school
 mathematics coincides with those in contemporary philosophy or interactive
 theorem provers like Lean.
 
+One can't clearly determine what the verb phrase 'clearly determine' really
+means, so Korean high school mathematics doesn't make it easier for students to
+understand the notion of a proposition.
+
 ## References
 
 * McGrath, Matthew and Devin Frank, "Propositions", *The Stanford Encyclopedia
