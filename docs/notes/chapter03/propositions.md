@@ -39,13 +39,13 @@ quotations:
 
 #### Is a Conjecture in Mathematics a Proposition?
 
-Goldbach's conjecture states that:
+Goldbach's conjecture states that every even natural number greater than 2 is
+the sum of two prime numbers. We don't know whether it's true or false as of
+2024, so high school mathematics teachers in South Korea would *have to* answer
+no.
 
-> Every even natural number greater than 2 is the sum of two prime numbers.
-
-We don't know whether it's true or false as of 2024, so high school mathematics
-teachers in South Korea would *have to* answer no. However, the conjecture can
-be defined as a proposition in the Lean theorem prover as follows:
+However, the conjecture can be defined as a proposition in the Lean theorem
+prover as follows:
 
 ```lean
 import Mathlib.Data.Nat.Prime.Defs
