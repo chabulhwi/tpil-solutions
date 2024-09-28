@@ -184,7 +184,7 @@ def foo := let a := Nat; fun x : a => x + 2
 
 ## Question 22
 
-Use the `#print` command to check the definitions of the following functions:
+Use the `#print` command to check each definition of the following functions:
 
 ```lean
 namespace Question22
@@ -202,8 +202,8 @@ end Question22
 
 ## Question 23
 
-There's an error in the following code. Fix the expression after the `#eval`
-command by providing the missing arguments to the function `compose`.
+There's an error in the following code. Fix the expression after the last
+`#eval` command by providing the missing arguments to the function `compose`.
 
 ```lean
 namespace Question23
