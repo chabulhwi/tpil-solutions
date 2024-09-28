@@ -275,7 +275,7 @@ product type?
 
 ## Question 30
 
-Given `α : Type` and `β : α → Type`, is the type `Σ (a : α), β a` a Sigma type?
+Given `α : Type` and `β : α → Type`, is the type `Σ (a : α), β a` a sigma type?
 
 ## Question 31
 
