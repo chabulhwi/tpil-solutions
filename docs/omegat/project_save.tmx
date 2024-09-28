@@ -4,6 +4,1181 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.1_0_42ef0143" segtype="sentence" srclang="en"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="en">
+        <seg>(a, b)
+
+end Question34</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122748Z" creationid="chabulhwi" creationdate="20240928T122748Z">
+        <seg>(a, b)
+
+end Question34</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;fun (bulhwi : String) (cha : Nat) ↦ String.drop bulhwi cha&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083854Z" creationid="chabulhwi" creationdate="20240928T083854Z">
+        <seg>&lt;g1&gt;fun (bulhwi : String) (cha : Nat) ↦ String.drop bulhwi cha&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;fun (s : String) (n : Nat) ↦ String.drop s n&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083852Z" creationid="chabulhwi" creationdate="20240928T083852Z">
+        <seg>&lt;g1&gt;fun (s : String) (n : Nat) ↦ String.drop s n&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x1/&gt;
+\(b\) At least one of them is a dependent function.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120324Z" creationid="chabulhwi" creationdate="20240928T120324Z">
+        <seg>&lt;x1/&gt;
+\(b\) 이 상수들 중 적어도 하나는 의존 함수이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x1/&gt;
+\(b\) It is a dependent function.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T115807Z" creationid="chabulhwi" creationdate="20240928T115807Z">
+        <seg>&lt;x1/&gt;
+\(b\) 이 함수는 의존 함수이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x1/&gt;
+\(b\) It is parametrically polymorphic.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T110215Z" creationid="chabulhwi" creationdate="20240928T110215Z">
+        <seg>&lt;x1/&gt;
+\(b\) 이 함수는 매개 변수 다형적이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x2/&gt;
+\(c\) At least one of them has a dependent function type.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120336Z" creationid="chabulhwi" creationdate="20240928T120336Z">
+        <seg>&lt;x2/&gt;
+\(c\) 이 상수들 중 적어도 하나는 의존 함수형에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x2/&gt;
+\(c\) It has a dependent function type.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T115820Z" creationid="chabulhwi" creationdate="20240928T115820Z">
+        <seg>&lt;x2/&gt;
+\(c\) 이 함수는 의존 함수형에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x2/&gt;
+\(c\) It is a dependent function.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T110429Z" creationid="chabulhwi" creationdate="20240928T110248Z">
+        <seg>&lt;x2/&gt;
+\(c\) 이 함수는 의존 함수이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x3/&gt;
+\(d\) At least one of them is a dependent product.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120406Z" creationid="chabulhwi" creationdate="20240928T120406Z">
+        <seg>&lt;x3/&gt;
+\(d\) 이 상수들 중 적어도 하나는 의존곱이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x3/&gt;
+\(d\) It has a dependent function type.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T115611Z" creationid="chabulhwi" creationdate="20240928T115455Z">
+        <seg>&lt;x3/&gt;
+\(d\) 이 함수는 의존 함수형에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x4/&gt;
+\(e\) At least one of them has a dependent product type.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120451Z" creationid="chabulhwi" creationdate="20240928T120451Z">
+        <seg>&lt;x4/&gt;
+\(e\) 이 상수들 중 적어도 하나는 의존곱형에 속한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Answer by true or false each of the following statements about the constants you
+defined in &lt;g1&gt;Question 9&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124254Z" creationid="chabulhwi" creationdate="20240928T115844Z">
+        <seg>&lt;g1&gt;문제 9&lt;/g1&gt;에서 정의된 상수들에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Answer by true or false each of the following statements about the function
+&lt;g1&gt;Type.id&lt;/g1&gt; of &lt;g2&gt;Question 8&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T115847Z" creationid="chabulhwi" creationdate="20240928T115708Z">
+        <seg>&lt;g2&gt;문제 8&lt;/g2&gt;의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Are the constants you defined in &lt;g1&gt;Question 9&lt;/g1&gt; universe-polymorphic?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120132Z" creationid="chabulhwi" creationdate="20240927T023344Z">
+        <seg>&lt;g1&gt;문제 9&lt;/g1&gt;에서 정의된 상수들은 세계 다형적인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Are the following functions alpha-equivalent?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083849Z" creationid="chabulhwi" creationdate="20240928T083835Z">
+        <seg>다음 함수들은 알파 동등한가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Are the types of &lt;g1&gt;Question 29&lt;/g1&gt; and &lt;g2&gt;Question 30&lt;/g2&gt; the
+same?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124438Z" creationid="chabulhwi" creationdate="20240928T122630Z">
+        <seg>&lt;g1&gt;문제 29&lt;/g1&gt;와 &lt;g2&gt;문제 30&lt;/g2&gt;에 나온 두 유형은 서로 같은가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chapter 2 Quiz</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T013557Z" creationid="chabulhwi" creationdate="20240927T013557Z">
+        <seg>2장 퀴즈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Define a constant of each type listed below.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021955Z" creationid="chabulhwi" creationdate="20240927T021955Z">
+        <seg>아래의 유형에 속하는 상수를 각각 정의하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Define a function that takes a natural number as input and returns &lt;g1&gt;true&lt;/g1&gt; if the
+number is non-zero and &lt;g2&gt;false&lt;/g2&gt; if the number is zero.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023928Z" creationid="chabulhwi" creationdate="20240927T023928Z">
+        <seg>자연수를 입력값으로 받아, 그 수가 영이 아니면 &lt;g1&gt;true&lt;/g1&gt;를 반환하고, 그 수가 영이면 &lt;g2&gt;false&lt;/g2&gt;를 반환하는 함수를 정의하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Define a function that takes two natural numbers as input arguments and returns
+the one less than or equal to the other.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T084151Z" creationid="chabulhwi" creationdate="20240928T084151Z">
+        <seg>두 자연수를 입력값으로 받아, 둘 중에서 다른 것보다 작거나 그것과 같은 자연수를 반환하는 함수를 정의하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Define the following function, replacing the &lt;g1&gt;sorry&lt;/g1&gt; identifier with an actual
+expression &lt;g2&gt;containing&lt;/g2&gt; the arguments &lt;g3&gt;f&lt;/g3&gt;, &lt;g4&gt;g&lt;/g4&gt;, and &lt;g5&gt;s&lt;/g5&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083623Z" creationid="chabulhwi" creationdate="20240928T083017Z">
+        <seg>&lt;g1&gt;sorry&lt;/g1&gt; 식별자를 실제 식으로 바꿔 다음 함수를 정의하라. 그 식은 세 인수 &lt;g3&gt;f&lt;/g3&gt;, &lt;g4&gt;g&lt;/g4&gt;, &lt;g5&gt;s&lt;/g5&gt;를 &lt;g2&gt;포함해야&lt;/g2&gt; 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Define the following two universe-polymorphic functions, replacing each &lt;g1&gt;sorry&lt;/g1&gt;
+identifier with an actual definition.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083630Z" creationid="chabulhwi" creationdate="20240927T022435Z">
+        <seg>각 &lt;g1&gt;sorry&lt;/g1&gt; 식별자를 실제 정의로 바꿔 다음의 두 세계 다형적 함수를 정의하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fix the definition of the dependent
+function &lt;g1&gt;f&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122741Z" creationid="chabulhwi" creationdate="20240928T122741Z">
+        <seg>의존 함수 &lt;g1&gt;f&lt;/g1&gt;의 정의를 고쳐라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fix the expression after the &lt;g1&gt;#eval&lt;/g1&gt;
+command to evaluate it.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015334Z" creationid="chabulhwi" creationdate="20240927T015334Z">
+        <seg>&lt;g1&gt;#eval&lt;/g1&gt; 명령어 뒤의 식을 고쳐 그 값을 계산하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Fix the expression after the last
+&lt;g1&gt;#eval&lt;/g1&gt; command by providing the missing arguments to the function &lt;g2&gt;compose&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T105829Z" creationid="chabulhwi" creationdate="20240928T091427Z">
+        <seg>마지막 &lt;g1&gt;#eval&lt;/g1&gt; 명령어 뒤의 식에, 함수 &lt;g2&gt;compose&lt;/g2&gt;의 인수 중 빠진 것을 넣어 그 식을 고쳐라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give an example of a function that takes one or more implicit arguments.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T123309Z" creationid="chabulhwi" creationdate="20240928T123309Z">
+        <seg>암시적 인수를 하나 이상 받는 함수의 예를 들라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give the type of each expression listed below.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T123525Z" creationid="chabulhwi" creationdate="20240927T021754Z">
+        <seg>아래에 나열된 식의 유형을 각각 구하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give the type of the expression &lt;g1&gt;Type.id Nat&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021859Z" creationid="chabulhwi" creationdate="20240927T021859Z">
+        <seg>식 &lt;g1&gt;Type.id Nat&lt;/g1&gt;의 유형을 구하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give the value and type of each expression listed below.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T091629Z" creationid="chabulhwi" creationdate="20240928T091629Z">
+        <seg>아래에 나열된 식의 값과 유형을 각각 구하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give the value of each expression listed below.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021717Z" creationid="chabulhwi" creationdate="20240927T021717Z">
+        <seg>아래에 나열된 식의 값을 각각 구하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give the value of each of the following expressions, where &lt;g1&gt;f&lt;/g1&gt; is the function
+defined in &lt;g2&gt;Question 34&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122839Z" creationid="chabulhwi" creationdate="20240928T122839Z">
+        <seg>다음 식의 값을 각각 구하라. 여기서 &lt;g1&gt;f&lt;/g1&gt;는 &lt;g2&gt;문제 34&lt;/g2&gt;에서 정의된 함수이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Give the value of the expression &lt;g1&gt;(λ x : Int =&gt; -x + 2) 3&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023442Z" creationid="chabulhwi" creationdate="20240927T023442Z">
+        <seg>식 &lt;g1&gt;(λ x : Int =&gt; -x + 2) 3&lt;/g1&gt;의 값을 구하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Given &lt;g1&gt;α : Type&lt;/g1&gt; and &lt;g2&gt;β : α → Type&lt;/g2&gt;, is the type &lt;g3&gt;(a : α) × β a&lt;/g3&gt; a dependent
+product type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122532Z" creationid="chabulhwi" creationdate="20240928T122532Z">
+        <seg>유형 &lt;g1&gt;α : Type&lt;/g1&gt;와 &lt;g2&gt;β : α → Type&lt;/g2&gt;가 주어져 있을 때, 유형 &lt;g3&gt;(a : α) × β a&lt;/g3&gt;는 의존곱형인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Given &lt;g1&gt;α : Type&lt;/g1&gt; and &lt;g2&gt;β : α → Type&lt;/g2&gt;, is the type &lt;g3&gt;(a : α) → β a&lt;/g3&gt; a dependent
+function type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122457Z" creationid="chabulhwi" creationdate="20240928T122457Z">
+        <seg>유형 &lt;g1&gt;α : Type&lt;/g1&gt;와 &lt;g2&gt;β : α → Type&lt;/g2&gt;가 주어져 있을 때, 유형 &lt;g3&gt;(a : α) → β a&lt;/g3&gt;는 의존 함수형인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Given &lt;g1&gt;α : Type&lt;/g1&gt; and &lt;g2&gt;β : α → Type&lt;/g2&gt;, is the type &lt;g3&gt;Σ (a : α), β a&lt;/g3&gt; a sigma type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124337Z" creationid="chabulhwi" creationdate="20240928T122554Z">
+        <seg>유형 &lt;g1&gt;α : Type&lt;/g1&gt;와 &lt;g2&gt;β : α → Type&lt;/g2&gt;가 주어져 있을 때, 유형 &lt;g3&gt;Σ (a : α), β a&lt;/g3&gt;는 시그마형인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the expression &lt;g1&gt;fun x : Nat ↦ 0&lt;/g1&gt; the &lt;g2&gt;identity&lt;/g2&gt; function on &lt;g3&gt;Nat&lt;/g3&gt;?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T024019Z" creationid="chabulhwi" creationdate="20240927T024019Z">
+        <seg>식 &lt;g1&gt;fun x : Nat ↦ 0&lt;/g1&gt;은 &lt;g3&gt;Nat&lt;/g3&gt;에 대한 &lt;g2&gt;항등&lt;/g2&gt; 함수인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the expression &lt;g1&gt;fun x : Nat ↦ x&lt;/g1&gt; a &lt;g2&gt;constant&lt;/g2&gt; function?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023950Z" creationid="chabulhwi" creationdate="20240927T023950Z">
+        <seg>식 &lt;g1&gt;fun x : Nat ↦ x&lt;/g1&gt;는 &lt;g2&gt;상수&lt;/g2&gt; 함수인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the function &lt;g1&gt;Type.id&lt;/g1&gt; of &lt;g2&gt;Question 8&lt;/g2&gt; universe-polymorphic?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023204Z" creationid="chabulhwi" creationdate="20240927T023204Z">
+        <seg>&lt;g2&gt;문제 8&lt;/g2&gt;의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;는 세계 다형적인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the type &lt;g1&gt;(α : Type) × Prop&lt;/g1&gt; a dependent product type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124457Z" creationid="chabulhwi" creationdate="20240928T122715Z">
+        <seg>유형 &lt;g1&gt;(α : Type) × Prop&lt;/g1&gt;은 의존곱형인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the type &lt;g1&gt;(α : Type) → (β : α → Type) → (a : α) × β a&lt;/g1&gt; a dependent product
+type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120554Z" creationid="chabulhwi" creationdate="20240928T120554Z">
+        <seg>유형 &lt;g1&gt;(α : Type) → (β : α → Type) → (a : α) × β a&lt;/g1&gt;는 의존곱형인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the type &lt;g1&gt;(α : Type) → (β : α → Type) → (a : α) → β a&lt;/g1&gt; a dependent function
+type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120558Z" creationid="chabulhwi" creationdate="20240928T120535Z">
+        <seg>유형 &lt;g1&gt;(α : Type) → (β : α → Type) → (a : α) → β a&lt;/g1&gt;는 의존 함수형인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the type &lt;g1&gt;(α : Type) → Prop&lt;/g1&gt; a dependent function type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122653Z" creationid="chabulhwi" creationdate="20240928T122653Z">
+        <seg>유형 &lt;g1&gt;(α : Type) → Prop&lt;/g1&gt;은 의존 함수형인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Let &lt;g1&gt;Type.id&lt;/g1&gt; be a function from &lt;g2&gt;Type&lt;/g2&gt; to &lt;g3&gt;Type&lt;/g3&gt; defined as follows:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021840Z" creationid="chabulhwi" creationdate="20240927T021840Z">
+        <seg>&lt;g2&gt;Type&lt;/g2&gt;에서 &lt;g3&gt;Type&lt;/g3&gt;으로의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;를 다음과 같이 정의하자.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Note that you can type the less-than-or-equal-to sign &lt;g1&gt;≤&lt;/g1&gt; with &lt;g2&gt;\le&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T085439Z" creationid="chabulhwi" creationdate="20240928T085403Z">
+        <seg>작거나 같음 부호 &lt;g1&gt;≤&lt;/g1&gt;는 &lt;g2&gt;\le&lt;/g2&gt;로 입력할 수 있음을 유념하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 1</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T014806Z" creationid="chabulhwi" creationdate="20240927T013950Z">
+        <seg>문제 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 10</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023032Z" creationid="chabulhwi" creationdate="20240927T022058Z">
+        <seg>문제 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 11</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023032Z" creationid="chabulhwi" creationdate="20240927T022829Z">
+        <seg>문제 11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 12</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023229Z" creationid="chabulhwi" creationdate="20240927T023229Z">
+        <seg>문제 12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 13</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023430Z" creationid="chabulhwi" creationdate="20240927T023430Z">
+        <seg>문제 13</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 14</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023445Z" creationid="chabulhwi" creationdate="20240927T023445Z">
+        <seg>문제 14</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 15</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023931Z" creationid="chabulhwi" creationdate="20240927T023931Z">
+        <seg>문제 15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 16</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023952Z" creationid="chabulhwi" creationdate="20240927T023952Z">
+        <seg>문제 16</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 17</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T024023Z" creationid="chabulhwi" creationdate="20240927T024023Z">
+        <seg>문제 17</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 18</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083810Z" creationid="chabulhwi" creationdate="20240928T083810Z">
+        <seg>문제 18</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 19</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083857Z" creationid="chabulhwi" creationdate="20240928T083857Z">
+        <seg>문제 19</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 2</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015131Z" creationid="chabulhwi" creationdate="20240927T015131Z">
+        <seg>문제 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 20</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083917Z" creationid="chabulhwi" creationdate="20240928T083917Z">
+        <seg>문제 20</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 21</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T085441Z" creationid="chabulhwi" creationdate="20240928T085406Z">
+        <seg>문제 21</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 22</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T085921Z" creationid="chabulhwi" creationdate="20240928T085921Z">
+        <seg>문제 22</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 23</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T090259Z" creationid="chabulhwi" creationdate="20240928T090259Z">
+        <seg>문제 23</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 24</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T091605Z" creationid="chabulhwi" creationdate="20240928T091605Z">
+        <seg>문제 24</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 25</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T091637Z" creationid="chabulhwi" creationdate="20240928T091637Z">
+        <seg>문제 25</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 26</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T115615Z" creationid="chabulhwi" creationdate="20240928T115551Z">
+        <seg>문제 26</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 27</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T115822Z" creationid="chabulhwi" creationdate="20240928T115822Z">
+        <seg>문제 27</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 28</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120518Z" creationid="chabulhwi" creationdate="20240928T120423Z">
+        <seg>문제 28</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 29</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120538Z" creationid="chabulhwi" creationdate="20240928T120538Z">
+        <seg>문제 29</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 3</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015202Z" creationid="chabulhwi" creationdate="20240927T015202Z">
+        <seg>문제 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 30</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122535Z" creationid="chabulhwi" creationdate="20240928T122535Z">
+        <seg>문제 30</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 31</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122557Z" creationid="chabulhwi" creationdate="20240928T122557Z">
+        <seg>문제 31</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 32</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122633Z" creationid="chabulhwi" creationdate="20240928T122633Z">
+        <seg>문제 32</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 33</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122656Z" creationid="chabulhwi" creationdate="20240928T122656Z">
+        <seg>문제 33</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 34</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122718Z" creationid="chabulhwi" creationdate="20240928T122718Z">
+        <seg>문제 34</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 35</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122751Z" creationid="chabulhwi" creationdate="20240928T122751Z">
+        <seg>문제 35</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 36</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122845Z" creationid="chabulhwi" creationdate="20240928T122845Z">
+        <seg>문제 36</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 37</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122853Z" creationid="chabulhwi" creationdate="20240928T122853Z">
+        <seg>문제 37</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 38</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T123102Z" creationid="chabulhwi" creationdate="20240928T123102Z">
+        <seg>문제 38</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 4</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015407Z" creationid="chabulhwi" creationdate="20240927T015407Z">
+        <seg>문제 4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 5</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015615Z" creationid="chabulhwi" creationdate="20240927T015615Z">
+        <seg>문제 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 6</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021606Z" creationid="chabulhwi" creationdate="20240927T021606Z">
+        <seg>문제 6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 7</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023032Z" creationid="chabulhwi" creationdate="20240927T021727Z">
+        <seg>문제 7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 8</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023032Z" creationid="chabulhwi" creationdate="20240927T021759Z">
+        <seg>문제 8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Question 9</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023032Z" creationid="chabulhwi" creationdate="20240927T021900Z">
+        <seg>문제 9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>References</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022857Z" creationid="chabulhwi" creationdate="20240927T015656Z">
+        <seg>참고 문헌</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Replace the underscore in each expression listed below with an appropriate type,
+then check the value of each expression.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124731Z" creationid="chabulhwi" creationdate="20240928T123056Z">
+        <seg>아래에 나열된 식에 있는 밑줄을 각각 적절한 유형으로 바꾼 다음, 그 식의 값을 확인하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The functions &lt;g2&gt;f&lt;/g2&gt; and &lt;g3&gt;g&lt;/g3&gt; shouldn't be
+definitionally equal.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022737Z" creationid="chabulhwi" creationdate="20240927T022503Z">
+        <seg>두 함수 &lt;g2&gt;f&lt;/g2&gt;와 &lt;g3&gt;g&lt;/g3&gt;가 정의상 같으면 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>There's an error in the following code.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015247Z" creationid="chabulhwi" creationdate="20240927T015247Z">
+        <seg>다음 코드에 오류가 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the &lt;g1&gt;#check&lt;/g1&gt; command to give the type of each expression listed below.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015127Z" creationid="chabulhwi" creationdate="20240927T014833Z">
+        <seg>&lt;g1&gt;#check&lt;/g1&gt; 명령어를 이용해, 아래에 나열된 식의 유형을 각각 구하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the &lt;g1&gt;#eval&lt;/g1&gt; command to give the value of each expression listed below.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015808Z" creationid="chabulhwi" creationdate="20240927T015144Z">
+        <seg>&lt;g1&gt;#eval&lt;/g1&gt; 명령어를 이용해, 아래에 나열된 식의 값을 각각 구하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the &lt;g1&gt;#print&lt;/g1&gt; command to check each definition of the following functions:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T090953Z" creationid="chabulhwi" creationdate="20240928T090953Z">
+        <seg>&lt;g1&gt;#print&lt;/g1&gt; 명령어를 이용해, 다음 함수들의 정의를 확인하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the &lt;g1&gt;#print&lt;/g1&gt; command to check the definitions of the following functions:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T090253Z" creationid="chabulhwi" creationdate="20240928T090253Z">
+        <seg>&lt;g1&gt;#print&lt;/g1&gt; 명령어를 이용해, 다음 함수들의 정의를 확인하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the &lt;g1&gt;def&lt;/g1&gt; keyword to declare a new constant of each type listed below.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022011Z" creationid="chabulhwi" creationdate="20240927T015546Z">
+        <seg>&lt;g1&gt;def&lt;/g1&gt; 핵심어를 이용해, 아래의 유형에 속하는 새로운 상수를 각각 선언하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use the &lt;g1&gt;print&lt;/g1&gt; command to check the type of the function &lt;g2&gt;List.cons&lt;/g2&gt;, then
+answer by true or false each of the following statements about the function.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T105235Z" creationid="chabulhwi" creationdate="20240928T105127Z">
+        <seg>&lt;g1&gt;print&lt;/g1&gt; 명령어를 이용해 함수 &lt;g2&gt;List.cons&lt;/g2&gt;의 유형을 확인하라. 그런 뒤, 이 함수에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Which of the following functions are alpha-equivalent?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083911Z" creationid="chabulhwi" creationdate="20240928T083911Z">
+        <seg>다음 중 어느 함수들이 알파 동등한가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Why does the definition of &lt;g1&gt;foo&lt;/g1&gt; below type check, but the definition of &lt;g2&gt;bar&lt;/g2&gt;
+doesn't?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124234Z" creationid="chabulhwi" creationdate="20240928T085842Z">
+        <seg>왜 아래에 나온 &lt;g1&gt;foo&lt;/g1&gt;의 정의는 유형 확인이 잘되지만, &lt;g2&gt;bar&lt;/g2&gt;의 정의는 그렇지 않은가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;(f Nat (fun _n =&gt; Int) 1 (-1)).1&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;(f Nat (fun _n =&gt; Int) 1 (-1)).2&lt;/g3&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122842Z" creationid="chabulhwi" creationdate="20240928T122842Z">
+        <seg>\(a\) &lt;g1&gt;(f Nat (fun _n =&gt; Int) 1 (-1)).1&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;(f Nat (fun _n =&gt; Int) 1 (-1)).2&lt;/g3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;-2&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;3.14&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;'L'&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;"Lean"&lt;/g7&gt; &lt;x8/&gt;
+\(e\) &lt;g9&gt;[0, 1, 2]&lt;/g9&gt; &lt;x10/&gt;
+\(f\) &lt;g11&gt;1 + 1 = 2&lt;/g11&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015006Z" creationid="chabulhwi" creationdate="20240927T015006Z">
+        <seg>\(a\) &lt;g1&gt;-2&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;3.14&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;'L'&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;"Lean"&lt;/g7&gt; &lt;x8/&gt;
+\(e\) &lt;g9&gt;[0, 1, 2]&lt;/g9&gt; &lt;x10/&gt;
+\(f\) &lt;g11&gt;1 + 1 = 2&lt;/g11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;-3 / 5&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;Float.sin 0.0&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;Char.toNat 'L'&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;String.length "Lean"&lt;/g7&gt; &lt;x8/&gt;
+\(e\) &lt;g9&gt;List.tail [0, 1, 2]&lt;/g9&gt; &lt;x10/&gt;
+\(f\) &lt;g11&gt;1.0 + 1.0 == 2.0&lt;/g11&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015158Z" creationid="chabulhwi" creationdate="20240927T015158Z">
+        <seg>\(a\) &lt;g1&gt;-3 / 5&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;Float.sin 0.0&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;Char.toNat 'L'&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;String.length "Lean"&lt;/g7&gt; &lt;x8/&gt;
+\(e\) &lt;g9&gt;List.tail [0, 1, 2]&lt;/g9&gt; &lt;x10/&gt;
+\(f\) &lt;g11&gt;1.0 + 1.0 == 2.0&lt;/g11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;@List.cons _ 0 [1, 2, 3]&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;@List.append _ [0, 1] [2, 3]&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;@List.cons _ "Lean" ["4"]&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;@List.append _ ["Lean"] ["4"]&lt;/g7&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T123059Z" creationid="chabulhwi" creationdate="20240928T123059Z">
+        <seg>\(a\) &lt;g1&gt;@List.cons _ 0 [1, 2, 3]&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;@List.append _ [0, 1] [2, 3]&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;@List.cons _ "Lean" ["4"]&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;@List.append _ ["Lean"] ["4"]&lt;/g7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;@List.nil Nat&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;List.append [0, 1] [2, 3]&lt;/g3&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122850Z" creationid="chabulhwi" creationdate="20240928T122850Z">
+        <seg>\(a\) &lt;g1&gt;@List.nil Nat&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;List.append [0, 1] [2, 3]&lt;/g3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;Bool × Bool&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;(Bool × Bool) × Bool&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;Bool × (Bool × Bool)&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;Bool × Bool × Bool&lt;/g7&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015650Z" creationid="chabulhwi" creationdate="20240927T015632Z">
+        <seg>\(a\) &lt;g1&gt;Bool × Bool&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;(Bool × Bool) × Bool&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;Bool × (Bool × Bool)&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;Bool × Bool × Bool&lt;/g7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;Bool → Bool&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;(Bool → Bool) → Bool&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;Bool → (Bool → Bool)&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;Bool → Bool → Bool&lt;/g7&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015553Z" creationid="chabulhwi" creationdate="20240927T015553Z">
+        <seg>\(a\) &lt;g1&gt;Bool → Bool&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;(Bool → Bool) → Bool&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;Bool → (Bool → Bool)&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;Bool → Bool → Bool&lt;/g7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;Bool → Bool&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;Bool × Bool&lt;/g3&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021758Z" creationid="chabulhwi" creationdate="20240927T021758Z">
+        <seg>\(a\) &lt;g1&gt;Bool → Bool&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;Bool × Bool&lt;/g3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;List.cons 0 [1, 2, 3]&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;List.cons true []&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;List.cons "Lean" ["4"]&lt;/g5&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T091634Z" creationid="chabulhwi" creationdate="20240928T091634Z">
+        <seg>\(a\) &lt;g1&gt;List.cons 0 [1, 2, 3]&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;List.cons true []&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;List.cons "Lean" ["4"]&lt;/g5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;Nat.succ 0&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;Nat.add 3 7&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;('L', 4).1&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;('L', 4).2&lt;/g7&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021721Z" creationid="chabulhwi" creationdate="20240927T021721Z">
+        <seg>\(a\) &lt;g1&gt;Nat.succ 0&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;Nat.add 3 7&lt;/g3&gt; &lt;x4/&gt;
+\(c\) &lt;g5&gt;('L', 4).1&lt;/g5&gt; &lt;x6/&gt;
+\(d\) &lt;g7&gt;('L', 4).2&lt;/g7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;Prod (Type 0) (Type 1)&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;Type 2 → Type 3&lt;/g3&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022057Z" creationid="chabulhwi" creationdate="20240927T022057Z">
+        <seg>\(a\) &lt;g1&gt;Prod (Type 0) (Type 1)&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;Type 2 → Type 3&lt;/g3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) At least one of them is parametrically polymorphic.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120258Z" creationid="chabulhwi" creationdate="20240928T120258Z">
+        <seg>\(a\) 이 상수들 중 적어도 하나는 매개 변수 다형적이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) It is parametrically polymorphic.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T115743Z" creationid="chabulhwi" creationdate="20240928T115743Z">
+        <seg>\(a\) 이 함수는 매개 변수 다형적이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\(a\) It is universe-polymorphic.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T110056Z" creationid="chabulhwi" creationdate="20240928T110056Z">
+        <seg>\(a\) 이 함수는 세계 다형적이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>def Type.id : Type → Type := fun x : Type ↦ x</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021843Z" creationid="chabulhwi" creationdate="20240927T021843Z">
+        <seg>def Type.id : Type → Type := fun x : Type ↦ x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>def bar := (fun a =&gt; fun x : a =&gt; x + 2) Nat
+-/</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T085918Z" creationid="chabulhwi" creationdate="20240928T085918Z">
+        <seg>def bar := (fun a =&gt; fun x : a =&gt; x + 2) Nat
+-/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>def foo := let a := Nat; fun x : a =&gt; x + 2
+/-</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T085916Z" creationid="chabulhwi" creationdate="20240928T085916Z">
+        <seg>def foo := let a := Nat; fun x : a =&gt; x + 2
+/-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>def q17 (f : List Char → Nat) (g : (List Char → Nat) → (String → Nat)) (s : String) : Nat :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083804Z" creationid="chabulhwi" creationdate="20240928T083804Z">
+        <seg>def q17 (f : List Char → Nat) (g : (List Char → Nat) → (String → Nat)) (s : String) : Nat :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question03
+
+def f (x : Nat) := 2 * x - 1
+#eval f(1)
+
+end Question03</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015402Z" creationid="chabulhwi" creationdate="20240927T015402Z">
+        <seg>namespace Question03
+
+def f (x : Nat) := 2 * x - 1
+#eval f(1)
+
+end Question03</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question10
+
+def f.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022740Z" creationid="chabulhwi" creationdate="20240927T022740Z">
+        <seg>namespace Question10
+
+def f.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question19
+
+def a (n : Nat) := n ^ 2 + 1
+
+def f (a : Nat → Nat) (n : Nat) := a (a n)
+def g (b : Nat → Nat) (n : Nat) := b (b n)
+def h (a : Nat → Nat) (n : Nat) := Question19.a (a n)
+
+end Question19</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083913Z" creationid="chabulhwi" creationdate="20240928T083913Z">
+        <seg>namespace Question19
+
+def a (n : Nat) := n ^ 2 + 1
+
+def f (a : Nat → Nat) (n : Nat) := a (a n)
+def g (b : Nat → Nat) (n : Nat) := b (b n)
+def h (a : Nat → Nat) (n : Nat) := Question19.a (a n)
+
+end Question19</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question22
+
+variable (α β γ : Type)
+variable (g : β → γ) (f : α → β) (h : α → α)
+variable (x : α)
+
+def compose := g (f x)
+def doTwice := h (h x)
+def doThrice := h (h (h x))
+
+end Question22</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T090255Z" creationid="chabulhwi" creationdate="20240928T090255Z">
+        <seg>namespace Question22
+
+variable (α β γ : Type)
+variable (g : β → γ) (f : α → β) (h : α → α)
+variable (x : α)
+
+def compose := g (f x)
+def doTwice := h (h x)
+def doThrice := h (h (h x))
+
+end Question22</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question23
+
+section
+
+variable (α β γ : Type)
+variable (g : β → γ) (f : α → β) (h : α → α)
+variable (x : α)
+
+def compose := g (f x)
+
+end
+
+#eval List.tail [0, 1, 2, 3] -- output: [1, 2, 3]
+#eval List.reverse [1, 2, 3] -- [3, 2, 1]
+#eval compose List.reverse List.tail [0, 1, 2, 3]
+
+end Question23</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T091602Z" creationid="chabulhwi" creationdate="20240928T091602Z">
+        <seg>namespace Question23
+
+section
+
+variable (α β γ : Type)
+variable (g : β → γ) (f : α → β) (h : α → α)
+variable (x : α)
+
+def compose := g (f x)
+
+end
+
+#eval List.tail [0, 1, 2, 3] -- output: [1, 2, 3]
+#eval List.reverse [1, 2, 3] -- [3, 2, 1]
+#eval compose List.reverse List.tail [0, 1, 2, 3]
+
+end Question23</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question34
+
+universe u v
+
+def f (α : Type u) (β : α → Type v) (a : α) (b : β a) : (a : α) × β a :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122747Z" creationid="chabulhwi" creationdate="20240928T122747Z">
+        <seg>namespace Question34
+
+universe u v
+
+def f (α : Type u) (β : α → Type v) (a : α) (b : β a) : (a : α) × β a :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083806Z" creationid="chabulhwi" creationdate="20240928T083806Z">
+        <seg>sorry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+def g.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022741Z" creationid="chabulhwi" creationdate="20240927T022741Z">
+        <seg>sorry
+
+def g.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+end Question10</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022742Z" creationid="chabulhwi" creationdate="20240927T022742Z">
+        <seg>sorry
+
+end Question10</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
