@@ -265,17 +265,17 @@ defined in [Question 9](#question-9).
 
 ## Question 28
 
-Is the type `(α : Type) → (β : α → Type) → (a : α) → β a` a dependent function
-type?
+Given `α : Type` and `β : α → Type`, is the type `(a : α) → β a` a dependent
+function type?
 
 ## Question 29
 
-Is the type `(α : Type) → (β : α → Type) → (a : α) × β a` a dependent product
-type?
+Given `α : Type` and `β : α → Type`, is the type `(a : α) × β a` a dependent
+product type?
 
 ## Question 30
 
-Is the type `(α : Type) → (β : α → Type) → Σ (a : α), β a` a Sigma type?
+Given `α : Type` and `β : α → Type`, is the type `Σ (a : α), β a` a Sigma type?
 
 ## Question 31
 
