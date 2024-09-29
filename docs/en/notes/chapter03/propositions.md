@@ -37,7 +37,7 @@ quotations:
 > Is the proposition that John loves Mary different from the proposition that
 > Mary is loved by John? (ibid.)
 
-#### Is a Conjecture in Mathematics a Proposition?
+#### Is Goldbach's Conjecture a Proposition?
 
 Goldbach's conjecture states that every even natural number greater than 2 is
 the sum of two prime numbers. We don't know whether it's true or false as of
