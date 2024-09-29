@@ -404,8 +404,8 @@ the sum of two prime numbers.</seg>
         <seg>However, the conjecture can be defined as a proposition in the Lean theorem
 prover as follows:</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091828Z" creationid="chabulhwi" creationdate="20240929T091618Z">
-        <seg>그러나 이 추측은 린 정리 증명기로 다음과 같이 정의할 수 있습니다.</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T110833Z" creationid="chabulhwi" creationdate="20240929T091618Z">
+        <seg>그러나 이 추측은 린 정리 증명기를 이용해 다음 명제로 정의할 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
