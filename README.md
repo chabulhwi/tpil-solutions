@@ -19,7 +19,7 @@ with my solutions to the questions in each quiz.
     * [`quiz`](./docs/en/quiz)
       * `chapterXX.md`: My additional quiz for Chapter XX of the text.
   * [`ko`](./docs/ko): Korean translation of the source documents in the `en`
-    directory.
+    directory. It has the same subdirectory structure as `en`.
 
 * [`TPIL`](./TPIL): My solutions to the exercises and questions.
   * `ChapterXX`: Chapter XX of the text.
