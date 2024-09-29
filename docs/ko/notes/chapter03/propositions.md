@@ -1,16 +1,12 @@
-# Propositional Logic
+# 명제 논리
 
-## Propositions
+## 명제
 
-### The Usages of the Term 'Proposition'
+### '명제' 용어의 쓰임새
 
-> The term ‘proposition’ has a broad use in contemporary philosophy. It is used
-> to refer to some or all of the following: the primary bearers of truth-value,
-> the objects of belief and other “propositional attitudes” (i.e., what is
-> believed, doubted, etc.), the referents of that-clauses, and the meanings of
-> sentences. (McGrath and Frank 2024)
+> 동시대 철학에서 ‘명제’ 용어는 폭넓게 쓰인다. 이 용어는 다음 중 일부 또는 전부를 가리키는 데 쓰인다. 진릿값의 주요 담지자, 믿음이나 다른 ‘명제적 태도’의 대상(믿기는 것, 의심되는 것 등), that절의 지시 대상물, 문장의 의미. (McGrath and Frank 2024)
 
-### Propositions in School Mathematics in South Korea
+### 한국 학교 수학에서의 명제
 
 > 문장 ‘2는 소수이다.’는 참이고, 식 ‘`√2 + √3 = √5`’는 거짓이다. 이와 같이 참,
 > 거짓을 명확하게 판별할 수 있는 문장이나 식을 **명제**라고 한다. (전인태 n.d.,
@@ -20,32 +16,22 @@
 > false. We refer to a sentence or expression whose truth or falsehood can be
 > clearly determined, like these examples, as a *proposition*.
 
-### Questions about Usages of the Term 'Proposition'
+### '명제' 용어의 용법에 관한 물음
 
-#### Is the Sentence 'Bulhwi Cha loves himself' a Proposition?
+#### 문장 '차불휘는 자기 자신을 사랑한다.'는 명제인가?
 
-High school mathematics teachers in South Korea would answer no. On the
-contrary, it seems the authors of the entry "Propositions" in the Stanford
-Encyclopedia of Philosophy (SEP) would answer yes, judging from the following
-quotations:
+한국의 고등학교 수학 교사들은 그렇지 않다고 답할 것입니다. 이와 달리, 다음 인용문으로 미루어 보면 스탠퍼드 철학 백과사전(SEP) '명제' 항목의 저자들은 그렇다고 답할 듯합니다.
 
-> E.g., if the proposition that `a` loves `b` is the ordered triple `<loving, a,
-> b>`,
-> it is distinct from the proposition that `b` loves `a`, which would be the ordered
-> triple `<loving, b, a>`. (McGrath and Frank 2024)
 
-> Is the proposition that John loves Mary different from the proposition that
-> Mary is loved by John? (ibid.)
+> 예를 들어, `a`가 `b`를 사랑한다는 명제가 순서세짝 `<사랑함, a, b>`라면, `b`가 `a`를 사랑한다는 명제는 순서세짝 `<사랑함, b, a>`이 될 것이고, 이 두 명제는 별개이다. (McGrath and Frank 2024)
 
-#### Is a Conjecture in Mathematics a Proposition?
+> 존이 매리를 사랑한다는 명제는 매리가 존의 사랑을 받는다는 명제와 다른가? (같은 문서 항목)
 
-Goldbach's conjecture states that every even natural number greater than 2 is
-the sum of two prime numbers. We don't know whether it's true or false as of
-2024, so high school mathematics teachers in South Korea would *have to* answer
-no.
+#### 골드바흐의 추측은 명제인가?
 
-However, the conjecture can be defined as a proposition in the Lean theorem
-prover as follows:
+골드바흐의 추측은 2보다 큰 모든 짝수는 두 소수의 합이라는 진술입니다. 2024년 현재 우리는 아직 이 추측이 참인지 거짓인지 모르니, 한국의 고등학교 수학 교사들은 그렇지 않다고 답할 것입니다.
+
+그러나 이 추측은 린 정리 증명기로 다음과 같이 정의할 수 있습니다.
 
 ```lean
 import Mathlib.Data.Nat.Prime.Defs
@@ -54,15 +40,11 @@ def goldbach_conjecture : Prop :=
   ∀ n : ℕ, Even n ∧ n > 2 → ∃ p q : ℕ, (Prime p ∧ Prime q) ∧ n = p + q
 ```
 
-### My Closing Thoughts
+### 제 결론
 
-I don't think the usage of the term 'proposition' in Korean high school
-mathematics coincides with those in contemporary philosophy or interactive
-theorem provers like Lean.
+저는 한국 고등학교 수학에서 '명제' 용어가 쓰이는 방법이 동시대 철학에서의 용법이나 린 같은 상호 작용 정리 증명기에서의 용법과 일치한다고 생각하지 않습니다.
 
-One can't clearly determine what the verb phrase 'clearly determine' really
-means, so Korean high school mathematics doesn't make it easier for students to
-understand the notion of a proposition.
+"명확하게 판별하다"라는 동사구가 무슨 뜻인지는 명확하게 판별할 수 없습니다. 그래서 한국 고등학교 수학에서의 명제 개념은 학생들이 이해하기 더 쉽지 않습니다.
 
 ## 참고 문헌
 

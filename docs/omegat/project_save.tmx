@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="en">
+        <seg>(McGrath and Frank 2024)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T063330Z" creationid="chabulhwi" creationdate="20240929T063330Z">
+        <seg>(McGrath and Frank 2024)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(a, b)
 
 end Question34</seg>
@@ -14,6 +22,34 @@ end Question34</seg>
         <seg>(a, b)
 
 end Question34</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(ibid.)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T065459Z" creationid="chabulhwi" creationdate="20240929T065424Z">
+        <seg>(같은 문서 항목)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(전인태 n.d.,
+83)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T063416Z" creationid="chabulhwi" creationdate="20240929T063416Z">
+        <seg>(전인태 n.d.,
+83)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>2024년 9월 26일에
+마지막으로 접속함.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092310Z" creationid="chabulhwi" creationdate="20240929T092310Z">
+        <seg>2024년 9월 26일에
+마지막으로 접속함.</seg>
       </tuv>
     </tu>
     <tu>
@@ -60,6 +96,14 @@ end Question34</seg>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T110215Z" creationid="chabulhwi" creationdate="20240928T110215Z">
         <seg>&lt;x1/&gt;
 \(b\) 이 함수는 매개 변수 다형적이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x1/&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092311Z" creationid="chabulhwi" creationdate="20240929T092311Z">
+        <seg>&lt;x1/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -219,6 +263,17 @@ identifier with an actual definition.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>E.g., if the proposition that &lt;g1&gt;a&lt;/g1&gt; loves &lt;g2&gt;b&lt;/g2&gt; is the ordered triple &lt;g3&gt;&lt;loving, a,
+b&gt;&lt;/g3&gt;,
+it is distinct from the proposition that &lt;g4&gt;b&lt;/g4&gt; loves &lt;g5&gt;a&lt;/g5&gt;, which would be the ordered
+triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T065252Z" creationid="chabulhwi" creationdate="20240929T065036Z">
+        <seg>예를 들어, &lt;g1&gt;a&lt;/g1&gt;가 &lt;g2&gt;b&lt;/g2&gt;를 사랑한다는 명제가 순서세짝 &lt;g3&gt;&lt;사랑함, a, b&gt;&lt;/g3&gt;라면, &lt;g4&gt;b&lt;/g4&gt;가 &lt;g5&gt;a&lt;/g5&gt;를 사랑한다는 명제는 순서세짝 &lt;g6&gt;&lt;사랑함, b, a&gt;&lt;/g6&gt;이 될 것이고, 이 두 명제는 별개이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Fix the definition of the dependent
 function &lt;g1&gt;f&lt;/g1&gt;.</seg>
       </tuv>
@@ -329,6 +384,66 @@ function type?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Goldbach's conjecture states that every even natural number greater than 2 is
+the sum of two prime numbers.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091815Z" creationid="chabulhwi" creationdate="20240929T090846Z">
+        <seg>골드바흐의 추측은 2보다 큰 모든 짝수는 두 소수의 합이라는 진술입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>High school mathematics teachers in South Korea would answer no.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091803Z" creationid="chabulhwi" creationdate="20240929T064125Z">
+        <seg>한국의 고등학교 수학 교사들은 그렇지 않다고 답할 것입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>However, the conjecture can be defined as a proposition in the Lean theorem
+prover as follows:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091828Z" creationid="chabulhwi" creationdate="20240929T091618Z">
+        <seg>그러나 이 추측은 린 정리 증명기로 다음과 같이 정의할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I don't think the usage of the term 'proposition' in Korean high school
+mathematics coincides with those in contemporary philosophy or interactive
+theorem provers like Lean.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092122Z" creationid="chabulhwi" creationdate="20240929T092122Z">
+        <seg>저는 한국 고등학교 수학에서 '명제' 용어가 쓰이는 방법이 동시대 철학에서의 용법이나 린 같은 상호 작용 정리 증명기에서의 용법과 일치한다고 생각하지 않습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is Goldbach's Conjecture a Proposition?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091527Z" creationid="chabulhwi" creationdate="20240929T091527Z">
+        <seg>골드바흐의 추측은 명제인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is a Conjecture in Mathematics a Proposition?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T090409Z" creationid="chabulhwi" creationdate="20240929T090409Z">
+        <seg>수학 분야에서의 추측은 명제인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the Sentence 'Bulhwi Cha loves himself' a Proposition?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T064107Z" creationid="chabulhwi" creationdate="20240929T064012Z">
+        <seg>문장 '차불휘는 자기 자신을 사랑한다.'는 명제인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Is the expression &lt;g1&gt;fun x : Nat ↦ 0&lt;/g1&gt; the &lt;g2&gt;identity&lt;/g2&gt; function on &lt;g3&gt;Nat&lt;/g3&gt;?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T024019Z" creationid="chabulhwi" creationdate="20240927T024019Z">
@@ -349,6 +464,15 @@ function type?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023204Z" creationid="chabulhwi" creationdate="20240927T023204Z">
         <seg>&lt;g2&gt;문제 8&lt;/g2&gt;의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;는 세계 다형적인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the proposition that John loves Mary different from the proposition that
+Mary is loved by John?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T065353Z" creationid="chabulhwi" creationdate="20240929T065353Z">
+        <seg>존이 매리를 사랑한다는 명제는 매리가 존의 사랑을 받는다는 명제와 다른가?</seg>
       </tuv>
     </tu>
     <tu>
@@ -387,6 +511,18 @@ type?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>It is used
+to refer to some or all of the following: the primary bearers of truth-value,
+the objects of belief and other “propositional attitudes” (i.e., what is
+believed, doubted, etc.), the referents of that-clauses, and the meanings of
+sentences.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T093415Z" creationid="chabulhwi" creationdate="20240929T063026Z">
+        <seg>이 용어는 다음 중 일부 또는 전부를 가리키는 데 쓰인다. 진릿값의 주요 담지자, 믿음이나 다른 ‘명제적 태도’의 대상(믿기는 것, 의심되는 것 등), that절의 지시 대상물, 문장의 의미.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Let &lt;g1&gt;Type.id&lt;/g1&gt; be a function from &lt;g2&gt;Type&lt;/g2&gt; to &lt;g3&gt;Type&lt;/g3&gt; defined as follows:</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021840Z" creationid="chabulhwi" creationdate="20240927T021840Z">
@@ -395,10 +531,76 @@ type?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>McGrath, Matthew and Devin Frank, "Propositions", &lt;g1&gt;The Stanford Encyclopedia
+of Philosophy&lt;/g1&gt; (Fall 2024 Edition), Edward N. Zalta &amp; Uri Nodelman (eds.), URL
+= &lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092304Z" creationid="chabulhwi" creationdate="20240929T092304Z">
+        <seg>McGrath, Matthew and Devin Frank, "Propositions", &lt;g1&gt;The Stanford Encyclopedia
+of Philosophy&lt;/g1&gt; (Fall 2024 Edition), Edward N. Zalta &amp; Uri Nodelman (eds.), URL
+= &lt;x2/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>My Closing Thoughts</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091843Z" creationid="chabulhwi" creationdate="20240929T091843Z">
+        <seg>제 결론</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Note that you can type the less-than-or-equal-to sign &lt;g1&gt;≤&lt;/g1&gt; with &lt;g2&gt;\le&lt;/g2&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T085439Z" creationid="chabulhwi" creationdate="20240928T085403Z">
         <seg>작거나 같음 부호 &lt;g1&gt;≤&lt;/g1&gt;는 &lt;g2&gt;\le&lt;/g2&gt;로 입력할 수 있음을 유념하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>On the
+contrary, it seems the authors of the entry "Propositions" in the Stanford
+Encyclopedia of Philosophy (SEP) would answer yes, judging from the following
+quotations:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091807Z" creationid="chabulhwi" creationdate="20240929T064527Z">
+        <seg>이와 달리, 다음 인용문으로 미루어 보면 스탠퍼드 철학 백과사전(SEP) '명제' 항목의 저자들은 그렇다고 답할 듯합니다.
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>One can't clearly determine what the verb phrase 'clearly determine' really
+means, so Korean high school mathematics doesn't make it easier for students to
+understand the notion of a proposition.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T093311Z" creationid="chabulhwi" creationdate="20240929T092301Z">
+        <seg>"명확하게 판별하다"라는 동사구가 무슨 뜻인지는 명확하게 판별할 수 없습니다. 그래서 한국 고등학교 수학에서의 명제 개념은 학생들이 이해하기 더 쉽지 않습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Propositional Logic</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T062103Z" creationid="chabulhwi" creationdate="20240929T062103Z">
+        <seg>명제 논리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Propositions</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T062104Z" creationid="chabulhwi" creationdate="20240929T062104Z">
+        <seg>명제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Propositions in School Mathematics in South Korea</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T063411Z" creationid="chabulhwi" creationdate="20240929T063411Z">
+        <seg>한국 학교 수학에서의 명제</seg>
       </tuv>
     </tu>
     <tu>
@@ -707,6 +909,14 @@ type?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Questions about Usages of the Term 'Proposition'</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T064015Z" creationid="chabulhwi" creationdate="20240929T064002Z">
+        <seg>'명제' 용어의 용법에 관한 물음</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>References</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022857Z" creationid="chabulhwi" creationdate="20240927T015656Z">
@@ -724,11 +934,37 @@ then check the value of each expression.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The Usages of the Term 'Proposition'</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T062234Z" creationid="chabulhwi" creationdate="20240929T062234Z">
+        <seg>'명제' 용어의 쓰임새</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The functions &lt;g2&gt;f&lt;/g2&gt; and &lt;g3&gt;g&lt;/g3&gt; shouldn't be
 definitionally equal.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022737Z" creationid="chabulhwi" creationdate="20240927T022503Z">
         <seg>두 함수 &lt;g2&gt;f&lt;/g2&gt;와 &lt;g3&gt;g&lt;/g3&gt;가 정의상 같으면 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The sentence ‘2 is prime’ is true and the expression ‘&lt;g1&gt;√2 + √3 = √5&lt;/g1&gt;’ is
+false.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T063917Z" creationid="chabulhwi" creationdate="20240929T063917Z">
+        <seg>The sentence ‘2 is prime’ is true and the expression ‘&lt;g1&gt;√2 + √3 = √5&lt;/g1&gt;’ is
+false.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The term ‘proposition’ has a broad use in contemporary philosophy.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092414Z" creationid="chabulhwi" creationdate="20240929T062449Z">
+        <seg>동시대 철학에서 ‘명제’ 용어는 폭넓게 쓰인다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -786,6 +1022,26 @@ answer by true or false each of the following statements about the function.</se
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T105235Z" creationid="chabulhwi" creationdate="20240928T105127Z">
         <seg>&lt;g1&gt;print&lt;/g1&gt; 명령어를 이용해 함수 &lt;g2&gt;List.cons&lt;/g2&gt;의 유형을 확인하라. 그런 뒤, 이 함수에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We don't know whether it's true or false as of
+2024, so high school mathematics teachers in South Korea would &lt;g1&gt;have to&lt;/g1&gt; answer
+no.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091824Z" creationid="chabulhwi" creationdate="20240929T090947Z">
+        <seg>2024년 현재 우리는 아직 이 추측이 참인지 거짓인지 모르니, 한국의 고등학교 수학 교사들은 그렇지 않다고 답할 것입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We refer to a sentence or expression whose truth or falsehood can be
+clearly determined, like these examples, as a &lt;g2&gt;proposition&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T063919Z" creationid="chabulhwi" creationdate="20240929T063919Z">
+        <seg>We refer to a sentence or expression whose truth or falsehood can be
+clearly determined, like these examples, as a &lt;g2&gt;proposition&lt;/g2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1011,6 +1267,18 @@ doesn't?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>import Mathlib.Data.Nat.Prime.Defs
+
+def goldbach_conjecture : Prop :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091621Z" creationid="chabulhwi" creationdate="20240929T091621Z">
+        <seg>import Mathlib.Data.Nat.Prime.Defs
+
+def goldbach_conjecture : Prop :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>namespace Question03
 
 def f (x : Nat) := 2 * x - 1
@@ -1177,6 +1445,56 @@ end Question10</seg>
         <seg>sorry
 
 end Question10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>“고등학교 공통수학2.” 천재교과서.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092308Z" creationid="chabulhwi" creationdate="20240929T092308Z">
+        <seg>“고등학교 공통수학2.” 천재교과서.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>∀ n : ℕ, Even n ∧ n &gt; 2 → ∃ p q : ℕ, (Prime p ∧ Prime q) ∧ n = p + q</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091622Z" creationid="chabulhwi" creationdate="20240929T091622Z">
+        <seg>∀ n : ℕ, Even n ∧ n &gt; 2 → ∃ p q : ℕ, (Prime p ∧ Prime q) ∧ n = p + q</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>게재일 불명.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092307Z" creationid="chabulhwi" creationdate="20240929T092307Z">
+        <seg>게재일 불명.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>문장 ‘2는 소수이다.’는 참이고, 식 ‘&lt;g1&gt;√2 + √3 = √5&lt;/g1&gt;’는 거짓이다.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091755Z" creationid="chabulhwi" creationdate="20240929T063414Z">
+        <seg>문장 ‘2는 소수이다.’는 참이고, 식 ‘&lt;g1&gt;√2 + √3 = √5&lt;/g1&gt;’는 거짓이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>이와 같이 참,
+거짓을 명확하게 판별할 수 있는 문장이나 식을 &lt;g2&gt;명제&lt;/g2&gt;라고 한다.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T063415Z" creationid="chabulhwi" creationdate="20240929T063415Z">
+        <seg>이와 같이 참,
+거짓을 명확하게 판별할 수 있는 문장이나 식을 &lt;g2&gt;명제&lt;/g2&gt;라고 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>전인태, 김동재, 최은아 등.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092306Z" creationid="chabulhwi" creationdate="20240929T092306Z">
+        <seg>전인태, 김동재, 최은아 등.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->

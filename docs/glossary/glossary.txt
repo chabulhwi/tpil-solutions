@@ -99,3 +99,22 @@ underscore	밑줄
 implicit	암시적
 explicit	명시적
 sigma type	시그마
+propositional logic	명제 논리
+term	항
+contemporary	동시대
+term	용어
+truth-value	진릿값
+bearer	담지자
+propositional attitudes	명제적 태도
+believe	믿다
+doubt	의심하다
+South Korea	한국
+school mathematics	학교 수학
+sentence	문장
+high school mathematics	고등학교 수학
+teacher	교사
+Stanford Encyclopedia of Philosophy	스탠퍼드 철학 백과사전
+ordered triple	순서세짝
+conjecture	추측
+Goldbach's conjecture	골드바흐의 추측
+interactive theorem prover	상호 작용 정리 증명기
