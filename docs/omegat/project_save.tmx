@@ -387,8 +387,8 @@ function type?</seg>
         <seg>Goldbach's conjecture states that every even natural number greater than 2 is
 the sum of two prime numbers.</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091815Z" creationid="chabulhwi" creationdate="20240929T090846Z">
-        <seg>골드바흐의 추측은 2보다 큰 모든 짝수는 두 소수의 합이라는 진술입니다.</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T094119Z" creationid="chabulhwi" creationdate="20240929T090846Z">
+        <seg>골드바흐의 추측은 2보다 큰 모든 짝수가 두 소수의 합이라는 진술입니다.</seg>
       </tuv>
     </tu>
     <tu>
