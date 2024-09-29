@@ -16,7 +16,7 @@
 > false. We refer to a sentence or expression whose truth or falsehood can be
 > clearly determined, like these examples, as a *proposition*.
 
-### '명제' 용어의 용법에 관한 물음
+### '명제' 용어의 쓰임새에 관한 물음
 
 #### 문장 '차불휘는 자기 자신을 사랑한다.'는 명제인가?
 
