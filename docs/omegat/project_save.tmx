@@ -1473,8 +1473,8 @@ then check the value of each expression.</seg>
       <tuv lang="en">
         <seg>Symbol: &lt;g1&gt;∧&lt;/g1&gt; (read as "and")</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122932Z" creationid="chabulhwi" creationdate="20240930T114631Z">
-        <seg>기호: &lt;g1&gt;∧&lt;/g1&gt; ["앤드(and)" 또는 "그리고"라고 읽음]</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T124716Z" creationid="chabulhwi" creationdate="20240930T114631Z">
+        <seg>기호: &lt;g1&gt;∧&lt;/g1&gt; ["앤드(and)"라고 읽거나 "그리고"라고 읽음]</seg>
       </tuv>
     </tu>
     <tu>
