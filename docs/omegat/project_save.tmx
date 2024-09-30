@@ -380,10 +380,26 @@ same?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Contraposition: &lt;g1&gt;¬q → ¬p&lt;/g1&gt; is the contraposition of &lt;g2&gt;p → q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T130352Z" creationid="chabulhwi" creationdate="20240930T130352Z">
+        <seg>대우(對偶): &lt;g1&gt;¬q → ¬p&lt;/g1&gt;는 &lt;g2&gt;p → q&lt;/g2&gt;의 대우이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Contraposition: &lt;g1&gt;¬q → ¬p&lt;/g1&gt; is the contraposition of the implication &lt;g2&gt;p → q&lt;/g2&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T123446Z" creationid="chabulhwi" creationdate="20240930T121239Z">
         <seg>대우(對偶): &lt;g1&gt;¬q → ¬p&lt;/g1&gt;는 함의 &lt;g2&gt;p → q&lt;/g2&gt;의 대우이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Conversion: &lt;g1&gt;q → p&lt;/g1&gt; is the converse of &lt;g2&gt;p → q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T130342Z" creationid="chabulhwi" creationdate="20240930T130342Z">
+        <seg>역: &lt;g1&gt;q → p&lt;/g1&gt;는 &lt;g2&gt;p → q&lt;/g2&gt;의 역이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -721,6 +737,14 @@ theorem provers like Lean.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115132Z" creationid="chabulhwi" creationdate="20240930T115132Z">
         <seg>도입 규칙</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Inversion: &lt;g1&gt;¬p → ¬q&lt;/g1&gt; is the inverse of &lt;g2&gt;p → q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T130347Z" creationid="chabulhwi" creationdate="20240930T130347Z">
+        <seg>이(裏): &lt;g1&gt;¬p → ¬q&lt;/g1&gt;는 &lt;g2&gt;p → q&lt;/g2&gt;의 이이다.</seg>
       </tuv>
     </tu>
     <tu>
