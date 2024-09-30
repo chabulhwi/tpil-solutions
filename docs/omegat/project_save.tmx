@@ -477,8 +477,8 @@ b&gt;&lt;/g3&gt;,
 it is distinct from the proposition that &lt;g4&gt;b&lt;/g4&gt; loves &lt;g5&gt;a&lt;/g5&gt;, which would be the ordered
 triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T065252Z" creationid="chabulhwi" creationdate="20240929T065036Z">
-        <seg>예를 들어, &lt;g1&gt;a&lt;/g1&gt;가 &lt;g2&gt;b&lt;/g2&gt;를 사랑한다는 명제가 순서세짝 &lt;g3&gt;&lt;사랑함, a, b&gt;&lt;/g3&gt;라면, &lt;g4&gt;b&lt;/g4&gt;가 &lt;g5&gt;a&lt;/g5&gt;를 사랑한다는 명제는 순서세짝 &lt;g6&gt;&lt;사랑함, b, a&gt;&lt;/g6&gt;이 될 것이고, 이 두 명제는 별개이다.</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T144817Z" creationid="chabulhwi" creationdate="20240929T065036Z">
+        <seg>예를 들어, &lt;g1&gt;a&lt;/g1&gt;가 &lt;g2&gt;b&lt;/g2&gt;를 사랑한다는 명제가 순서세짝 &lt;g3&gt;&lt;사랑함, a, b&gt;&lt;/g3&gt;라면, &lt;g4&gt;b&lt;/g4&gt;가 &lt;g5&gt;a&lt;/g5&gt;를 사랑한다는 명제는 순서세짝 &lt;g6&gt;&lt;사랑함, b, a&gt;&lt;/g6&gt;가 될 것이고, 이 두 명제는 별개이다.</seg>
       </tuv>
     </tu>
     <tu>
