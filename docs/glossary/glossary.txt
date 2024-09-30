@@ -118,3 +118,28 @@ ordered triple	순서세짝
 conjecture	추측
 Goldbach's conjecture	골드바흐의 추측
 interactive theorem prover	상호 작용 정리 증명기
+truth	참
+falsity	거짓
+rule of inference	추론 규칙
+introduction rule	도입 규칙
+elimination rule	제거 규칙
+ex falso quodlibet	엑스 팔소 세퀴투르 쿠오들리베트
+principle of explosion	폭발 원리
+propositional connective	명제 연결사
+symbol	기호
+refutation by contradiction	모순에 따른 부인
+contradiction	모순
+conjunction	연언
+disjunction	선언(選言)
+implication	함의
+material implication	내용적 함의
+conditional	조건문
+modus ponens	긍정 논법[모더스 포넨스]
+necessary condition	필요조건
+conversion	역
+inversion	이(裏)
+contraposition	대우(對偶)
+equivalence	동등
+biconditional	쌍조건문
+abbreviation	준말
+if and only if	…일 때 그리고 그럴 때만

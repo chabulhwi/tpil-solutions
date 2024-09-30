@@ -6,6 +6,111 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="en">
+        <seg>(&lt;g1&gt;False.elim&lt;/g1&gt;, also known as &lt;g2&gt;ex falso quodlibet (EFQ)&lt;/g2&gt; or &lt;g3&gt;the principle of
+explosion&lt;/g3&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T120040Z" creationid="chabulhwi" creationdate="20240930T113330Z">
+        <seg>[&lt;g1&gt;False.elim&lt;/g1&gt;, &lt;g2&gt;엑스 팔소 세퀴투르 쿠오들리베트(ex falso quodlibet, EFQ)&lt;/g2&gt; 또는 &lt;g3&gt;폭발 원리&lt;/g3&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g2&gt;True.intro&lt;/g2&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113050Z" creationid="chabulhwi" creationdate="20240930T113050Z">
+        <seg>(&lt;g2&gt;True.intro&lt;/g2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g3&gt;And.left&lt;/g3&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114849Z" creationid="chabulhwi" creationdate="20240930T114849Z">
+        <seg>(&lt;g3&gt;And.left&lt;/g3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g3&gt;And.right&lt;/g3&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114857Z" creationid="chabulhwi" creationdate="20240930T114857Z">
+        <seg>(&lt;g3&gt;And.right&lt;/g3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g3&gt;Iff.mp&lt;/g3&gt;, modus ponens for iff)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122546Z" creationid="chabulhwi" creationdate="20240930T122546Z">
+        <seg>(&lt;g3&gt;Iff.mp&lt;/g3&gt;, 동등에 대한 긍정 논법)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g3&gt;Iff.mpr&lt;/g3&gt;, reversed modus ponens for iff)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122648Z" creationid="chabulhwi" creationdate="20240930T122648Z">
+        <seg>(&lt;g3&gt;Iff.mp&lt;/g3&gt;, 동등에 대한 역방향 긍정 논법)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g3&gt;Or.inl&lt;/g3&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115157Z" creationid="chabulhwi" creationdate="20240930T115157Z">
+        <seg>(&lt;g3&gt;Or.inl&lt;/g3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g3&gt;Or.inr&lt;/g3&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115205Z" creationid="chabulhwi" creationdate="20240930T115205Z">
+        <seg>(&lt;g3&gt;Or.inr&lt;/g3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g3&gt;refutation by contradiction&lt;/g3&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114223Z" creationid="chabulhwi" creationdate="20240930T114035Z">
+        <seg>(&lt;g3&gt;모순에 따른 부인&lt;/g3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g4&gt;And.intro&lt;/g4&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114828Z" creationid="chabulhwi" creationdate="20240930T114828Z">
+        <seg>(&lt;g4&gt;And.intro&lt;/g4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g4&gt;Iff.intro&lt;/g4&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122513Z" creationid="chabulhwi" creationdate="20240930T122513Z">
+        <seg>(&lt;g4&gt;Iff.intro&lt;/g4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g4&gt;modus ponens&lt;/g4&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T120148Z" creationid="chabulhwi" creationdate="20240930T115938Z">
+        <seg>(&lt;g4&gt;긍정 논법[모더스 포넨스]&lt;/g4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g5&gt;Or.elim&lt;/g5&gt;, also known as &lt;g6&gt;proof by cases&lt;/g6&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T120126Z" creationid="chabulhwi" creationdate="20240930T115314Z">
+        <seg>(&lt;g5&gt;Or.elim&lt;/g5&gt;, &lt;g6&gt;경우에 따른 증명&lt;/g6&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(McGrath and Frank 2024)</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T063330Z" creationid="chabulhwi" creationdate="20240929T063330Z">
@@ -66,6 +171,54 @@ end Question34</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083852Z" creationid="chabulhwi" creationdate="20240928T083852Z">
         <seg>&lt;g1&gt;fun (s : String) (n : Nat) ↦ String.drop s n&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;p → q&lt;/g1&gt; follows from &lt;g2&gt;p ↔ q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122531Z" creationid="chabulhwi" creationdate="20240930T122531Z">
+        <seg>&lt;g2&gt;p ↔ q&lt;/g2&gt;에서 &lt;g1&gt;p → q&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;p ∨ q&lt;/g1&gt; follows from &lt;g2&gt;p&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T123152Z" creationid="chabulhwi" creationdate="20240930T115147Z">
+        <seg>&lt;g2&gt;p&lt;/g2&gt;에서 &lt;g1&gt;p ∨ q&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;p ∨ q&lt;/g1&gt; follows from &lt;g2&gt;q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T123152Z" creationid="chabulhwi" creationdate="20240930T115204Z">
+        <seg>&lt;g2&gt;q&lt;/g2&gt;에서 &lt;g1&gt;p ∨ q&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;p&lt;/g1&gt; follows from &lt;g2&gt;p ∧ q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114847Z" creationid="chabulhwi" creationdate="20240930T114847Z">
+        <seg>&lt;g2&gt;p ∧ q&lt;/g2&gt;에서 &lt;g1&gt;p&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;q → p&lt;/g1&gt; follows from &lt;g2&gt;p ↔ q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122605Z" creationid="chabulhwi" creationdate="20240930T122605Z">
+        <seg>&lt;g2&gt;p ↔ q&lt;/g2&gt;에서 &lt;g1&gt;q → p&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;q&lt;/g1&gt; follows from &lt;g2&gt;p ∧ q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114855Z" creationid="chabulhwi" creationdate="20240930T114855Z">
+        <seg>&lt;g2&gt;p ∧ q&lt;/g2&gt;에서 &lt;g1&gt;q&lt;/g1&gt;가 도출된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -219,6 +372,30 @@ same?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Conjunction</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114403Z" creationid="chabulhwi" creationdate="20240930T114403Z">
+        <seg>연언</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Contraposition: &lt;g1&gt;¬q → ¬p&lt;/g1&gt; is the contraposition of the implication &lt;g2&gt;p → q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T123446Z" creationid="chabulhwi" creationdate="20240930T121239Z">
+        <seg>대우(對偶): &lt;g1&gt;¬q → ¬p&lt;/g1&gt;는 함의 &lt;g2&gt;p → q&lt;/g2&gt;의 대우이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Conversion: &lt;g1&gt;q → p&lt;/g1&gt; is the converse of the implication &lt;g2&gt;p → q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T120853Z" creationid="chabulhwi" creationdate="20240930T120853Z">
+        <seg>역: &lt;g1&gt;q → p&lt;/g1&gt;는 함의 &lt;g2&gt;p → q&lt;/g2&gt;의 역이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Define a constant of each type listed below.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021955Z" creationid="chabulhwi" creationdate="20240927T021955Z">
@@ -263,6 +440,22 @@ identifier with an actual definition.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Definition in Lean: &lt;g1&gt;¬p&lt;/g1&gt; is defined to be &lt;g2&gt;p → False&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113943Z" creationid="chabulhwi" creationdate="20240930T113943Z">
+        <seg>린에서의 정의: &lt;g1&gt;¬p&lt;/g1&gt;는 &lt;g2&gt;p → False&lt;/g2&gt;로 정의된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Disjunction</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114950Z" creationid="chabulhwi" creationdate="20240930T114950Z">
+        <seg>선언</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>E.g., if the proposition that &lt;g1&gt;a&lt;/g1&gt; loves &lt;g2&gt;b&lt;/g2&gt; is the ordered triple &lt;g3&gt;&lt;loving, a,
 b&gt;&lt;/g3&gt;,
 it is distinct from the proposition that &lt;g4&gt;b&lt;/g4&gt; loves &lt;g5&gt;a&lt;/g5&gt;, which would be the ordered
@@ -270,6 +463,62 @@ triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T065252Z" creationid="chabulhwi" creationdate="20240929T065036Z">
         <seg>예를 들어, &lt;g1&gt;a&lt;/g1&gt;가 &lt;g2&gt;b&lt;/g2&gt;를 사랑한다는 명제가 순서세짝 &lt;g3&gt;&lt;사랑함, a, b&gt;&lt;/g3&gt;라면, &lt;g4&gt;b&lt;/g4&gt;가 &lt;g5&gt;a&lt;/g5&gt;를 사랑한다는 명제는 순서세짝 &lt;g6&gt;&lt;사랑함, b, a&gt;&lt;/g6&gt;이 될 것이고, 이 두 명제는 별개이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Elimination rule: &lt;g1&gt;q&lt;/g1&gt; follows from &lt;g2&gt;p&lt;/g2&gt; and &lt;g3&gt;p → q&lt;/g3&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115851Z" creationid="chabulhwi" creationdate="20240930T115851Z">
+        <seg>제거 규칙: &lt;g2&gt;p&lt;/g2&gt;와 &lt;g3&gt;p → q&lt;/g3&gt;에서 &lt;g1&gt;q&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Elimination rule: &lt;g1&gt;r&lt;/g1&gt; follows from &lt;g2&gt;p ∨ q&lt;/g2&gt;, &lt;g3&gt;p → r&lt;/g3&gt;, and &lt;g4&gt;q → r&lt;/g4&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115240Z" creationid="chabulhwi" creationdate="20240930T115240Z">
+        <seg>제거 규칙: &lt;g2&gt;p ∨ q&lt;/g2&gt;, &lt;g3&gt;p → r&lt;/g3&gt;, &lt;g4&gt;q → r&lt;/g4&gt;에서 &lt;g1&gt;r&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Elimination rule: a contradiction follows from &lt;g1&gt;p&lt;/g1&gt; and &lt;g2&gt;¬p&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114331Z" creationid="chabulhwi" creationdate="20240930T114331Z">
+        <seg>제거 규칙: &lt;g1&gt;p&lt;/g1&gt;와 &lt;g2&gt;¬p&lt;/g2&gt;에서 모순이 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Elimination rule: any proposition follows from a contradiction.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113236Z" creationid="chabulhwi" creationdate="20240930T113236Z">
+        <seg>제거 규칙: 모순에서 임의의 명제가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Elimination rules</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114831Z" creationid="chabulhwi" creationdate="20240930T114831Z">
+        <seg>제거 규칙</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Equivalence</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T121258Z" creationid="chabulhwi" creationdate="20240930T121258Z">
+        <seg>동등</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Falsity</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113052Z" creationid="chabulhwi" creationdate="20240930T113052Z">
+        <seg>거짓</seg>
       </tuv>
     </tu>
     <tu>
@@ -420,6 +669,70 @@ theorem provers like Lean.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Implication</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115330Z" creationid="chabulhwi" creationdate="20240930T115330Z">
+        <seg>함의</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Introduction rule: &lt;g1&gt;True&lt;/g1&gt; is true.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113029Z" creationid="chabulhwi" creationdate="20240930T113029Z">
+        <seg>도입 규칙: &lt;g1&gt;True&lt;/g1&gt;는 참이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Introduction rule: &lt;g1&gt;p ↔ q&lt;/g1&gt; follows from &lt;g2&gt;p → q&lt;/g2&gt; and &lt;g3&gt;q → p&lt;/g3&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122508Z" creationid="chabulhwi" creationdate="20240930T122508Z">
+        <seg>도입 규칙: &lt;g2&gt;p → q&lt;/g2&gt;와 &lt;g3&gt;q → p&lt;/g3&gt;에서 &lt;g1&gt;p ↔ q&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Introduction rule: &lt;g1&gt;p ∧ q&lt;/g1&gt; follows from &lt;g2&gt;p&lt;/g2&gt; and &lt;g3&gt;q&lt;/g3&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114825Z" creationid="chabulhwi" creationdate="20240930T114825Z">
+        <seg>도입 규칙: &lt;g2&gt;p&lt;/g2&gt;와 &lt;g3&gt;q&lt;/g3&gt;에서 &lt;g1&gt;p ∧ q&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Introduction rule: if &lt;g1&gt;q&lt;/g1&gt; follows from &lt;g2&gt;p&lt;/g2&gt;, then &lt;g3&gt;p → q&lt;/g3&gt; holds.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115819Z" creationid="chabulhwi" creationdate="20240930T115819Z">
+        <seg>도입 규칙: &lt;g2&gt;p&lt;/g2&gt;에서 &lt;g1&gt;q&lt;/g1&gt;가 도출되면, &lt;g3&gt;p → q&lt;/g3&gt;가 성립한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Introduction rule: if a contradiction follows from &lt;g1&gt;p&lt;/g1&gt;, then &lt;g2&gt;¬p&lt;/g2&gt; holds.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114015Z" creationid="chabulhwi" creationdate="20240930T114015Z">
+        <seg>도입 규칙: &lt;g1&gt;p&lt;/g1&gt;에서 모순이 도출되면, &lt;g2&gt;¬p&lt;/g2&gt;가 성립한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Introduction rules</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115132Z" creationid="chabulhwi" creationdate="20240930T115132Z">
+        <seg>도입 규칙</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Inversion: &lt;g1&gt;¬p → ¬q&lt;/g1&gt; is the inverse of the implication &lt;g2&gt;p → q&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T123443Z" creationid="chabulhwi" creationdate="20240930T121122Z">
+        <seg>이(裏): &lt;g1&gt;¬p → ¬q&lt;/g1&gt;는 함의 &lt;g2&gt;p → q&lt;/g2&gt;의 이이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Is Goldbach's Conjecture a Proposition?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091527Z" creationid="chabulhwi" creationdate="20240929T091527Z">
@@ -543,6 +856,52 @@ of Philosophy&lt;/g1&gt; (Fall 2024 Edition), Edward N. Zalta &amp; Uri Nodelman
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Meaning: given &lt;g1&gt;p : Prop&lt;/g1&gt;, the proposition &lt;g2&gt;¬p&lt;/g2&gt; stands for "It is not the case
+that &lt;g3&gt;p&lt;/g3&gt;."</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113908Z" creationid="chabulhwi" creationdate="20240930T113908Z">
+        <seg>뜻: &lt;g1&gt;p : Prop&lt;/g1&gt;가 주어져 있을 때, 명제 &lt;g2&gt;¬p&lt;/g2&gt;는 "&lt;g3&gt;p&lt;/g3&gt;가 아니다."라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Meaning: given &lt;g1&gt;p q : Prop&lt;/g1&gt;, the proposition &lt;g2&gt;p → q&lt;/g2&gt; stands for "If &lt;g3&gt;p&lt;/g3&gt;, then
+&lt;g4&gt;q&lt;/g4&gt;."</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115736Z" creationid="chabulhwi" creationdate="20240930T115736Z">
+        <seg>뜻: &lt;g1&gt;p q : Prop&lt;/g1&gt;가 주어져 있을 때, 명제 &lt;g2&gt;p → q&lt;/g2&gt;는 "&lt;g3&gt;p&lt;/g3&gt;이면 &lt;g4&gt;q&lt;/g4&gt;이다."라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Meaning: given &lt;g1&gt;p q : Prop&lt;/g1&gt;, the proposition &lt;g2&gt;p ↔ q&lt;/g2&gt; stands for "&lt;g3&gt;p&lt;/g3&gt; if and
+only if &lt;g4&gt;q&lt;/g4&gt;" (often abbreviated as "&lt;g5&gt;p&lt;/g5&gt; iff &lt;g6&gt;q&lt;/g6&gt;").</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T123610Z" creationid="chabulhwi" creationdate="20240930T121926Z">
+        <seg>뜻: &lt;g1&gt;p q : Prop&lt;/g1&gt;가 주어져 있을 때, 명제 &lt;g2&gt;p ↔ q&lt;/g2&gt;는 "&lt;g3&gt;p&lt;/g3&gt;일 때 그리고 그럴 때만 &lt;g4&gt;q&lt;/g4&gt;이다."(흔히 "&lt;g5&gt;p&lt;/g5&gt; iff &lt;g6&gt;q&lt;/g6&gt;"라고 축약함)라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Meaning: given &lt;g1&gt;p q : Prop&lt;/g1&gt;, the proposition &lt;g2&gt;p ∧ q&lt;/g2&gt; stands for "Both &lt;g3&gt;p&lt;/g3&gt; and
+&lt;g4&gt;q&lt;/g4&gt;."</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114715Z" creationid="chabulhwi" creationdate="20240930T114715Z">
+        <seg>뜻: &lt;g1&gt;p q : Prop&lt;/g1&gt;가 주어져 있을 때, 명제 &lt;g2&gt;p ∧ q&lt;/g2&gt;는 "&lt;g3&gt;p&lt;/g3&gt;이고 &lt;g4&gt;q&lt;/g4&gt;이다."라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Meaning: given &lt;g1&gt;p q : Prop&lt;/g1&gt;, the proposition &lt;g2&gt;p ∨ q&lt;/g2&gt; stands for "Either &lt;g3&gt;p&lt;/g3&gt; or
+&lt;g4&gt;q&lt;/g4&gt;."</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115114Z" creationid="chabulhwi" creationdate="20240930T115114Z">
+        <seg>뜻: &lt;g1&gt;p q : Prop&lt;/g1&gt;가 주어져 있을 때, 명제 &lt;g2&gt;p ∨ q&lt;/g2&gt;는 "&lt;g3&gt;p&lt;/g3&gt;이거나
+&lt;g4&gt;q&lt;/g4&gt;이다."라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>My Closing Thoughts</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091843Z" creationid="chabulhwi" creationdate="20240929T091843Z">
@@ -551,10 +910,140 @@ of Philosophy&lt;/g1&gt; (Fall 2024 Edition), Edward N. Zalta &amp; Uri Nodelman
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Name in Lean: &lt;g1&gt;And&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114528Z" creationid="chabulhwi" creationdate="20240930T114528Z">
+        <seg>린에서의 이름: &lt;g1&gt;And&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name in Lean: &lt;g1&gt;False&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113139Z" creationid="chabulhwi" creationdate="20240930T113139Z">
+        <seg>린에서의 이름: &lt;g1&gt;False&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name in Lean: &lt;g1&gt;Iff&lt;/g1&gt; (abbreviation of "if and only if")</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T121708Z" creationid="chabulhwi" creationdate="20240930T121708Z">
+        <seg>린에서의 이름: &lt;g1&gt;Iff&lt;/g1&gt; ['…일 때 그리고 그럴 때만(if and only if)'의 준말]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name in Lean: &lt;g1&gt;Not&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113719Z" creationid="chabulhwi" creationdate="20240930T113719Z">
+        <seg>린에서의 이름: &lt;g1&gt;Not&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name in Lean: &lt;g1&gt;Or&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115011Z" creationid="chabulhwi" creationdate="20240930T115011Z">
+        <seg>린에서의 이름: &lt;g1&gt;Or&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name in Lean: &lt;g1&gt;True&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T112909Z" creationid="chabulhwi" creationdate="20240930T112909Z">
+        <seg>린에서의 이름: &lt;g1&gt;True&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Names: conjunction, logical and</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114418Z" creationid="chabulhwi" creationdate="20240930T114418Z">
+        <seg>이름: 연언, 논리적 AND, 논리곱</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Names: disjunction, logical or</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115006Z" creationid="chabulhwi" creationdate="20240930T115006Z">
+        <seg>이름: 선언(選言), 논리적 OR, 논리합</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Names: equivalence, logical biconditional, material biconditional</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T121344Z" creationid="chabulhwi" creationdate="20240930T121344Z">
+        <seg>이름: 동등, 논리적 쌍조건문, 내용적 쌍조건문</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Names: falsity, false proposition, empty proposition</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113121Z" creationid="chabulhwi" creationdate="20240930T113121Z">
+        <seg>이름: 거짓, 거짓 명제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Names: implication, material implication, material conditional, logical
+conditional</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115557Z" creationid="chabulhwi" creationdate="20240930T115557Z">
+        <seg>이름: 함의, 내용적 함의, 내용적 조건문, 논리적 조건문</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Names: negation, logical not</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113658Z" creationid="chabulhwi" creationdate="20240930T113658Z">
+        <seg>이름: 부정, 논리적 NOT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Names: truth, true proposition</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113128Z" creationid="chabulhwi" creationdate="20240930T112850Z">
+        <seg>이름: 참, 참 명제</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Necessary condition: &lt;g1&gt;p → q&lt;/g1&gt; also stands for "&lt;g2&gt;p&lt;/g2&gt; only if &lt;g3&gt;q&lt;/g3&gt;," that is, &lt;g4&gt;q&lt;/g4&gt;
+is a necessary condition for &lt;g5&gt;p&lt;/g5&gt; to be true.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T120807Z" creationid="chabulhwi" creationdate="20240930T120558Z">
+        <seg>필요조건: &lt;g1&gt;p → q&lt;/g1&gt;는 "&lt;g3&gt;q&lt;/g3&gt;일 때만 &lt;g2&gt;p&lt;/g2&gt;이다."라는 뜻, 다시 말해 &lt;g4&gt;q&lt;/g4&gt;는 &lt;g5&gt;p&lt;/g5&gt;가 참이기 위한 필요조건이라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Negation</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113623Z" creationid="chabulhwi" creationdate="20240930T113623Z">
+        <seg>부정</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Note that you can type the less-than-or-equal-to sign &lt;g1&gt;≤&lt;/g1&gt; with &lt;g2&gt;\le&lt;/g2&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T085439Z" creationid="chabulhwi" creationdate="20240928T085403Z">
         <seg>작거나 같음 부호 &lt;g1&gt;≤&lt;/g1&gt;는 &lt;g2&gt;\le&lt;/g2&gt;로 입력할 수 있음을 유념하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Notes on Implication</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T120315Z" creationid="chabulhwi" creationdate="20240930T120307Z">
+        <seg>함의에 관한 첨언</seg>
       </tuv>
     </tu>
     <tu>
@@ -581,9 +1070,17 @@ understand the notion of a proposition.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Propositional Connectives</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113614Z" creationid="chabulhwi" creationdate="20240930T113614Z">
+        <seg>명제 연결사</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Propositional Logic</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240929T062103Z" creationid="chabulhwi" creationdate="20240929T062103Z">
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T123843Z" creationid="chabulhwi" creationdate="20240929T062103Z">
         <seg>명제 논리</seg>
       </tuv>
     </tu>
@@ -934,6 +1431,62 @@ then check the value of each expression.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Rule of inference</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T112931Z" creationid="chabulhwi" creationdate="20240930T112931Z">
+        <seg>추론 규칙</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Rules of inference</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113946Z" creationid="chabulhwi" creationdate="20240930T113946Z">
+        <seg>추론 규칙</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Symbol: &lt;g1&gt;¬&lt;/g1&gt; (read as "not")</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113759Z" creationid="chabulhwi" creationdate="20240930T113759Z">
+        <seg>기호: &lt;g1&gt;¬&lt;/g1&gt; ["낫(not)"이라고 읽음]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Symbol: &lt;g1&gt;→&lt;/g1&gt; (read as "implies")</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115615Z" creationid="chabulhwi" creationdate="20240930T115615Z">
+        <seg>기호: &lt;g1&gt;→&lt;/g1&gt; ("함의"라고 읽음)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Symbol: &lt;g1&gt;↔&lt;/g1&gt; (read as "if and only if")</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T121735Z" creationid="chabulhwi" creationdate="20240930T121735Z">
+        <seg>기호: &lt;g1&gt;↔&lt;/g1&gt; ("동등" 또는 "쌍조건문"이라고 읽음)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Symbol: &lt;g1&gt;∧&lt;/g1&gt; (read as "and")</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122932Z" creationid="chabulhwi" creationdate="20240930T114631Z">
+        <seg>기호: &lt;g1&gt;∧&lt;/g1&gt; ["앤드(and)" 또는 "그리고"라고 읽음]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Symbol: &lt;g1&gt;∨&lt;/g1&gt; (read as "or")</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122923Z" creationid="chabulhwi" creationdate="20240930T115034Z">
+        <seg>기호: &lt;g1&gt;∨&lt;/g1&gt; ["오어(or)"라고 읽거나 "또는"이라고 읽음]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The Usages of the Term 'Proposition'</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T062234Z" creationid="chabulhwi" creationdate="20240929T062234Z">
@@ -973,6 +1526,22 @@ false.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015247Z" creationid="chabulhwi" creationdate="20240927T015247Z">
         <seg>다음 코드에 오류가 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Truth</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T112845Z" creationid="chabulhwi" creationdate="20240930T112845Z">
+        <seg>참</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Truth and Falsity</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T112844Z" creationid="chabulhwi" creationdate="20240930T112844Z">
+        <seg>참과 거짓</seg>
       </tuv>
     </tu>
     <tu>
