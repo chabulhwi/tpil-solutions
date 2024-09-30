@@ -1457,8 +1457,8 @@ then check the value of each expression.</seg>
       <tuv lang="en">
         <seg>Symbol: &lt;g1&gt;→&lt;/g1&gt; (read as "implies")</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115615Z" creationid="chabulhwi" creationdate="20240930T115615Z">
-        <seg>기호: &lt;g1&gt;→&lt;/g1&gt; ("함의"라고 읽음)</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T124832Z" creationid="chabulhwi" creationdate="20240930T115615Z">
+        <seg>기호: &lt;g1&gt;→&lt;/g1&gt; ("함의"라고 읽거나 "…이면"이라고 읽음)</seg>
       </tuv>
     </tu>
     <tu>
