@@ -75,9 +75,9 @@
 
 * Necessary condition: `p → q` also stands for "`p` only if `q`," that is, `q`
   is a necessary condition for `p` to be true.
-* Conversion: `q → p` is the converse of the implication `p → q`.
-* Inversion: `¬p → ¬q` is the inverse of the implication `p → q`.
-* Contraposition: `¬q → ¬p` is the contraposition of the implication `p → q`.
+* Conversion: `q → p` is the converse of `p → q`.
+* Inversion: `¬p → ¬q` is the inverse of `p → q`.
+* Contraposition: `¬q → ¬p` is the contraposition of `p → q`.
 
 ### Equivalence
 
