@@ -87,7 +87,7 @@
 * Meaning: given `p q : Prop`, the proposition `p ↔ q` stands for "`p` if and
   only if `q`" (often abbreviated as "`p` iff `q`").
 * Rules of inference
-  - Introduction rule: `p ↔ q` follows `p → q` and `q → p`. (`Iff.intro`)
+  - Introduction rule: `p ↔ q` follows from `p → q` and `q → p`. (`Iff.intro`)
   - Elimination rules
     + `p → q` follows from `p ↔ q`. (`Iff.mp`, modus ponens for iff)
     + `q → p` follows from `p ↔ q`. (`Iff.mpr`, reversed modus ponens for iff)
