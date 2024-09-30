@@ -49,8 +49,8 @@ explosion&lt;/g3&gt;)</seg>
       <tuv lang="en">
         <seg>(&lt;g3&gt;Iff.mpr&lt;/g3&gt;, reversed modus ponens for iff)</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T122648Z" creationid="chabulhwi" creationdate="20240930T122648Z">
-        <seg>(&lt;g3&gt;Iff.mp&lt;/g3&gt;, 동등에 대한 역방향 긍정 논법)</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20240930T125849Z" creationid="chabulhwi" creationdate="20240930T122648Z">
+        <seg>(&lt;g3&gt;Iff.mpr&lt;/g3&gt;, 동등에 대한 역방향 긍정 논법)</seg>
       </tuv>
     </tu>
     <tu>
