@@ -25,6 +25,7 @@
 * Names: negation, logical not
 * Name in Lean: `Not`
 * Symbol: `¬` (read as "not")
+* Editor shortcut: `\not`, `\neg`
 * Meaning: given `p : Prop`, the proposition `¬p` stands for "It is not the case
   that `p`."
 * Definition in Lean: `¬p` is defined to be `p → False`.
@@ -38,6 +39,7 @@
 * Names: conjunction, logical and
 * Name in Lean: `And`
 * Symbol: `∧` (read as "and")
+* Editor shortcut: `\and`
 * Meaning: given `p q : Prop`, the proposition `p ∧ q` stands for "Both `p` and
   `q`."
 * Rules of inference
@@ -51,6 +53,7 @@
 * Names: disjunction, logical or
 * Name in Lean: `Or`
 * Symbol: `∨` (read as "or")
+* Editor shortcut: `\or`
 * Meaning: given `p q : Prop`, the proposition `p ∨ q` stands for "Either `p` or
   `q`."
 * Rules of inference
@@ -65,6 +68,7 @@
 * Names: implication, material implication, material conditional, logical
   conditional
 * Symbol: `→` (read as "implies")
+* Editor shortcut: `\to`, `\r`, `\imp`
 * Meaning: given `p q : Prop`, the proposition `p → q` stands for "If `p`, then
   `q`."
 * Rules of inference
@@ -84,6 +88,7 @@
 * Names: equivalence, logical biconditional, material biconditional
 * Name in Lean: `Iff` (abbreviation of "if and only if")
 * Symbol: `↔` (read as "if and only if")
+* Editor shortcut: `\iff`, `\lr`
 * Meaning: given `p q : Prop`, the proposition `p ↔ q` stands for "`p` if and
   only if `q`" (often abbreviated as "`p` iff `q`").
 * Rules of inference
