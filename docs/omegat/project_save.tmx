@@ -483,6 +483,46 @@ triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Editor shortcut: &lt;g1&gt;\and&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241001T151159Z" creationid="chabulhwi" creationdate="20241001T151159Z">
+        <seg>편집기 단축키: &lt;g1&gt;\and&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Editor shortcut: &lt;g1&gt;\iff&lt;/g1&gt;, &lt;g2&gt;\lr&lt;/g2&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241001T151304Z" creationid="chabulhwi" creationdate="20241001T151304Z">
+        <seg>편집기 단축키: &lt;g1&gt;\iff&lt;/g1&gt;, &lt;g2&gt;\lr&lt;/g2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Editor shortcut: &lt;g1&gt;\not&lt;/g1&gt;, &lt;g2&gt;\neg&lt;/g2&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241001T151144Z" creationid="chabulhwi" creationdate="20241001T151144Z">
+        <seg>편집기 단축키: &lt;g1&gt;\not&lt;/g1&gt;, &lt;g2&gt;\neg&lt;/g2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Editor shortcut: &lt;g1&gt;\or&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241001T151212Z" creationid="chabulhwi" creationdate="20241001T151212Z">
+        <seg>편집기 단축키: &lt;g1&gt;\or&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Editor shortcut: &lt;g1&gt;\to&lt;/g1&gt;, &lt;g2&gt;\r&lt;/g2&gt;, &lt;g3&gt;\imp&lt;/g3&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241001T151226Z" creationid="chabulhwi" creationdate="20241001T151226Z">
+        <seg>편집기 단축키: &lt;g1&gt;\to&lt;/g1&gt;, &lt;g2&gt;\r&lt;/g2&gt;, &lt;g3&gt;\imp&lt;/g3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Elimination rule: &lt;g1&gt;q&lt;/g1&gt; follows from &lt;g2&gt;p&lt;/g2&gt; and &lt;g3&gt;p → q&lt;/g3&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115851Z" creationid="chabulhwi" creationdate="20240930T115851Z">

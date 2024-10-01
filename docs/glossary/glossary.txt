@@ -143,3 +143,5 @@ equivalence	동등
 biconditional	쌍조건문
 abbreviation	준말
 if and only if	…일 때 그리고 그럴 때만
+editor	편집기
+shortcut	단축키
