@@ -661,6 +661,14 @@ triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>English | &lt;g1&gt;한국어[Korean]&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T161507Z" creationid="chabulhwi" creationdate="20241009T161407Z">
+        <seg>[English (영어)](./README.md) | 한국어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Equivalence</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T121258Z" creationid="chabulhwi" creationdate="20240930T121258Z">

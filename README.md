@@ -1,5 +1,7 @@
 # tpil-solutions
 
+English | [한국어[Korean]](./README.ko.md)
+
 This is the repository for my solutions to the exercises in ["Theorem Proving in
 Lean 4"][tpil] by [Jeremy Avigad][ja], [Leonardo de Moura][ldm], [Soonho
 Kong][sk] and [Sebastian Ullrich][su], with contributions from the [Lean
