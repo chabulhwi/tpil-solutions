@@ -9,6 +9,10 @@ Community][lean-comm]. You are free to reuse the content under the terms of
 I've also included a quiz for each chapter of the text in this repository, along
 with my solutions to the questions in each quiz.
 
+I use [OmegaT][omt] to translate English documentation into Korean. The OmegaT
+project is in the [`docs`](./docs) directory. You need to install the [Okapi
+filters plugin for OmegaT][okapi] to make OmegaT parse Markdown files.
+
 ## Directories and files
 
 * [`docs`](./docs): Markdown documents including notes and quizzes.
@@ -38,4 +42,6 @@ project.
 [sk]: https://soonhokong.github.io/
 [su]: https://sebasti.a.nullri.ch/
 [lean-comm]: https://leanprover-community.github.io/
+[omt]: https://omegat.org/
+[okapi]: https://okapiframework.org/wiki/index.php/Okapi_Filters_Plugin_for_OmegaT
 [lean-books]: https://sr.ht/~chabulhwi/lean-books/
