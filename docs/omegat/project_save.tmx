@@ -159,6 +159,88 @@ end Question34</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;g1&gt;&lt;g2&gt;TPIL&lt;/g2&gt;&lt;/g1&gt;: My solutions to the exercises and questions.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160553Z" creationid="chabulhwi" creationdate="20241009T160455Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;TPIL&lt;/g2&gt;&lt;/g1&gt;: 연습 문제와 퀴즈 문항의 제 풀이.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;&lt;g2&gt;docs&lt;/g2&gt;&lt;/g1&gt;: Markdown documents including notes and quizzes.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160000Z" creationid="chabulhwi" creationdate="20241009T160000Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;docs&lt;/g2&gt;&lt;/g1&gt;: 보충 학습 자료와 퀴즈를 포함한 마크다운 문서.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;&lt;g2&gt;en&lt;/g2&gt;&lt;/g1&gt;: Source documents written in English.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160017Z" creationid="chabulhwi" creationdate="20241009T160017Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;en&lt;/g2&gt;&lt;/g1&gt;: 영어로 작성한 원문.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;&lt;g2&gt;ko&lt;/g2&gt;&lt;/g1&gt;: Korean translation of the source documents in the &lt;g3&gt;en&lt;/g3&gt;
+directory.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160310Z" creationid="chabulhwi" creationdate="20241009T160310Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;ko&lt;/g2&gt;&lt;/g1&gt;: &lt;g3&gt;en&lt;/g3&gt; 디렉터리에 있는 원문을 한국어로 번역한 문서.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;&lt;g2&gt;notes&lt;/g2&gt;&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160023Z" creationid="chabulhwi" creationdate="20241009T160023Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;보충 학습 자료&lt;/g2&gt;&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;&lt;g2&gt;quiz&lt;/g2&gt;&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160052Z" creationid="chabulhwi" creationdate="20241009T160052Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;퀴즈&lt;/g2&gt;&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;ChapterXX&lt;/g1&gt;: Chapter XX of the text.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160511Z" creationid="chabulhwi" creationdate="20241009T160511Z">
+        <seg>&lt;g1&gt;ChapterXX&lt;/g1&gt;: 교재 XX장.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;ChapterXX&lt;/g1&gt;: My notes about the concepts explained in Chapter XX of the
+text.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160043Z" creationid="chabulhwi" creationdate="20241009T160043Z">
+        <seg>&lt;g1&gt;ChapterXX&lt;/g1&gt;: 교재의 XX장에서 설명된 개념에 관한 제 보충 학습 자료.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;Question*&lt;/g1&gt;: Solutions to the question(s) of my quiz.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160607Z" creationid="chabulhwi" creationdate="20241009T160532Z">
+        <seg>&lt;g1&gt;Question*&lt;/g1&gt;: 제 퀴즈 문항의 풀이.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;g1&gt;chapterXX.md&lt;/g1&gt;: My additional quiz for Chapter XX of the text.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160150Z" creationid="chabulhwi" creationdate="20241009T160150Z">
+        <seg>&lt;g1&gt;chapterXX.md&lt;/g1&gt;: 교재의 XX장을 학습자가 잘 이해했는지 확인하려고 제가 만든 퀴즈.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;g1&gt;fun (bulhwi : String) (cha : Nat) ↦ String.drop bulhwi cha&lt;/g1&gt;</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083854Z" creationid="chabulhwi" creationdate="20240928T083854Z">
@@ -396,6 +478,14 @@ same?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Contributing</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160712Z" creationid="chabulhwi" creationdate="20241009T160712Z">
+        <seg>기여하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Conversion: &lt;g1&gt;q → p&lt;/g1&gt; is the converse of &lt;g2&gt;p → q&lt;/g2&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T130342Z" creationid="chabulhwi" creationdate="20240930T130342Z">
@@ -460,6 +550,14 @@ identifier with an actual definition.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113943Z" creationid="chabulhwi" creationdate="20240930T113943Z">
         <seg>린에서의 정의: &lt;g1&gt;¬p&lt;/g1&gt;는 &lt;g2&gt;p → False&lt;/g2&gt;로 정의된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Directories and files</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T155840Z" creationid="chabulhwi" creationdate="20241009T155840Z">
+        <seg>디렉터리와 파일</seg>
       </tuv>
     </tu>
     <tu>
@@ -725,6 +823,32 @@ theorem provers like Lean.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>I use &lt;g1&gt;OmegaT&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e7/&gt; to translate English documentation into Korean.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T155657Z" creationid="chabulhwi" creationdate="20241009T155657Z">
+        <seg>&lt;g1&gt;오메가T(OmegaT)&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e7/&gt;를 이용해 영어 문서를 한국어로 번역했습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>I've also included a quiz for each chapter of the text in this repository, along
+with my solutions to the questions in each quiz.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T155604Z" creationid="chabulhwi" creationdate="20241009T155604Z">
+        <seg>교재 각 장의 퀴즈와 제 풀이도 이 저장소에 포함했습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If you've found errors in my solutions and want to fix them, please send an
+email to &lt;x1/&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160846Z" creationid="chabulhwi" creationdate="20241009T160846Z">
+        <seg>제 풀이에 있는 오류를 고치고 싶다면, &lt;x1/&gt;에 전자 우편을 보내 주세요.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Implication</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115330Z" creationid="chabulhwi" creationdate="20240930T115330Z">
@@ -888,6 +1012,14 @@ type?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>It has the same subdirectory structure as &lt;g4&gt;en&lt;/g4&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160355Z" creationid="chabulhwi" creationdate="20241009T160355Z">
+        <seg>하위 디렉터리 구조는 &lt;g4&gt;en&lt;/g4&gt;과 똑같습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>It is used
 to refer to some or all of the following: the primary bearers of truth-value,
 the objects of belief and other “propositional attitudes” (i.e., what is
@@ -896,6 +1028,17 @@ sentences.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T093415Z" creationid="chabulhwi" creationdate="20240929T063026Z">
         <seg>이 용어는 다음 중 일부 또는 전부를 가리키는 데 쓰인다. 진릿값의 주요 담지자, 믿음이나 다른 ‘명제적 태도’의 대상(믿기는 것, 의심되는 것 등), that절의 지시 대상물, 문장의 의미.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>It's my mailing list for
+end-user discussion and questions related to the &lt;g2&gt;lean-books&lt;/g2&gt;&lt;g3&gt;&lt;/g3&gt;&lt;e4/&gt;
+project.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160946Z" creationid="chabulhwi" creationdate="20241009T160946Z">
+        <seg>이는 &lt;g2&gt;lean-books&lt;/g2&gt;&lt;g3&gt;&lt;/g3&gt;&lt;e4/&gt;
+프로젝트와 관련된 최종 이용자들의 논의와 질문을 보관하는 한국어 메일링 리스트[전자 우편 수신자 목록]입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1551,6 +1694,15 @@ then check the value of each expression.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The OmegaT
+project is in the &lt;g3&gt;&lt;g4&gt;docs&lt;/g4&gt;&lt;/g3&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T155816Z" creationid="chabulhwi" creationdate="20241009T155816Z">
+        <seg>오메가T 프로젝트는 &lt;g3&gt;&lt;g4&gt;docs&lt;/g4&gt;&lt;/g3&gt; 디렉터리에 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The Usages of the Term 'Proposition'</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T062234Z" creationid="chabulhwi" creationdate="20240929T062234Z">
@@ -1590,6 +1742,17 @@ false.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T015247Z" creationid="chabulhwi" creationdate="20240927T015247Z">
         <seg>다음 코드에 오류가 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This is the repository for my solutions to the exercises in &lt;g1&gt;"Theorem Proving in
+Lean 4"&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e14/&gt; by &lt;g3&gt;Jeremy Avigad&lt;/g3&gt;&lt;g4&gt;&lt;/g4&gt;&lt;e15/&gt;, &lt;g5&gt;Leonardo de Moura&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e16/&gt;, &lt;g7&gt;Soonho
+Kong&lt;/g7&gt;&lt;g8&gt;&lt;/g8&gt;&lt;e17/&gt; and &lt;g9&gt;Sebastian Ullrich&lt;/g9&gt;&lt;g10&gt;&lt;/g10&gt;&lt;e18/&gt;, with contributions from the &lt;g11&gt;Lean
+Community&lt;/g11&gt;&lt;g12&gt;&lt;/g12&gt;&lt;e19/&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T155031Z" creationid="chabulhwi" creationdate="20241009T154849Z">
+        <seg>&lt;g3&gt;제러미 아비가드&lt;/g3&gt;&lt;g4&gt;&lt;/g4&gt;&lt;e15/&gt;, &lt;g5&gt;레오나르두 지 모라&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e16/&gt;, &lt;g7&gt;공순호&lt;/g7&gt;&lt;g8&gt;&lt;/g8&gt;&lt;e17/&gt;, &lt;g9&gt;제바스티안 울리히&lt;/g9&gt;&lt;g10&gt;&lt;/g10&gt;&lt;e18/&gt; 님이 저술하고, &lt;g11&gt;린 커뮤니티&lt;/g11&gt;&lt;g12&gt;&lt;/g12&gt;&lt;e19/&gt;의 기여를 받아 개정된 &lt;g1&gt;"린 4로 하는 정리 증명"&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e14/&gt;의 제 연습 문제 풀이가 이 저장소에 들어 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1692,6 +1855,32 @@ doesn't?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124234Z" creationid="chabulhwi" creationdate="20240928T085842Z">
         <seg>왜 아래에 나온 &lt;g1&gt;foo&lt;/g1&gt;의 정의는 유형 확인이 잘되지만, &lt;g2&gt;bar&lt;/g2&gt;의 정의는 그렇지 않은가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Yet to be public.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160650Z" creationid="chabulhwi" creationdate="20241009T160650Z">
+        <seg>아직 비공개돼 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You are free to reuse the content under the terms of
+&lt;g13&gt;Apache License Version 2.0&lt;/g13&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T155243Z" creationid="chabulhwi" creationdate="20241009T154149Z">
+        <seg>이 저작물은 &lt;g13&gt;아파치 라이선스, 버전 2.0&lt;/g13&gt;의 조건에 따라 재이용할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>You need to install the &lt;g5&gt;Okapi
+filters plugin for OmegaT&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e8/&gt; to make OmegaT parse Markdown files.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T155819Z" creationid="chabulhwi" creationdate="20241009T155819Z">
+        <seg>오메가T로 마크다운 파일을 구문 분석 하려면 &lt;g5&gt;오메가T를 위한 오카피(Okapi) 필터 플러그인&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e8/&gt;을 설치해야 됩니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2078,6 +2267,14 @@ end Question10</seg>
         <seg>sorry
 
 end Question10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>tpil-solutions</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T154035Z" creationid="chabulhwi" creationdate="20241009T154035Z">
+        <seg>tpil-solutions</seg>
       </tuv>
     </tu>
     <tu>

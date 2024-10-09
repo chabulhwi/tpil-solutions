@@ -145,3 +145,15 @@ abbreviation	준말
 if and only if	…일 때 그리고 그럴 때만
 editor	편집기
 shortcut	단축키
+Theorem Proving in Lean 4	린 4로 하는 정리 증명
+exercise	연습 문제
+repository	저장소
+Jeremy Avigad	제러미 아비가드
+Leonardo de Moura	레오나르두 지 모라
+Soonho Kong	공순호
+Sebastian Ullrich	제바스티안 울리히
+file	파일
+Markdown	마크다운
+quiz	퀴즈
+translation	번역
+contribute	기여하다
