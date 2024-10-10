@@ -78,8 +78,7 @@ end Question23
 /-!
 ## Question 25
 
-The function `List.cons` is both universe-polymorphic and parametrically polymorphic. It's a
-dependent function, so it has a dependent type.
+The statements (a)-(d) are all true.
 -/
 
 #print List.cons -- output: constructor List.cons.{u} : {α : Type u} → α → List α → List α
