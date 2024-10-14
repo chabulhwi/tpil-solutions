@@ -712,6 +712,15 @@ command to evaluate it.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>For information about parametric polymorphism, see
+https://ncatlab.org/nlab/show/polymorphism#parametric_polymorphism.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241014T031307Z" creationid="chabulhwi" creationdate="20241014T031307Z">
+        <seg>매개 변수 다형성에 관한 정보는 다음 문서에서 확인할 수 있다. https://ncatlab.org/nlab/show/polymorphism#parametric_polymorphism</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Give an example of a function that takes one or more implicit arguments.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T123309Z" creationid="chabulhwi" creationdate="20240928T123309Z">
