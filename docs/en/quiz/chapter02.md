@@ -263,7 +263,7 @@ defined in [Question 9](#question-9).
 \(a\) At least one of them is parametrically polymorphic. \
 \(b\) At least one of them is a dependent function. \
 \(c\) At least one of them has a dependent function type. \
-\(d\) At least one of them is a dependent product. \
+\(d\) At least one of them is a dependent pair. \
 \(e\) At least one of them has a dependent product type.
 
 ## Question 28

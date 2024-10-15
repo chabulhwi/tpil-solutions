@@ -374,6 +374,16 @@ text.</seg>
     <tu>
       <tuv lang="en">
         <seg>&lt;x3/&gt;
+\(d\) At least one of them is a dependent pair.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241015T143202Z" creationid="chabulhwi" creationdate="20241015T143202Z">
+        <seg>&lt;x3/&gt;
+\(d\) 이 상수들 중 적어도 하나는 의존 순서쌍이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x3/&gt;
 \(d\) At least one of them is a dependent product.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120406Z" creationid="chabulhwi" creationdate="20240928T120406Z">
