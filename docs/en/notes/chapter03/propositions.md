@@ -71,4 +71,4 @@ understand the notion of a proposition.
   = <https://plato.stanford.edu/archives/fall2024/entries/propositions/>.
 * 전인태, 김동재, 최은아 등. 게재일 불명. “고등학교 공통수학2.” 천재교과서. 2024년 9월 26일에
   마지막으로 접속함.
-  <https://view.chunjae.co.kr/streamdocs/view/sd;streamdocsId=BbTgEmTJFvPiML1Vt8UZRczOcmO6rlK3ins3Ux5VOHA>.
+  <https://view.chunjae.co.kr/streamdocs/view/sd;streamdocsId=VMYlbNlz8SkCffI10-zMdqD3LxuPRoYcW4Ya3BQAsI0;isExternal=eQ;printUse=;enableDapSide=;pageView=>.
