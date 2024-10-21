@@ -1355,6 +1355,15 @@ understand the notion of a proposition.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>One of them said
+that (b) is also a proposition since we &lt;g1&gt;can&lt;/g1&gt; determine its truth or falsehood.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T013927Z" creationid="chabulhwi" creationdate="20241021T013927Z">
+        <seg>한 분은 우리가 (2)의 진릿값을 모르더라도 그것의 참과 거짓을 판별'할 수' 있기 때문에 이 또한 명제라고 말씀하셨습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>One of them told
 that (b) is also a proposition since we &lt;g1&gt;can&lt;/g1&gt; determine its truth or falsehood.</seg>
       </tuv>
@@ -1813,6 +1822,16 @@ definitionally equal.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022737Z" creationid="chabulhwi" creationdate="20240927T022503Z">
         <seg>두 함수 &lt;g2&gt;f&lt;/g2&gt;와 &lt;g3&gt;g&lt;/g3&gt;가 정의상 같으면 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The other argued that &lt;g2&gt;linguistically&lt;/g2&gt; speaking ("국어적으로 해석한다면"), we can
+determine the truth or falsehood of (b), but &lt;g3&gt;mathematically&lt;/g3&gt; speaking, it can't
+be a proposition.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T013919Z" creationid="chabulhwi" creationdate="20241021T013919Z">
+        <seg>다른 분은 (2)를 '국어적으로' 해석한다면 그것의 참과 거짓을 판별할 수 있지만, '수학적으로' 해석한다면 진릿값을 모르는 진술은 명제가 될 수 없다고 주장하셨습니다.</seg>
       </tuv>
     </tu>
     <tu>
