@@ -73,8 +73,8 @@ mathematical statement whose truth value we don't know yet. Both responded that
 
 However, they were divided on whether (b) is a proposition. One of them told
 that (b) is also a proposition since we *can* determine its truth or falsehood.
-The other argued that, linguistically speaking ("국어적으로 해석한다면"), we can
-determine the truth or falsehood of (b), but mathematically speaking, it can't
+The other argued that, *linguistically* speaking ("국어적으로 해석한다면"), we can
+determine the truth or falsehood of (b), but *mathematically* speaking, it can't
 be a proposition.
 
 ## References

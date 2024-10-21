@@ -1809,6 +1809,16 @@ definitionally equal.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The other argued that, &lt;g2&gt;linguistically&lt;/g2&gt; speaking ("국어적으로 해석한다면"), we can
+determine the truth or falsehood of (b), but &lt;g3&gt;mathematically&lt;/g3&gt; speaking, it can't
+be a proposition.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T012349Z" creationid="chabulhwi" creationdate="20241021T012349Z">
+        <seg>다른 분은 (2)를 '국어적으로' 해석한다면 그것의 참과 거짓을 판별할 수 있지만, '수학적으로' 해석한다면 진릿값을 모르는 진술은 명제가 될 수 없다고 주장하셨습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The other argued that, linguistically speaking ("국어적으로 해석한다면"), we can
 determine the truth or falsehood of (b), but mathematically speaking, it can't
 be a proposition.</seg>
