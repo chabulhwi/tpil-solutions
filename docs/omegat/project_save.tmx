@@ -449,6 +449,14 @@ defined in &lt;g1&gt;Question 9&lt;/g1&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Appendix: Korean High School Mathematics Teachers' Thoughts</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T010615Z" creationid="chabulhwi" creationdate="20241021T005019Z">
+        <seg>부록: 한국 고등학교 수학 교사들의 생각</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Are the constants you defined in &lt;g1&gt;Question 9&lt;/g1&gt; universe-polymorphic?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120132Z" creationid="chabulhwi" creationdate="20240927T023344Z">
@@ -470,6 +478,15 @@ same?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124438Z" creationid="chabulhwi" creationdate="20240928T122630Z">
         <seg>&lt;g1&gt;문제 29&lt;/g1&gt;와 &lt;g2&gt;문제 30&lt;/g2&gt;에 나온 두 유형은 서로 같은가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Both responded that
+(a) isn't a proposition.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T005400Z" creationid="chabulhwi" creationdate="20241021T005400Z">
+        <seg>두 분 모두 (1)은 명제가 아니라고 답했습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -854,6 +871,14 @@ prover as follows:</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T110833Z" creationid="chabulhwi" creationdate="20240929T091618Z">
         <seg>그러나 이 추측은 린 정리 증명기를 이용해 다음 명제로 정의할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>However, they were divided on whether (b) is a proposition.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T005455Z" creationid="chabulhwi" creationdate="20241021T005446Z">
+        <seg>그러나 (2)가 명제인지를 둘러싸고 두 분의 의견이 갈렸습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1322,6 +1347,15 @@ understand the notion of a proposition.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>One of them told
+that (b) is also a proposition since we &lt;g1&gt;can&lt;/g1&gt; determine its truth or falsehood.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T010322Z" creationid="chabulhwi" creationdate="20241021T005650Z">
+        <seg>한 분은 우리가 (2)의 진릿값을 모르더라도 그것의 참과 거짓을 판별'할 수' 있기 때문에 이 또한 명제라고 말씀하셨습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Propositional Connectives</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113614Z" creationid="chabulhwi" creationdate="20240930T113614Z">
@@ -1666,6 +1700,16 @@ understand the notion of a proposition.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Recently, a high school student from Korea &lt;g1&gt;asked&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e3/&gt; two math teachers which
+of the following is a proposition: (a) a subjective value judgment and (b) a
+mathematical statement whose truth value we don't know yet.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T005341Z" creationid="chabulhwi" creationdate="20241021T005319Z">
+        <seg>최근에 한국의 어느 한 고등학생이 두 수학 교사분에게 (1) 주관적 가치 판단, (2) 진릿값을 아직 모르는 수학 진술 가운데 무엇이 명제인지 &lt;g1&gt;질문했습니다&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e3/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>References</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022857Z" creationid="chabulhwi" creationdate="20240927T015656Z">
@@ -1761,6 +1805,16 @@ definitionally equal.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022737Z" creationid="chabulhwi" creationdate="20240927T022503Z">
         <seg>두 함수 &lt;g2&gt;f&lt;/g2&gt;와 &lt;g3&gt;g&lt;/g3&gt;가 정의상 같으면 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The other argued that, linguistically speaking ("국어적으로 해석한다면"), we can
+determine the truth or falsehood of (b), but mathematically speaking, it can't
+be a proposition.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241021T010641Z" creationid="chabulhwi" creationdate="20241021T010411Z">
+        <seg>다른 분은 (2)를 '국어적으로' 해석한다면 그것의 참과 거짓을 판별할 수 있지만, '수학적으로' 해석한다면 진릿값을 모르는 진술은 명제가 될 수 없다고 주장하셨습니다.</seg>
       </tuv>
     </tu>
     <tu>

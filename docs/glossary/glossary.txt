@@ -160,3 +160,4 @@ contribute	기여하다
 parametric polymorphism	매개 변수 다형성
 information	정보
 dependent pair	의존 순서쌍
+appendix	부록
