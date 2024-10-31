@@ -29,7 +29,7 @@ filters plugin for OmegaT][okapi] to make OmegaT parse Markdown files.
 
 * [`TPIL`](./TPIL): My solutions to the exercises and questions.
   * `ChapterXX`: Chapter XX of the text.
-    * `Question*`: Solutions to the question(s) of my quiz. Yet to be public.
+    * `Question*`: Solutions to the question(s) of my quiz.
 
 ## Contributing
 
