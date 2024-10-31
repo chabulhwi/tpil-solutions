@@ -220,16 +220,16 @@ directory.</seg>
       <tuv lang="en">
         <seg>&lt;g1&gt;&lt;g2&gt;notes&lt;/g2&gt;&lt;/g1&gt;</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160023Z" creationid="chabulhwi" creationdate="20241009T160023Z">
-        <seg>&lt;g1&gt;&lt;g2&gt;보충 학습 자료&lt;/g2&gt;&lt;/g1&gt;</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241031T025600Z" creationid="chabulhwi" creationdate="20241009T160023Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;notes&lt;/g2&gt;&lt;/g1&gt;</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>&lt;g1&gt;&lt;g2&gt;quiz&lt;/g2&gt;&lt;/g1&gt;</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160052Z" creationid="chabulhwi" creationdate="20241009T160052Z">
-        <seg>&lt;g1&gt;&lt;g2&gt;퀴즈&lt;/g2&gt;&lt;/g1&gt;</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241031T025603Z" creationid="chabulhwi" creationdate="20241009T160052Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;quiz&lt;/g2&gt;&lt;/g1&gt;</seg>
       </tuv>
     </tu>
     <tu>

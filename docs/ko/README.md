@@ -12,9 +12,9 @@
 
 * [`docs`](./docs): 보충 학습 자료와 퀴즈를 포함한 마크다운 문서.
   * [`en`](./docs/en): 영어로 작성한 원문.
-    * [`보충 학습 자료`](./docs/en/notes)
+    * [`notes`](./docs/en/notes)
       * `ChapterXX`: 교재의 XX장에서 설명된 개념에 관한 제 보충 학습 자료.
-    * [`퀴즈`](./docs/en/quiz)
+    * [`quiz`](./docs/en/quiz)
       * `chapterXX.md`: 교재의 XX장을 학습자가 잘 이해했는지 확인하려고 제가 만든 퀴즈.
   * [`ko`](./docs/ko): `en` 디렉터리에 있는 원문을 한국어로 번역한 문서. 하위 디렉터리 구조는 `en`과 똑같습니다.
 
