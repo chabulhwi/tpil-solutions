@@ -1267,6 +1267,15 @@ only if &lt;g4&gt;q&lt;/g4&gt;" (often abbreviated as "&lt;g5&gt;p&lt;/g5&gt; if
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Names: equivalence, logical biconditional, material biconditional, material
+equivalence</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241101T162607Z" creationid="chabulhwi" creationdate="20241101T162607Z">
+        <seg>이름: 동등, 논리적 쌍조건문, 내용적 쌍조건문, 내용적 동등</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Names: falsity, false proposition, empty proposition</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113121Z" creationid="chabulhwi" creationdate="20240930T113121Z">
