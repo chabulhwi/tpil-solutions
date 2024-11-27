@@ -178,3 +178,8 @@ example {α : Sort u} {β : Sort v} (p : (α → β) ×' (β → α)) : α → �
 example {α : Sort u} {β : Sort v} (p : (α → β) ×' (β → α)) : β → α :=
   sorry
 ```
+
+## Question 14
+
+Show that the law of excluded middle can be derived from the principle of
+double-negation elimination.
