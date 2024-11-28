@@ -17,7 +17,7 @@ Prop` and `t : p → q`.
 \(a\) The type `p → q` is a function type. \
 \(b\) The type `p → q` is an implication. \
 \(c\) The term `t` is a function from `p` to `q`. \
-\(d\) The term `t` is a proof of the implication `p → q`.
+\(d\) The term `t` is a proof of the proposition `p → q`.
 
 ## Question 3
 
