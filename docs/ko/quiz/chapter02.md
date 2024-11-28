@@ -229,7 +229,7 @@ end Question23
 
 `print` 명령어를 이용해 함수 `List.cons`의 유형을 확인하라. 그런 뒤, 이 함수에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.
 
-매개 변수 다형성에 관한 정보는 다음 문서에서 확인할 수 있다. https://ncatlab.org/nlab/show/polymorphism#parametric_polymorphism
+매개 변수 다형성에 관한 정보는 다음 문서에서 확인할 수 있다. <https://ncatlab.org/nlab/show/polymorphism#parametric_polymorphism>
 
 \(a\) 이 함수는 세계 다형적이다. \
 \(b\) 이 함수는 매개 변수 다형적이다. \

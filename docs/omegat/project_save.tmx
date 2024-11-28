@@ -766,6 +766,15 @@ command to evaluate it.</seg>
     <tu>
       <tuv lang="en">
         <seg>For information about parametric polymorphism, see
+&lt;x1/&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241128T031504Z" creationid="chabulhwi" creationdate="20241128T031350Z">
+        <seg>매개 변수 다형성에 관한 정보는 다음 문서에서 확인할 수 있다. &lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For information about parametric polymorphism, see
 https://ncatlab.org/nlab/show/polymorphism#parametric_polymorphism.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241014T031307Z" creationid="chabulhwi" creationdate="20241014T031307Z">
