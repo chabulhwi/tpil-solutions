@@ -79,3 +79,13 @@ theorem em_of_dne {p : Prop} : p ∨ ¬p :=
       show False from hnnp hnp)
 
 end Classical
+
+/-- See this proof after reading Chapter 4 of TPIL. -/
+theorem em_of_dne (dne : ∀ {p : Prop}, ¬¬p → p) : ∀ {p : Prop}, p ∨ ¬p :=
+  fun {p : Prop} ↦ dne (show ¬¬(p ∨ ¬p) from
+    fun h : ¬(p ∨ ¬p) ↦
+      have hnp : ¬p := fun hp : p ↦ show False from
+        h (show p ∨ ¬p from Or.inl hp)
+      have hnnp : ¬¬p := fun hnp : ¬p ↦ show False from
+        h (show p ∨ ¬p from Or.inr hnp)
+      show False from hnnp hnp)
