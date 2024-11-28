@@ -62,9 +62,7 @@ example {α : Sort u} {β : Sort v} (p : (α → β) ×' (β → α)) : β → �
 ## Question 14
 -/
 
-section
-
-open Classical
+namespace Classical
 
 theorem dne {p : Prop} (h : ¬¬p) : p :=
   byCases
@@ -80,4 +78,4 @@ theorem em_of_dne {p : Prop} : p ∨ ¬p :=
         h (show p ∨ ¬p from Or.inr hnp)
       show False from hnnp hnp)
 
-end
+end Classical
