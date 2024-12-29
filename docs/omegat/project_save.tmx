@@ -95,10 +95,42 @@ explosion&lt;/g3&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>(&lt;g4&gt;existential elimination&lt;/g4&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T095716Z" creationid="chabulhwi" creationdate="20241229T095716Z">
+        <seg>(&lt;g4&gt;존재 제거&lt;/g4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g4&gt;existential introduction&lt;/g4&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T094554Z" creationid="chabulhwi" creationdate="20241229T094554Z">
+        <seg>(&lt;g4&gt;존재 도입&lt;/g4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(&lt;g4&gt;modus ponens&lt;/g4&gt;)</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T120148Z" creationid="chabulhwi" creationdate="20240930T115938Z">
         <seg>(&lt;g4&gt;긍정 논법[모더스 포넨스]&lt;/g4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g4&gt;universal generalization&lt;/g4&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T093542Z" creationid="chabulhwi" creationdate="20241229T093542Z">
+        <seg>(&lt;g4&gt;보편 일반화&lt;/g4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(&lt;g4&gt;universal instantiation&lt;/g4&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T100217Z" creationid="chabulhwi" creationdate="20241229T093822Z">
+        <seg>(&lt;g4&gt;보편 예시&lt;/g4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -712,6 +744,15 @@ identifier with an actual definition.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Definition in Lean: if &lt;g1&gt;p&lt;/g1&gt; is an arbitrary expression, &lt;g2&gt;∀ (x : α), p&lt;/g2&gt; is an
+alternative notation for &lt;g3&gt;(x : α) → p&lt;/g3&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T093129Z" creationid="chabulhwi" creationdate="20241229T093129Z">
+        <seg>린에서의 정의: &lt;g1&gt;p&lt;/g1&gt;가 임의의 식이면, &lt;g2&gt;∀ (x : α), p&lt;/g2&gt;는 &lt;g3&gt;(x : α) → p&lt;/g3&gt;의 다른 표기법이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Directories and files</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241009T155840Z" creationid="chabulhwi" creationdate="20241009T155840Z">
@@ -743,6 +784,22 @@ triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241001T151159Z" creationid="chabulhwi" creationdate="20241001T151159Z">
         <seg>편집기 단축키: &lt;g1&gt;\and&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Editor shortcut: &lt;g1&gt;\ex&lt;/g1&gt;, &lt;g2&gt;\exists&lt;/g2&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T094148Z" creationid="chabulhwi" creationdate="20241229T094148Z">
+        <seg>편집기 단축키: &lt;g1&gt;\ex&lt;/g1&gt;, &lt;g2&gt;\exists&lt;/g2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Editor shortcut: &lt;g1&gt;\forall&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T092352Z" creationid="chabulhwi" creationdate="20241229T092352Z">
+        <seg>편집기 단축키: &lt;g1&gt;\forall&lt;/g1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -787,6 +844,15 @@ triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Elimination rule: &lt;g1&gt;q&lt;/g1&gt; follows from &lt;g2&gt;∃ (x : α), p x&lt;/g2&gt; and &lt;g3&gt;∀ (a : α), p a →
+q&lt;/g3&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T094722Z" creationid="chabulhwi" creationdate="20241229T094722Z">
+        <seg>제거 규칙: &lt;g2&gt;∃ (x : α), p x&lt;/g2&gt;와 &lt;g3&gt;∀ (a : α), p a → q&lt;/g3&gt;에서 &lt;g1&gt;q&lt;/g1&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Elimination rule: &lt;g1&gt;r&lt;/g1&gt; follows from &lt;g2&gt;p ∨ q&lt;/g2&gt;, &lt;g3&gt;p → r&lt;/g3&gt;, and &lt;g4&gt;q → r&lt;/g4&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115240Z" creationid="chabulhwi" creationdate="20240930T115240Z">
@@ -811,6 +877,14 @@ triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Elimination rule: given &lt;g1&gt;a : α&lt;/g1&gt;, &lt;g2&gt;p a&lt;/g2&gt; follows from &lt;g3&gt;∀ (x : α), p x&lt;/g3&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T093636Z" creationid="chabulhwi" creationdate="20241229T093636Z">
+        <seg>제거 규칙: &lt;g1&gt;a : α&lt;/g1&gt;가 주어져 있을 때, &lt;g3&gt;∀ (x : α), p x&lt;/g3&gt;에서 &lt;g2&gt;p a&lt;/g2&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Elimination rules</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114831Z" creationid="chabulhwi" creationdate="20240930T114831Z">
@@ -831,6 +905,14 @@ triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T121258Z" creationid="chabulhwi" creationdate="20240930T121258Z">
         <seg>동등</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Existential Quantifiers</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T093910Z" creationid="chabulhwi" creationdate="20241229T093910Z">
+        <seg>존재 정량어</seg>
       </tuv>
     </tu>
     <tu>
@@ -1124,6 +1206,23 @@ email to &lt;x1/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Introduction rule: given &lt;g1&gt;a : α&lt;/g1&gt;, &lt;g2&gt;∃ (x : α), p x&lt;/g2&gt; follows from &lt;g3&gt;p a&lt;/g3&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T094520Z" creationid="chabulhwi" creationdate="20241229T094520Z">
+        <seg>도입 규칙: &lt;g1&gt;a : α&lt;/g1&gt;가 주어져 있을 때, &lt;g3&gt;p a&lt;/g3&gt;에서 &lt;g2&gt;∃ (x : α), p x&lt;/g2&gt;가 도출된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Introduction rule: if &lt;g1&gt;p x&lt;/g1&gt; holds for every term &lt;g2&gt;x : α&lt;/g2&gt;, then &lt;g3&gt;∀ (x : α), p
+x&lt;/g3&gt; holds.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T093517Z" creationid="chabulhwi" creationdate="20241229T093517Z">
+        <seg>도입 규칙: 각각의 항 &lt;g2&gt;x : α&lt;/g2&gt;에 대해 &lt;g1&gt;p x&lt;/g1&gt;가 성립하면, &lt;g3&gt;∀ (x : α), p x&lt;/g3&gt;가 성립한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Introduction rule: if &lt;g1&gt;q&lt;/g1&gt; follows from &lt;g2&gt;p&lt;/g2&gt;, then &lt;g3&gt;p → q&lt;/g3&gt; holds.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115819Z" creationid="chabulhwi" creationdate="20240930T115819Z">
@@ -1352,6 +1451,26 @@ only if &lt;g4&gt;q&lt;/g4&gt;" (often abbreviated as "&lt;g5&gt;p&lt;/g5&gt; if
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Meaning: given a type &lt;g1&gt;α&lt;/g1&gt; and a unary predicate &lt;g2&gt;p : α → Prop&lt;/g2&gt;, the
+proposition &lt;g3&gt;∀ (x : α), p x&lt;/g3&gt; stands for "For all &lt;g4&gt;x&lt;/g4&gt; of type &lt;g5&gt;α&lt;/g5&gt;, &lt;g6&gt;p x&lt;/g6&gt;
+holds."</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T092755Z" creationid="chabulhwi" creationdate="20241229T092755Z">
+        <seg>뜻: 유형 &lt;g1&gt;α&lt;/g1&gt;와 단항 술어 &lt;g2&gt;p : α → Prop&lt;/g2&gt;가 주어져 있을 때, 명제 &lt;g3&gt;∀ (x : α), p x&lt;/g3&gt;는 "유형 &lt;g5&gt;α&lt;/g5&gt;에 속하는 모든 &lt;g4&gt;x&lt;/g4&gt;에 대해, &lt;g6&gt;p x&lt;/g6&gt;이다."라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Meaning: given a type &lt;g1&gt;α&lt;/g1&gt; and a unary predicate &lt;g2&gt;p : α → Prop&lt;/g2&gt;, the
+proposition &lt;g3&gt;∃ (x : α), p x&lt;/g3&gt; stands for "There exists a term &lt;g4&gt;x&lt;/g4&gt; of type &lt;g5&gt;α&lt;/g5&gt;
+where &lt;g6&gt;p x&lt;/g6&gt; holds."</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T100527Z" creationid="chabulhwi" creationdate="20241229T094413Z">
+        <seg>뜻: 유형 &lt;g1&gt;α&lt;/g1&gt;와 단항 술어 &lt;g2&gt;p : α → Prop&lt;/g2&gt;가 주어져 있을 때, 명제 &lt;g3&gt;∃ (x : α), p x&lt;/g3&gt;는 "유형 &lt;g5&gt;α&lt;/g5&gt;에 속하고 &lt;g6&gt;p x&lt;/g6&gt;를 성립시키는 항 &lt;g4&gt;x&lt;/g4&gt;가 존재한다."라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>My Closing Thoughts</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091843Z" creationid="chabulhwi" creationdate="20240929T091843Z">
@@ -1364,6 +1483,14 @@ only if &lt;g4&gt;q&lt;/g4&gt;" (often abbreviated as "&lt;g5&gt;p&lt;/g5&gt; if
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114528Z" creationid="chabulhwi" creationdate="20240930T114528Z">
         <seg>린에서의 이름: &lt;g1&gt;And&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name in Lean: &lt;g1&gt;Exists&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T093933Z" creationid="chabulhwi" creationdate="20241229T093933Z">
+        <seg>린에서의 이름: &lt;g1&gt;Exists&lt;/g1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1404,6 +1531,22 @@ only if &lt;g4&gt;q&lt;/g4&gt;" (often abbreviated as "&lt;g5&gt;p&lt;/g5&gt; if
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T112909Z" creationid="chabulhwi" creationdate="20240930T112909Z">
         <seg>린에서의 이름: &lt;g1&gt;True&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name: existential quantifier</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T093920Z" creationid="chabulhwi" creationdate="20241229T093920Z">
+        <seg>이름: 존재 정량어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Name: universal quantifier</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T092206Z" creationid="chabulhwi" creationdate="20241229T092206Z">
+        <seg>이름: 보편 정량어</seg>
       </tuv>
     </tu>
     <tu>
@@ -1555,6 +1698,14 @@ that (b) is also a proposition since we &lt;g1&gt;can&lt;/g1&gt; determine its t
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Predicate Logic</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T092010Z" creationid="chabulhwi" creationdate="20241229T092010Z">
+        <seg>술어 논리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Propositional Connectives</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T113614Z" creationid="chabulhwi" creationdate="20240930T113614Z">
@@ -1599,6 +1750,14 @@ that (b) is also a proposition since we &lt;g1&gt;can&lt;/g1&gt; determine its t
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T033759Z" creationid="chabulhwi" creationdate="20241128T033759Z">
         <seg>다음 보기를 증명하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Quantifiers</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T092043Z" creationid="chabulhwi" creationdate="20241229T092043Z">
+        <seg>정량어</seg>
       </tuv>
     </tu>
     <tu>
@@ -1991,6 +2150,22 @@ double-negation elimination.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Symbol: &lt;g1&gt;∀&lt;/g1&gt; (read as "for all")</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T092338Z" creationid="chabulhwi" creationdate="20241229T092338Z">
+        <seg>기호: &lt;g1&gt;∀&lt;/g1&gt; ("모든"이라고 읽음)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Symbol: &lt;g1&gt;∃&lt;/g1&gt; (read as "exists")</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T094126Z" creationid="chabulhwi" creationdate="20241229T094007Z">
+        <seg>기호: &lt;g1&gt;∃&lt;/g1&gt; ("어떤"이라고 읽거나 "…이 존재한다"라고 읽음)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Symbol: &lt;g1&gt;∧&lt;/g1&gt; (read as "and")</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T124716Z" creationid="chabulhwi" creationdate="20240930T114631Z">
@@ -2112,6 +2287,14 @@ Community&lt;/g11&gt;&lt;g12&gt;&lt;/g12&gt;&lt;e19/&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T112844Z" creationid="chabulhwi" creationdate="20240930T112844Z">
         <seg>참과 거짓</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Universal Quantifiers</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241229T092105Z" creationid="chabulhwi" creationdate="20241229T092105Z">
+        <seg>보편 정량어</seg>
       </tuv>
     </tu>
     <tu>
