@@ -2264,6 +2264,16 @@ false.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This directory
+also contains Lean files providing examples of the concepts discussed in the
+text.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20241231T152846Z" creationid="chabulhwi" creationdate="20241231T152750Z">
+        <seg>교재에서 다룬 개념들의 보기를 드는 린 파일도 여기에 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>This is the repository for my solutions to the exercises in &lt;g1&gt;"Theorem Proving in
 Lean 4"&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e14/&gt; by &lt;g3&gt;Jeremy Avigad&lt;/g3&gt;&lt;g4&gt;&lt;/g4&gt;&lt;e15/&gt;, &lt;g5&gt;Leonardo de Moura&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e16/&gt;, &lt;g7&gt;Soonho
 Kong&lt;/g7&gt;&lt;g8&gt;&lt;/g8&gt;&lt;e17/&gt; and &lt;g9&gt;Sebastian Ullrich&lt;/g9&gt;&lt;g10&gt;&lt;/g10&gt;&lt;e18/&gt;, with contributions from the &lt;g11&gt;Lean

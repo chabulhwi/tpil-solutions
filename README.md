@@ -27,7 +27,9 @@ filters plugin for OmegaT][okapi] to make OmegaT parse Markdown files.
   * [`ko`](./docs/ko): Korean translation of the source documents in the `en`
     directory. It has the same subdirectory structure as `en`.
 
-* [`TPIL`](./TPIL): My solutions to the exercises and questions.
+* [`TPIL`](./TPIL): My solutions to the exercises and questions. This directory
+  also contains Lean files providing examples of the concepts discussed in the
+  text.
   * `ChapterXX`: Chapter XX of the text.
     * `Question*`: Solutions to the question(s) of my quiz.
 
