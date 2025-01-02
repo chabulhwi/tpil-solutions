@@ -5,8 +5,11 @@ English | [한국어[Korean]](./README.ko.md)
 This is the repository for my solutions to the exercises in ["Theorem Proving in
 Lean 4"][tpil] by [Jeremy Avigad][ja], [Leonardo de Moura][ldm], [Soonho
 Kong][sk] and [Sebastian Ullrich][su], with contributions from the [Lean
-Community][lean-comm]. You are free to reuse the content under the terms of
-[Apache License Version 2.0](./LICENSE).
+Community][lean-comm].
+
+Most of the content has been released under the terms of [Apache License Version
+2.0](./LICENSE). However, this repository also contains a Lean file in the
+[public domain](./LICENSE-CC0).
 
 I've also included a quiz for each chapter of the text in this repository, along
 with my solutions to the questions in each quiz.

@@ -1138,6 +1138,15 @@ prover as follows:</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>However, this repository also contains a Lean file in the
+&lt;g2&gt;public domain&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250102T150054Z" creationid="chabulhwi" creationdate="20250102T150011Z">
+        <seg>그러나 이 저장소에는 &lt;g2&gt;자유 이용 저작물&lt;/g2&gt;인 린 파일도 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>I don't think the usage of the term 'proposition' in Korean high school
 mathematics coincides with those in contemporary philosophy or interactive
 theorem provers like Lean.</seg>
@@ -1467,6 +1476,15 @@ where &lt;g6&gt;p x&lt;/g6&gt; holds."</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241229T100527Z" creationid="chabulhwi" creationdate="20241229T094413Z">
         <seg>뜻: 유형 &lt;g1&gt;α&lt;/g1&gt;와 단항 술어 &lt;g2&gt;p : α → Prop&lt;/g2&gt;가 주어져 있을 때, 명제 &lt;g3&gt;∃ (x : α), p x&lt;/g3&gt;는 "유형 &lt;g5&gt;α&lt;/g5&gt;에 속하고 &lt;g6&gt;p x&lt;/g6&gt;를 성립시키는 항 &lt;g4&gt;x&lt;/g4&gt;가 존재한다."라는 뜻이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Most of the content has been released under the terms of &lt;g1&gt;Apache License Version
+2.0&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250102T150000Z" creationid="chabulhwi" creationdate="20250102T150000Z">
+        <seg>이 저작물의 대부분은 &lt;g1&gt;아파치 라이선스, 버전 2.0&lt;/g1&gt;의 조건에 따라 배포됐습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2270,6 +2288,17 @@ text.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241231T152846Z" creationid="chabulhwi" creationdate="20241231T152750Z">
         <seg>교재에서 다룬 개념들의 보기를 드는 린 파일도 여기에 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This is the repository for my solutions to the exercises in &lt;g1&gt;"Theorem Proving in
+Lean 4"&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e13/&gt; by &lt;g3&gt;Jeremy Avigad&lt;/g3&gt;&lt;g4&gt;&lt;/g4&gt;&lt;e14/&gt;, &lt;g5&gt;Leonardo de Moura&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e15/&gt;, &lt;g7&gt;Soonho
+Kong&lt;/g7&gt;&lt;g8&gt;&lt;/g8&gt;&lt;e16/&gt; and &lt;g9&gt;Sebastian Ullrich&lt;/g9&gt;&lt;g10&gt;&lt;/g10&gt;&lt;e17/&gt;, with contributions from the &lt;g11&gt;Lean
+Community&lt;/g11&gt;&lt;g12&gt;&lt;/g12&gt;&lt;e18/&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250102T150833Z" creationid="chabulhwi" creationdate="20250102T145847Z">
+        <seg>&lt;g3&gt;제러미 아비가드&lt;/g3&gt;&lt;g4&gt;&lt;/g4&gt;&lt;e14/&gt; 님, &lt;g5&gt;레오나르두 지 모라&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e15/&gt; 님, &lt;g7&gt;공순호&lt;/g7&gt;&lt;g8&gt;&lt;/g8&gt;&lt;e16/&gt; 님 그리고 &lt;g9&gt;제바스티안 울리히&lt;/g9&gt;&lt;g10&gt;&lt;/g10&gt;&lt;e17/&gt; 님이 저술하고, &lt;g11&gt;린 커뮤니티&lt;/g11&gt;&lt;g12&gt;&lt;/g12&gt;&lt;e18/&gt;의 기여를 받아 개정된 &lt;g1&gt;"린 4로 하는 정리 증명"&lt;/g1&gt;&lt;g2&gt;&lt;/g2&gt;&lt;e13/&gt;의 제 연습 문제 풀이가 이 저장소에 들어 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
