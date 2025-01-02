@@ -1,7 +1,6 @@
 /-
-Copyright (c) 2024 Bulhwi Cha. All rights reserved.
-Released under Apache 2.0 license as described in the file LICENSE.
-Authors: Bulhwi Cha
+This work is waived of all rights, including copyright, according to the CC0 Public Domain
+Dedication. See the LICENSE-CC0 file or https://creativecommons.org/publicdomain/zero/1.0/.
 -/
 
 /-!
