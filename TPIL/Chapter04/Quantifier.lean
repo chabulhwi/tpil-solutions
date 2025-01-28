@@ -41,6 +41,7 @@ theorem not_exists_isGodlike : ¬∃ (x : Human), IsGodlike x :=
       (show ¬IsMortal w from not_isMortal_of_isGodlike hw)
         (show IsMortal w from forall_isMortal w))
 
+/-- Every human is not godlike. -/
 theorem not_isGodlike (x : Human) : ¬IsGodlike x :=
   fun h : IsGodlike x ↦ show False from
     (show ¬∃ (x : Human), IsGodlike x from not_exists_isGodlike)
