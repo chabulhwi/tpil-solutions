@@ -565,7 +565,7 @@ relations.</seg>
 defined in &lt;g1&gt;Question 9&lt;/g1&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124254Z" creationid="chabulhwi" creationdate="20240928T115844Z">
-        <seg>&lt;g1&gt;문제 9&lt;/g1&gt;에서 정의된 상수들에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+        <seg>[문제 9](#문제-9)에서 정의된 상수들에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -573,8 +573,8 @@ defined in &lt;g1&gt;Question 9&lt;/g1&gt;.</seg>
         <seg>Answer by true or false each of the following statements about the function
 &lt;g1&gt;Type.id&lt;/g1&gt; from &lt;g2&gt;Question 8&lt;/g2&gt;.</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T123032Z" creationid="chabulhwi" creationdate="20250211T123032Z">
-        <seg>&lt;g2&gt;문제 8&lt;/g2&gt;의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T130731Z" creationid="chabulhwi" creationdate="20250211T123032Z">
+        <seg>[문제 8](#문제-8)의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -583,7 +583,7 @@ defined in &lt;g1&gt;Question 9&lt;/g1&gt;.</seg>
 &lt;g1&gt;Type.id&lt;/g1&gt; of &lt;g2&gt;Question 8&lt;/g2&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T115847Z" creationid="chabulhwi" creationdate="20240928T115708Z">
-        <seg>&lt;g2&gt;문제 8&lt;/g2&gt;의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+        <seg>[문제 8](#문제-8)의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -625,8 +625,8 @@ Prop&lt;/g1&gt; and &lt;g2&gt;t : p → q&lt;/g2&gt;.</seg>
       <tuv lang="en">
         <seg>Are the constants you defined in &lt;g1&gt;Question 9&lt;/g1&gt; universe-polymorphic?</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120132Z" creationid="chabulhwi" creationdate="20240927T023344Z">
-        <seg>&lt;g1&gt;문제 9&lt;/g1&gt;에서 정의된 상수들은 세계 다형적인가?</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T130655Z" creationid="chabulhwi" creationdate="20240927T023344Z">
+        <seg>[문제 9](#문제-9)에서 정의된 상수들은 세계 다형적인가?</seg>
       </tuv>
     </tu>
     <tu>
@@ -643,7 +643,7 @@ Prop&lt;/g1&gt; and &lt;g2&gt;t : p → q&lt;/g2&gt;.</seg>
 the same?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20250211T123055Z" creationid="chabulhwi" creationdate="20250211T123055Z">
-        <seg>&lt;g1&gt;문제 29&lt;/g1&gt;와 &lt;g2&gt;문제 30&lt;/g2&gt;에 나온 두 유형은 서로 같은가?</seg>
+        <seg>[문제 29](#문제-29)와 [문제 30](#문제-30)에 나온 두 유형은 서로 같은가?</seg>
       </tuv>
     </tu>
     <tu>
@@ -652,7 +652,7 @@ the same?</seg>
 same?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T124438Z" creationid="chabulhwi" creationdate="20240928T122630Z">
-        <seg>&lt;g1&gt;문제 29&lt;/g1&gt;와 &lt;g2&gt;문제 30&lt;/g2&gt;에 나온 두 유형은 서로 같은가?</seg>
+        <seg>[문제 29](#문제-29)와 [문제 30](#문제-30)에 나온 두 유형은 서로 같은가?</seg>
       </tuv>
     </tu>
     <tu>
@@ -1119,8 +1119,8 @@ https://ncatlab.org/nlab/show/polymorphism#parametric_polymorphism.</seg>
         <seg>Give the value of each of the following expressions, where &lt;g1&gt;f&lt;/g1&gt; is the function
 defined in &lt;g2&gt;Question 34&lt;/g2&gt;.</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20240928T122839Z" creationid="chabulhwi" creationdate="20240928T122839Z">
-        <seg>다음 식의 값을 각각 구하라. 여기서 &lt;g1&gt;f&lt;/g1&gt;는 &lt;g2&gt;문제 34&lt;/g2&gt;에서 정의된 함수이다.</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T131745Z" creationid="chabulhwi" creationdate="20240928T122839Z">
+        <seg>다음 식의 값을 각각 구하라. 여기서 &lt;g1&gt;f&lt;/g1&gt;는 [문제 34](#문제-34)에서 정의된 함수이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1354,8 +1354,8 @@ x&lt;/g3&gt; holds.</seg>
         <seg>Is the definition of the predicate &lt;g1&gt;p&lt;/g1&gt; from &lt;g2&gt;Question 1&lt;/g2&gt;
 impredicative?</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T123927Z" creationid="chabulhwi" creationdate="20250211T121510Z">
-        <seg>&lt;g2&gt;문제 1&lt;/g2&gt;에 나온 술어 &lt;g1&gt;p&lt;/g1&gt;의 정의는
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T131340Z" creationid="chabulhwi" creationdate="20250211T121510Z">
+        <seg>[문제 1](#문제-1)에 나온 술어 &lt;g1&gt;p&lt;/g1&gt;의 정의는
 비서술적인가?</seg>
       </tuv>
     </tu>
@@ -1379,8 +1379,8 @@ impredicative?</seg>
       <tuv lang="en">
         <seg>Is the function &lt;g1&gt;Type.id&lt;/g1&gt; from &lt;g2&gt;Question 8&lt;/g2&gt; universe-polymorphic?</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T123011Z" creationid="chabulhwi" creationdate="20250211T123011Z">
-        <seg>&lt;g2&gt;문제 8&lt;/g2&gt;의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;는 세계 다형적인가?</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T130613Z" creationid="chabulhwi" creationdate="20250211T123011Z">
+        <seg>[문제 8](#문제-8)의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;는 세계 다형적인가?</seg>
       </tuv>
     </tu>
     <tu>
@@ -1388,7 +1388,7 @@ impredicative?</seg>
         <seg>Is the function &lt;g1&gt;Type.id&lt;/g1&gt; of &lt;g2&gt;Question 8&lt;/g2&gt; universe-polymorphic?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T023204Z" creationid="chabulhwi" creationdate="20240927T023204Z">
-        <seg>&lt;g2&gt;문제 8&lt;/g2&gt;의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;는 세계 다형적인가?</seg>
+        <seg>[문제 8](#문제-8)의 함수 &lt;g1&gt;Type.id&lt;/g1&gt;는 세계 다형적인가?</seg>
       </tuv>
     </tu>
     <tu>
