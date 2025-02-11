@@ -184,3 +184,9 @@ introduction	도입
 existential introduction	존재 도입
 elimination	제거
 existential elimination	존재 제거
+predicative	서술적
+impredicative	비서술적
+equivalence relation	동치 관계
+equality	같음
+equality	상등
+less-than-or-equal-to	작거나 같음

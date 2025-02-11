@@ -393,6 +393,17 @@ text.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;x1/&gt;
+\(b\) The less-than-or-equal-to relation on natural numbers, &lt;g2&gt;· ≤ · : Nat → Nat
+→ Prop&lt;/g2&gt;, is an equivalence relation.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T124308Z" creationid="chabulhwi" creationdate="20250211T124308Z">
+        <seg>&lt;x1/&gt;
+\(b\) 자연수에 대한 작거나 같음 관계 &lt;g2&gt;· ≤ · : Nat → Nat → Prop&lt;/g2&gt;는 동치 관계이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;x1/&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092311Z" creationid="chabulhwi" creationdate="20240929T092311Z">
@@ -541,6 +552,15 @@ text.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Answer by true or false each of the following statements about equivalence
+relations.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T124040Z" creationid="chabulhwi" creationdate="20250211T124040Z">
+        <seg>동치 관계에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Answer by true or false each of the following statements about the constants you
 defined in &lt;g1&gt;Question 9&lt;/g1&gt;.</seg>
       </tuv>
@@ -658,6 +678,14 @@ same?</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T032109Z" creationid="chabulhwi" creationdate="20241128T032109Z">
         <seg>3장 퀴즈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Chapter 4 Quiz</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T120846Z" creationid="chabulhwi" creationdate="20250211T120540Z">
+        <seg>4장 퀴즈</seg>
       </tuv>
     </tu>
     <tu>
@@ -1015,6 +1043,15 @@ https://ncatlab.org/nlab/show/polymorphism#parametric_polymorphism.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>For information about the polymorphic type of dependent pairs &lt;g1&gt;PSigma&lt;/g1&gt;, see
+&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T125507Z" creationid="chabulhwi" creationdate="20250211T125507Z">
+        <seg>다형적 의존곱형 &lt;g1&gt;PSigma&lt;/g1&gt;에 관한 정보는 다음 문서에서 확인할 수 있다. &lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Give an example of a function that takes one or more implicit arguments.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T123309Z" creationid="chabulhwi" creationdate="20240928T123309Z">
@@ -1310,6 +1347,16 @@ x&lt;/g3&gt; holds.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T064107Z" creationid="chabulhwi" creationdate="20240929T064012Z">
         <seg>문장 '차불휘는 자기 자신을 사랑한다.'는 명제인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Is the definition of the predicate &lt;g1&gt;p&lt;/g1&gt; from &lt;g2&gt;Question 1&lt;/g2&gt;
+impredicative?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T123927Z" creationid="chabulhwi" creationdate="20250211T121510Z">
+        <seg>&lt;g2&gt;문제 1&lt;/g2&gt;에 나온 술어 &lt;g1&gt;p&lt;/g1&gt;의 정의는
+비서술적인가?</seg>
       </tuv>
     </tu>
     <tu>
@@ -1686,6 +1733,14 @@ is a necessary condition for &lt;g5&gt;p&lt;/g5&gt; to be true.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Note that &lt;g1&gt;PSigma.mk&lt;/g1&gt; is the name of the constructor for &lt;g2&gt;PSigma&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T125547Z" creationid="chabulhwi" creationdate="20250211T125515Z">
+        <seg>&lt;g1&gt;PSigma.mk&lt;/g1&gt;가 &lt;g2&gt;PSigma&lt;/g2&gt;의 구성자의 이름임을 유념하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Note that you can type the less-than-or-equal-to sign &lt;g1&gt;≤&lt;/g1&gt; with &lt;g2&gt;\le&lt;/g2&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T085439Z" creationid="chabulhwi" creationdate="20240928T085403Z">
@@ -1794,6 +1849,15 @@ that (b) is also a proposition since we &lt;g1&gt;can&lt;/g1&gt; determine its t
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T033759Z" creationid="chabulhwi" creationdate="20241128T033759Z">
         <seg>다음 보기를 증명하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Prove the following theorem, replacing the &lt;g1&gt;sorry&lt;/g1&gt; identifier with an actual
+proof:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T121128Z" creationid="chabulhwi" creationdate="20250211T120954Z">
+        <seg>&lt;g1&gt;sorry&lt;/g1&gt; 식별자를 실제 증명으로 바꿔 다음 정리를 증명하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2652,6 +2716,14 @@ filters plugin for OmegaT&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e8/&gt; to make Ome
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>\(a\) The equality relation is an equivalence relation.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T124133Z" creationid="chabulhwi" creationdate="20250211T124133Z">
+        <seg>\(a\) 같음 관계는 동치 관계이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>\(a\) The proposition &lt;g1&gt;¬p&lt;/g1&gt; is definitionally equal to &lt;g2&gt;p → False&lt;/g2&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T034317Z" creationid="chabulhwi" creationdate="20241128T034317Z">
@@ -2804,10 +2876,38 @@ def goldbach_conjecture : Prop :=</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>match p with</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T125552Z" creationid="chabulhwi" creationdate="20250211T125552Z">
+        <seg>match p with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>match s with</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T034216Z" creationid="chabulhwi" creationdate="20241128T034216Z">
         <seg>match s with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question01
+
+universe u
+
+variable {α : Sort u}
+
+def p (x : α) : Prop :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T121140Z" creationid="chabulhwi" creationdate="20250211T121140Z">
+        <seg>namespace Question01
+
+universe u
+
+variable {α : Sort u}
+
+def p (x : α) : Prop :=</seg>
       </tuv>
     </tu>
     <tu>
@@ -2950,6 +3050,46 @@ def f (α : Type u) (β : α → Type v) (a : α) (b : β a) : (a : α) × β a 
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>section
+
+universe u
+
+variable {α : Sort u} {p : α → Prop} {q : Prop}
+
+example (h : ∀ (x : α), p x) (a : α) : p a :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T124314Z" creationid="chabulhwi" creationdate="20250211T124314Z">
+        <seg>section
+
+universe u
+
+variable {α : Sort u} {p : α → Prop} {q : Prop}
+
+example (h : ∀ (x : α), p x) (a : α) : p a :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>section
+
+universe u v w
+
+variable {α : Sort u} {β : α → Sort v}
+
+example (f : (x : α) → β x) (a : α) : β a :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T125549Z" creationid="chabulhwi" creationdate="20250211T125549Z">
+        <seg>section
+
+universe u v w
+
+variable {α : Sort u} {β : α → Sort v}
+
+example (f : (x : α) → β x) (a : α) : β a :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>sorry</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T033741Z" creationid="chabulhwi" creationdate="20240928T083806Z">
@@ -2972,12 +3112,72 @@ def g.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
       <tuv lang="en">
         <seg>sorry
 
+end</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T124320Z" creationid="chabulhwi" creationdate="20250211T124320Z">
+        <seg>sorry
+
+end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+end Question01</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T121153Z" creationid="chabulhwi" creationdate="20250211T121153Z">
+        <seg>sorry
+
+end Question01</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
 end Question10</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022742Z" creationid="chabulhwi" creationdate="20240927T022742Z">
         <seg>sorry
 
 end Question10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+example (a : α) (b : β a) : (x : α) ×' β x :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T125550Z" creationid="chabulhwi" creationdate="20250211T125550Z">
+        <seg>sorry
+
+example (a : α) (b : β a) : (x : α) ×' β x :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+example (h₁ : ∃ (x : α), p x) (h₂ : ∀ (x : α), p x → q) : q :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T124316Z" creationid="chabulhwi" creationdate="20250211T124316Z">
+        <seg>sorry
+
+example (h₁ : ∃ (x : α), p x) (h₂ : ∀ (x : α), p x → q) : q :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+example (w : α) (h : p w) : ∃ (x : α), p x :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T124315Z" creationid="chabulhwi" creationdate="20250211T124315Z">
+        <seg>sorry
+
+example (w : α) (h : p w) : ∃ (x : α), p x :=</seg>
       </tuv>
     </tu>
     <tu>
@@ -3174,6 +3374,18 @@ example {α : Sort u} {β : Sort v} {γ : Sort w} (s : α ⊕' β) (f : α → �
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>sorry
+
+example {γ : Sort w} (p : (x : α) ×' β x) (f : (x : α) → β x → γ) : γ :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T125551Z" creationid="chabulhwi" creationdate="20250211T125551Z">
+        <seg>sorry
+
+example {γ : Sort w} (p : (x : α) ×' β x) (f : (x : α) → β x → γ) : γ :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>tpil-solutions</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241009T154035Z" creationid="chabulhwi" creationdate="20241009T154035Z">
@@ -3198,10 +3410,34 @@ example {α : Sort u} {β : Sort v} {γ : Sort w} (s : α ⊕' β) (f : α → �
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>| .mk a b =&gt; sorry
+
+end</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T125552Z" creationid="chabulhwi" creationdate="20250211T125552Z">
+        <seg>| .mk a b =&gt; sorry
+
+end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>“고등학교 공통수학2.” 천재교과서.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T092308Z" creationid="chabulhwi" creationdate="20240929T092308Z">
         <seg>“고등학교 공통수학2.” 천재교과서.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>∀ (q : α → Prop), ¬q x
+
+theorem forall_not_p (x : α) : ¬p x :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T121142Z" creationid="chabulhwi" creationdate="20250211T121142Z">
+        <seg>∀ (q : α → Prop), ¬q x
+
+theorem forall_not_p (x : α) : ¬p x :=</seg>
       </tuv>
     </tu>
     <tu>
