@@ -23,7 +23,7 @@ end Question01
 
 ## Question 2
 
-Is the definition of the predicate `p`, defined in [Question 1](#question-1),
+Is the definition of the predicate `p` from [Question 1](#question-1)
 impredicative?
 
 ## Question 3
