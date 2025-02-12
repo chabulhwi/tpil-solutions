@@ -23,6 +23,15 @@ explosion&lt;/g3&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>(&lt;g2&gt;True.intro&lt;/g2&gt;, or more commonly,
+&lt;g3&gt;trivial&lt;/g3&gt;)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250212T013921Z" creationid="chabulhwi" creationdate="20250212T013715Z">
+        <seg>(&lt;g2&gt;True.intro&lt;/g2&gt; 또는 &lt;g3&gt;trivial&lt;/g3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(&lt;g3&gt;And.left&lt;/g3&gt;)</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114849Z" creationid="chabulhwi" creationdate="20240930T114849Z">
