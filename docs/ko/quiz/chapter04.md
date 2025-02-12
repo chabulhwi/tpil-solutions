@@ -11,8 +11,7 @@ universe u
 
 variable {α : Sort u}
 
-def p (x : α) : Prop :=
-  ∀ (q : α → Prop), ¬q x
+def p (x : α) : Prop := ∀ (q : α → Prop), ¬q x
 
 theorem forall_not_p (x : α) : ¬p x :=
   sorry

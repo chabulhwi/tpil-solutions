@@ -2912,6 +2912,30 @@ def p (x : α) : Prop :=</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>namespace Question01
+
+universe u
+
+variable {α : Sort u}
+
+def p (x : α) : Prop := ∀ (q : α → Prop), ¬q x
+
+theorem forall_not_p (x : α) : ¬p x :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250212T010936Z" creationid="chabulhwi" creationdate="20250212T010936Z">
+        <seg>namespace Question01
+
+universe u
+
+variable {α : Sort u}
+
+def p (x : α) : Prop := ∀ (q : α → Prop), ¬q x
+
+theorem forall_not_p (x : α) : ¬p x :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>namespace Question03
 
 def f (x : Nat) := 2 * x - 1
