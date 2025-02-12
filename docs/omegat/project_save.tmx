@@ -1354,9 +1354,8 @@ x&lt;/g3&gt; holds.</seg>
         <seg>Is the definition of the predicate &lt;g1&gt;p&lt;/g1&gt; from &lt;g2&gt;Question 1&lt;/g2&gt;
 impredicative?</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20250211T131340Z" creationid="chabulhwi" creationdate="20250211T121510Z">
-        <seg>[문제 1](#문제-1)에 나온 술어 &lt;g1&gt;p&lt;/g1&gt;의 정의는
-비서술적인가?</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250212T012032Z" creationid="chabulhwi" creationdate="20250211T121510Z">
+        <seg>[문제 1](#문제-1)에 나온 술어 &lt;g1&gt;p&lt;/g1&gt;의 정의는 비서술적인가?</seg>
       </tuv>
     </tu>
     <tu>
