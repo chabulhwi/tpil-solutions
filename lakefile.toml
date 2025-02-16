@@ -1,4 +1,4 @@
-name = "«tpil-solutions»"
+name = "tpil-solutions"
 defaultTargets = ["TPIL"]
 
 [leanOptions]
