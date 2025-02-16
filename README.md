@@ -35,7 +35,7 @@ filters plugin for OmegaT][okapi] to make OmegaT parse Markdown files.
   text.
   * `ChapterXX`: Chapter XX of the text.
     * `Question*`: Solutions to the question(s) of my quiz.
-  * `Exam`: My additional examinations for the text.
+  * [`Exam`](./TPIL/Exam): My additional examinations for the text.
 
 ## Contributing
 

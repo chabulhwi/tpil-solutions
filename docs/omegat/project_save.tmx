@@ -226,6 +226,14 @@ end Question34</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;g1&gt;&lt;g2&gt;Exam&lt;/g2&gt;&lt;/g1&gt;: My additional examinations for the text.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250216T161859Z" creationid="chabulhwi" creationdate="20250216T161859Z">
+        <seg>&lt;g1&gt;&lt;g2&gt;Exam&lt;/g2&gt;&lt;/g1&gt;: 제가 추가로 만든 교재 시험 문제.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;g1&gt;&lt;g2&gt;TPIL&lt;/g2&gt;&lt;/g1&gt;: My solutions to the exercises and questions.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160553Z" creationid="chabulhwi" creationdate="20241009T160455Z">
