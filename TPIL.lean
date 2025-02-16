@@ -8,4 +8,4 @@ import TPIL.Chapter03.«Question03-08»
 import TPIL.Chapter03.«Question10-14»
 import TPIL.Chapter04.PredicateAndRelation
 import TPIL.Chapter04.Quantifier
-import TPIL.Chapter04.Exam01
+import TPIL.Exam.Exam01
