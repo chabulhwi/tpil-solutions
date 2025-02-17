@@ -108,9 +108,9 @@ infix:55 " can_pierce " => SpearShield.CanPierce
 
 variable {Spear : Type u} {Shield : Type u} [SpearShield Spear Shield]
 
-/-- A man trying to sell a spear and a shield claimed that his spear could pierce any shield, and
-then claimed that his shield was unpierceable. Then, asked about what would happen if he were to
-take his spear to strike his shield, the seller could not answer. -/
+/-- A man trying to sell a spear and a shield claimed that his spear could pierce any shield and
+then claimed that his shield could not be pierced. When asked about what would happen if he took his
+spear to strike his shield, the seller could not answer. -/
 theorem Paradox.spearShield
     (h₁ : ∃ (spr : Spear), ∀ (shd : Shield),  spr can_pierce shd)
     (h₂ : ∃ (shd : Shield), ∀ (spr : Spear), ¬spr can_pierce shd) : False :=
