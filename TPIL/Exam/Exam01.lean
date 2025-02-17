@@ -101,16 +101,10 @@ Prove the theorem `Paradox.spearShield` below:
 classical Chinese philosophical work known as Han Feizi (韓非子). -/
 class SpearShield (Spear : Type u) (Shield : Type v) where
   CanPierce : Spear → Shield → Prop
-  CanBlock  : Shield → Spear → Prop
 
 section
 
-namespace SpearShield
-
-infix:55 " can_pierce " => CanPierce
-infix:55 " can_block "  => CanBlock
-
-end SpearShield
+infix:55 " can_pierce " => SpearShield.CanPierce
 
 variable {Spear : Type u} {Shield : Type u} [SpearShield Spear Shield]
 
