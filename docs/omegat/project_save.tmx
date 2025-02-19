@@ -308,6 +308,14 @@ text.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;g1&gt;Exercise*&lt;/g1&gt;: Solutions to the exercise(s) in the chapter.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20250219T032218Z" creationid="chabulhwi" creationdate="20250219T032211Z">
+        <seg>&lt;g1&gt;Exercise*&lt;/g1&gt;: 교재 XX장의 연습 문제 풀이.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;g1&gt;Question*&lt;/g1&gt;: Solutions to the question(s) of my quiz.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241009T160607Z" creationid="chabulhwi" creationdate="20241009T160532Z">
