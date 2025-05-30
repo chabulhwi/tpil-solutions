@@ -5,7 +5,7 @@ Authors: Bulhwi Cha
 -/
 
 /-!
-# Chapter 5 Exercises
+# Chapter 4 Exercises
 
 ## Exercise 1
 -/
