@@ -7,7 +7,8 @@ Authors: Bulhwi Cha
 /-!
 # Exam 2
 
-This examination covers Chapter 6 of the text, focusing on implicit lambdas.
+This examination covers Chapters 5 and 6 of the text, focusing on classical logic and implicit
+lambdas.
 
 ## Problem 1
 
