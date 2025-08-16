@@ -35,7 +35,7 @@ example {α : Sort u} {p : α → Prop} : (∃ (x : α), p x) ↔ ∀ {r : Prop}
 ## Problem 2: Drinker Paradox Revisited
 
 Use either of the two lemmas in the `Drinker` namespace, `exists_or_left` or `exists_or_right`, to
-complete the proof of the theorem `Paradox.spearShield`.
+prove the theorem `Paradox.drinker` again.
 -/
 
 namespace Drinker
