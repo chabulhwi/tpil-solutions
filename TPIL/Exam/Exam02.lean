@@ -3,6 +3,7 @@ Copyright (c) 2025 Bulhwi Cha. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Bulhwi Cha
 -/
+import TPIL.Exam.Exam01
 
 /-!
 # Exam 2
@@ -37,10 +38,6 @@ Use either of the two lemmas in the `Drinker` namespace, `exists_or_left` or `ex
 complete the proof of the theorem `Paradox.spearShield`.
 -/
 
-/-- A class for formalizing the drinker paradox. -/
-class Drinker (Pub : Type) where
-  IsDrinking : Pub → Prop
-
 namespace Drinker
 
 theorem exists_or_left {α : Sort u} {p : α → Prop} {b : Prop} (a : α) :
@@ -69,7 +66,7 @@ open Drinker Classical
 
 /-- There is someone in the pub such that, if the person is drinking, then everyone in the pub is
 drinking. -/
-theorem Paradox.drinker (someone : Pub) :
+theorem Paradox.drinker' (someone : Pub) :
     ∃ (x : Pub), IsDrinking x → ∀ (y : Pub), IsDrinking y := by
   simp only [Decidable.imp_iff_not_or]
   show ∃ x, ¬IsDrinking x ∨ ∀ (y : Pub), IsDrinking y
