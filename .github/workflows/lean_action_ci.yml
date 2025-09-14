@@ -11,4 +11,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@v1
+
+      - id: lean-action
+        name: build, test, and lint project
+        uses: leanprover/lean-action@v1
+        with:
+          build-args: '--wfail'
