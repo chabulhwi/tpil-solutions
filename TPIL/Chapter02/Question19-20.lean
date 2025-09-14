@@ -12,6 +12,8 @@ Authors: Bulhwi Cha
 Only `f` and `g` are alpha-equivalent.
 -/
 
+section
+
 namespace Question19
 
 def a (n : Nat) := n ^ 2 + 1
@@ -34,3 +36,5 @@ namespace Question20
 def Nat.min (n m : Nat) := if n ≤ m then n else m
 
 end Question20
+
+end

@@ -99,6 +99,8 @@ end
 ## Exercise 4
 -/
 
+section
+
 def even (n : Nat) : Prop := ∃ m : Nat, n = 2 * m
 
 def prime (n : Nat) : Prop :=
@@ -121,6 +123,8 @@ def goldbach_weak_conjecture : Prop :=
 def fermat_last_theorem : Prop :=
   ∀ n : Nat, n > 2 →
   ¬∃ a b c : Nat, (a > 0 ∧ b > 0 ∧ c > 0) ∧ a ^ n + b ^ n = c ^ n
+
+end
 
 /-!
 ## Exercise 5

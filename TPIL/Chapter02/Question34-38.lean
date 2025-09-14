@@ -10,6 +10,8 @@ Authors: Bulhwi Cha
 ## Questions 34-35
 -/
 
+section
+
 namespace «Question34-35»
 
 universe u v
@@ -51,3 +53,5 @@ namespace Question38
 def id {α : Sort u} (a : α) := a
 
 end Question38
+
+end

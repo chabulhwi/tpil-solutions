@@ -10,6 +10,8 @@ Authors: Bulhwi Cha
 ## Question 1
 -/
 
+section
+
 namespace Question01
 
 universe u
@@ -26,3 +28,5 @@ example (x : α) : ¬p x :=
   fun (hp : p x) ↦ hp (fun _ ↦ True) True.intro
 
 end Question01
+
+end
