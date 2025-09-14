@@ -5,6 +5,8 @@ Authors: Bulhwi Cha
 -/
 import TPIL.Exam.Exam01
 
+set_option warn.sorry false
+
 /-!
 # Exam 2
 

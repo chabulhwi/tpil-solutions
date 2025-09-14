@@ -4,6 +4,8 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Bulhwi Cha
 -/
 
+set_option warn.sorry false
+
 /-!
 # Exam 1
 
