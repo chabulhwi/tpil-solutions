@@ -10,8 +10,6 @@ Authors: Bulhwi Cha
 ## Question 22
 -/
 
-section
-
 namespace Question22
 
 variable (α β γ : Type)
@@ -84,5 +82,3 @@ The statements (a)-(d) are all true.
 -/
 
 #print List.cons -- output: constructor List.cons.{u} : {α : Type u} → α → List α → List α
-
-end

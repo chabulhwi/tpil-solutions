@@ -10,8 +10,6 @@ Authors: Bulhwi Cha
 ## Question 13
 -/
 
-section
-
 #eval (λ x : Int => -x + 2) 3 -- output: -1
 
 /-!
@@ -23,5 +21,3 @@ def Nat.toBool (n : Nat) : Bool := if n = 0 then false else true
 #eval Nat.toBool 0 -- output: false
 #eval Nat.toBool 1 -- true
 #eval Nat.toBool 2 -- true
-
-end

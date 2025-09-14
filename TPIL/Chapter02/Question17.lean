@@ -10,9 +10,5 @@ Authors: Bulhwi Cha
 ## Question 17
 -/
 
-section
-
 def q17 (f : List Char → Nat) (g : (List Char → Nat) → (String → Nat)) (s : String) : Nat :=
   (g f) s
-
-end

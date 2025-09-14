@@ -10,8 +10,6 @@ Authors: Bulhwi Cha
 ## Question 1
 -/
 
-section
-
 #check -2        -- output: Int
 #check 3.14      -- Float
 #check 'L'       -- Char
@@ -95,5 +93,3 @@ def q10a.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=
 
 def q10b.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=
   fun α : Type u ↦ (fun β : Type v ↦ (fun γ : Type w ↦ α × β × γ))
-
-end
