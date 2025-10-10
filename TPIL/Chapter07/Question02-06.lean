@@ -106,7 +106,6 @@ end Question04
 namespace Question05
 
 example : Inhabited Bool := sorry
-
 example : Inhabited Nat := sorry
 
 section
