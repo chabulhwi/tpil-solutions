@@ -190,3 +190,17 @@ equivalence relation	동치 관계
 equality	같음
 equality	상등
 less-than-or-equal-to	작거나 같음
+recursor	재귀자
+namespace	이름 공간
+boolean	불
+operation	연산
+identity	항등식
+identity	항진 명제
+verify	검증하다
+notion	개념
+composition	합성
+partial function	부분 함수
+show	보이다
+subtype	부분 유형
+odd number	홀수
+inhabited	거주자가 있는

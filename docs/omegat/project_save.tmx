@@ -190,6 +190,86 @@ end Question34</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>-/
+def DayOrEnd (d : DayOfWeek) : Type :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041635Z" creationid="chabulhwi" creationdate="20251010T041635Z">
+        <seg>-/
+def DayOrEnd (d : DayOfWeek) : Type :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>-/
+def and (a b : Bool) : Bool :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042525Z" creationid="chabulhwi" creationdate="20251010T042525Z">
+        <seg>-/
+def and (a b : Bool) : Bool :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>-/
+def listDayOrEnd (d : DayOfWeek) : DayOrEnd d :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041644Z" creationid="chabulhwi" creationdate="20251010T041644Z">
+        <seg>-/
+def listDayOrEnd (d : DayOfWeek) : DayOrEnd d :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>-/
+def not (a : Bool) : Bool :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042535Z" creationid="chabulhwi" creationdate="20251010T042535Z">
+        <seg>-/
+def not (a : Bool) : Bool :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>-/
+def or (a b : Bool) : Bool :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042520Z" creationid="chabulhwi" creationdate="20251010T042520Z">
+        <seg>-/
+def or (a b : Bool) : Bool :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>-/
+inductive DayOfWeek where</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041624Z" creationid="chabulhwi" creationdate="20251010T041624Z">
+        <seg>-/
+inductive DayOfWeek where</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>-/
+theorem and_commutative (a b : Bool) : and a b = and b a :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042538Z" creationid="chabulhwi" creationdate="20251010T042538Z">
+        <seg>-/
+theorem and_commutative (a b : Bool) : and a b = and b a :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>-/
+theorem not_involutive (a : Bool) : not (not a) = a :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042536Z" creationid="chabulhwi" creationdate="20251010T042536Z">
+        <seg>-/
+theorem not_involutive (a : Bool) : not (not a) = a :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>2024년 10월 19일에
 마지막으로 접속함.</seg>
       </tuv>
@@ -466,6 +546,16 @@ text.</seg>
     <tu>
       <tuv lang="en">
         <seg>&lt;x2/&gt;
+\(b\) What are the constructors and recursor of the &lt;g3&gt;Bool&lt;/g3&gt; type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041445Z" creationid="chabulhwi" creationdate="20251010T041241Z">
+        <seg>&lt;x2/&gt;
+\(b\) &lt;g3&gt;Bool&lt;/g3&gt; 유형의 구성자와 재귀자는 무엇인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;x2/&gt;
 \(c\) At least one of them has a dependent function type.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120336Z" creationid="chabulhwi" creationdate="20240928T120336Z">
@@ -723,6 +813,14 @@ same?</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Chapter 7 Quiz</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041122Z" creationid="chabulhwi" creationdate="20251010T041114Z">
+        <seg>7장 퀴즈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Conjunction</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T114403Z" creationid="chabulhwi" creationdate="20240930T114403Z">
@@ -797,11 +895,29 @@ the one less than or equal to the other.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Define boolean operations &lt;g1&gt;and&lt;/g1&gt;, &lt;g2&gt;or&lt;/g2&gt;, &lt;g3&gt;not&lt;/g3&gt; on the &lt;g4&gt;Bool&lt;/g4&gt; type, and verify the
+two identities listed below:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042419Z" creationid="chabulhwi" creationdate="20251010T042253Z">
+        <seg>&lt;g4&gt;Bool&lt;/g4&gt; 유형에 대한 불 연산 &lt;g1&gt;and&lt;/g1&gt;, &lt;g2&gt;or&lt;/g2&gt;, &lt;g3&gt;not&lt;/g3&gt;을 정의하고, 아래 나열된 두 항등식을 검증하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Define the following function, replacing the &lt;g1&gt;sorry&lt;/g1&gt; identifier with an actual
 expression &lt;g2&gt;containing&lt;/g2&gt; the arguments &lt;g3&gt;f&lt;/g3&gt;, &lt;g4&gt;g&lt;/g4&gt;, and &lt;g5&gt;s&lt;/g5&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T083623Z" creationid="chabulhwi" creationdate="20240928T083017Z">
         <seg>&lt;g1&gt;sorry&lt;/g1&gt; 식별자를 실제 식으로 바꿔 다음 함수를 정의하라. 그 식은 세 인수 &lt;g3&gt;f&lt;/g3&gt;, &lt;g4&gt;g&lt;/g4&gt;, &lt;g5&gt;s&lt;/g5&gt;를 &lt;g2&gt;포함해야&lt;/g2&gt; 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Define the following two functions, &lt;g1&gt;DayOrEnd&lt;/g1&gt; and &lt;g2&gt;listDayOrEnd&lt;/g2&gt;, which are
+within the &lt;g3&gt;DayOfWeek&lt;/g3&gt; namespace:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041609Z" creationid="chabulhwi" creationdate="20251010T041427Z">
+        <seg>&lt;g3&gt;DayOfWeek&lt;/g3&gt; 이름 공간 안의 두 함수 &lt;g1&gt;DayOrEnd&lt;/g1&gt;와 &lt;g2&gt;listDayOrEnd&lt;/g2&gt;를 정의하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -828,6 +944,15 @@ alternative notation for &lt;g3&gt;(x : α) → p&lt;/g3&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241229T093129Z" creationid="chabulhwi" creationdate="20241229T093129Z">
         <seg>린에서의 정의: &lt;g1&gt;p&lt;/g1&gt;가 임의의 식이면, &lt;g2&gt;∀ (x : α), p&lt;/g2&gt;는 &lt;g3&gt;(x : α) → p&lt;/g3&gt;의 다른 표기법이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Develop a notion of composition for partial functions from &lt;g1&gt;α&lt;/g1&gt; to &lt;g2&gt;β&lt;/g2&gt; and &lt;g3&gt;β&lt;/g3&gt; to
+&lt;g4&gt;γ&lt;/g4&gt;, and show that it behaves as expected.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T043055Z" creationid="chabulhwi" creationdate="20251010T042550Z">
+        <seg>&lt;g1&gt;α&lt;/g1&gt;에서 &lt;g2&gt;β&lt;/g2&gt;로의 그리고 &lt;g3&gt;β&lt;/g3&gt;에서 &lt;g4&gt;γ&lt;/g4&gt;로의 부분 함수의 합성 개념을 개발하라. 그러고 나서, 이 개념이 우리가 예상한 대로 작동함을 보여라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2266,6 +2391,16 @@ then check the value of each expression.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Show that &lt;g1&gt;Bool&lt;/g1&gt; and &lt;g2&gt;Nat&lt;/g2&gt; are inhabited, that the product of two inhabited
+types is inhabited, and that the type of functions to an inhabited type is
+inhabited.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T043850Z" creationid="chabulhwi" creationdate="20251010T043620Z">
+        <seg>두 유형 &lt;g1&gt;Bool&lt;/g1&gt;과 &lt;g2&gt;Nat&lt;/g2&gt;에 거주자가 있고, 거주자가 있는 두 유형의 곱에도 거주자가 있으며, 거주자가 있는 유형으로의 함수의 유형에도 거주자가 있음을 보여라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Show that the law of excluded middle can be derived from the principle of
 double-negation elimination.</seg>
       </tuv>
@@ -2473,6 +2608,14 @@ Community&lt;/g11&gt;&lt;g12&gt;&lt;/g12&gt;&lt;e19/&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T034453Z" creationid="chabulhwi" creationdate="20241128T034453Z">
         <seg>&lt;g1&gt;Empty.elim&lt;/g1&gt;를 이용해, 다음 유형에 속하는 항의 보기를 들어라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use &lt;g1&gt;Subtype&lt;/g1&gt; to define the type of odd numbers.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042616Z" creationid="chabulhwi" creationdate="20251010T042616Z">
+        <seg>&lt;g1&gt;Subtype&lt;/g1&gt;을 이용해 홀수의 유형을 정의하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2789,6 +2932,14 @@ filters plugin for OmegaT&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e8/&gt; to make Ome
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>\(a\) What are the introduction and elimination rules for the &lt;g1&gt;Bool&lt;/g1&gt; type?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041224Z" creationid="chabulhwi" creationdate="20251010T041224Z">
+        <seg>\(a\) &lt;g1&gt;Bool&lt;/g1&gt; 유형의 도입 규칙과 제거 규칙은 무엇인가?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>def Type.id : Type → Type := fun x : Type ↦ x</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T021843Z" creationid="chabulhwi" creationdate="20240927T021843Z">
@@ -2917,6 +3068,14 @@ def goldbach_conjecture : Prop :=</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>match d with</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041645Z" creationid="chabulhwi" creationdate="20251010T041636Z">
+        <seg>match d withmatch d with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>match p with</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20250211T125552Z" creationid="chabulhwi" creationdate="20250211T125552Z">
@@ -2977,6 +3136,18 @@ theorem forall_not_p (x : α) : ¬p x :=</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>namespace Question02
+
+/-- An inductive type with a finite, enumerated list of days of the week.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041623Z" creationid="chabulhwi" creationdate="20251010T041623Z">
+        <seg>namespace Question02
+
+/-- An inductive type with a finite, enumerated list of days of the week.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>namespace Question03
 
 def f (x : Nat) := 2 * x - 1
@@ -2991,6 +3162,22 @@ def f (x : Nat) := 2 * x - 1
 #eval f(1)
 
 end Question03</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question03
+
+namespace Bool
+
+/-- Boolean “or”, also known as disjunction.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042517Z" creationid="chabulhwi" creationdate="20251010T042517Z">
+        <seg>namespace Question03
+
+namespace Bool
+
+/-- Boolean “or”, also known as disjunction.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3165,6 +3352,54 @@ example (f : (x : α) → β x) (a : α) : β a :=</seg>
       <tuv lang="en">
         <seg>sorry
 
+/-- Boolean negation, also known as Boolean complement.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042534Z" creationid="chabulhwi" creationdate="20251010T042528Z">
+        <seg>sorry
+
+/-- Boolean negation, also known as Boolean complement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+/-- Boolean “and”, also known as conjunction.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042521Z" creationid="chabulhwi" creationdate="20251010T042521Z">
+        <seg>sorry
+
+/-- Boolean “and”, also known as conjunction.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+/-- `Bool.and_comm`.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042537Z" creationid="chabulhwi" creationdate="20251010T042537Z">
+        <seg>sorry
+
+/-- `Bool.and_comm`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+/-- `Bool.not_not`.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042536Z" creationid="chabulhwi" creationdate="20251010T042536Z">
+        <seg>sorry
+
+/-- `Bool.not_not`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
 def g.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022741Z" creationid="chabulhwi" creationdate="20240927T022741Z">
@@ -3183,6 +3418,22 @@ end</seg>
         <seg>sorry
 
 end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+end Bool
+
+end Question03</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042539Z" creationid="chabulhwi" creationdate="20251010T042539Z">
+        <seg>sorry
+
+end Bool
+
+end Question03</seg>
       </tuv>
     </tu>
     <tu>
@@ -3483,6 +3734,160 @@ end</seg>
         <seg>| .mk a b =&gt; sorry
 
 end</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| friday</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041629Z" creationid="chabulhwi" creationdate="20251010T041629Z">
+        <seg>| friday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| friday    =&gt; sorry</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041641Z" creationid="chabulhwi" creationdate="20251010T041641Z">
+        <seg>| friday    =&gt; sorry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| monday</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041625Z" creationid="chabulhwi" creationdate="20251010T041625Z">
+        <seg>| monday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| monday    =&gt; sorry</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041654Z" creationid="chabulhwi" creationdate="20251010T041638Z">
+        <seg>| monday    =&gt; sorry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| saturday
+deriving Repr
+
+namespace DayOfWeek
+
+/-- If `d` is a weekday, `DayOrEnd d` is a type of vectors with five days of the week; otherwise,
+it's a type of vectors with two days of the week.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041633Z" creationid="chabulhwi" creationdate="20251010T041633Z">
+        <seg>| saturday
+deriving Repr
+
+namespace DayOfWeek
+
+/-- If `d` is a weekday, `DayOrEnd d` is a type of vectors with five days of the week; otherwise,
+it's a type of vectors with two days of the week.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| saturday  =&gt; sorry
+
+/-- If `d` is a weekday, `listDayOrEnd d` is the vector with weekdays; otherwise, it's the vector
+with the days in the weekend.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041642Z" creationid="chabulhwi" creationdate="20251010T041642Z">
+        <seg>| saturday  =&gt; sorry
+
+/-- If `d` is a weekday, `listDayOrEnd d` is the vector with weekdays; otherwise, it's the vector
+with the days in the weekend.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| saturday  =&gt; sorry
+
+end DayOfWeek
+
+end Question02</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041704Z" creationid="chabulhwi" creationdate="20251010T041704Z">
+        <seg>| saturday  =&gt; sorry
+
+end DayOfWeek
+
+end Question02</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| sunday</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041625Z" creationid="chabulhwi" creationdate="20251010T041625Z">
+        <seg>| sunday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| sunday    =&gt; #v[sunday, saturday]</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041646Z" creationid="chabulhwi" creationdate="20251010T041646Z">
+        <seg>| sunday    =&gt; #v[sunday, saturday]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| sunday    =&gt; Vector DayOfWeek 2</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041637Z" creationid="chabulhwi" creationdate="20251010T041637Z">
+        <seg>| sunday    =&gt; Vector DayOfWeek 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| thursday</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041628Z" creationid="chabulhwi" creationdate="20251010T041628Z">
+        <seg>| thursday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| thursday  =&gt; sorry</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041640Z" creationid="chabulhwi" creationdate="20251010T041640Z">
+        <seg>| thursday  =&gt; sorry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| tuesday</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041626Z" creationid="chabulhwi" creationdate="20251010T041626Z">
+        <seg>| tuesday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| tuesday   =&gt; sorry</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041656Z" creationid="chabulhwi" creationdate="20251010T041639Z">
+        <seg>| tuesday   =&gt; sorry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| wednesday</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041627Z" creationid="chabulhwi" creationdate="20251010T041627Z">
+        <seg>| wednesday</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| wednesday =&gt; sorry</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041639Z" creationid="chabulhwi" creationdate="20251010T041639Z">
+        <seg>| wednesday =&gt; sorry</seg>
       </tuv>
     </tu>
     <tu>
