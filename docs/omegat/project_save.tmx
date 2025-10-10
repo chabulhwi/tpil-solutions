@@ -3070,8 +3070,8 @@ def goldbach_conjecture : Prop :=</seg>
       <tuv lang="en">
         <seg>match d with</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041645Z" creationid="chabulhwi" creationdate="20251010T041636Z">
-        <seg>match d withmatch d with</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T045929Z" creationid="chabulhwi" creationdate="20251010T041636Z">
+        <seg>match d with</seg>
       </tuv>
     </tu>
     <tu>

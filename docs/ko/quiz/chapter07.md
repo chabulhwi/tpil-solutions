@@ -28,7 +28,7 @@ namespace DayOfWeek
 /-- If `d` is a weekday, `DayOrEnd d` is a type of vectors with five days of the week; otherwise,
 it's a type of vectors with two days of the week. -/
 def DayOrEnd (d : DayOfWeek) : Type :=
-  match d withmatch d with
+  match d with
   | sunday    => Vector DayOfWeek 2
   | monday    => sorry
   | tuesday   => sorry
@@ -40,7 +40,7 @@ def DayOrEnd (d : DayOfWeek) : Type :=
 /-- If `d` is a weekday, `listDayOrEnd d` is the vector with weekdays; otherwise, it's the vector
 with the days in the weekend. -/
 def listDayOrEnd (d : DayOfWeek) : DayOrEnd d :=
-  match d withmatch d with
+  match d with
   | sunday    => #v[sunday, saturday]
   | monday    => sorry
   | tuesday   => sorry
