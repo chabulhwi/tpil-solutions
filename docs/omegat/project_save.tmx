@@ -3790,6 +3790,26 @@ it's a type of vectors with two days of the week.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>| saturday
+deriving Repr
+
+namespace DayOfWeek
+
+/-- If `d` is a weekday, `DayOrEnd d` is the type of vectors with five days of the week; otherwise,
+it's a type of vectors with two days of the week.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T050735Z" creationid="chabulhwi" creationdate="20251010T050735Z">
+        <seg>| saturday
+deriving Repr
+
+namespace DayOfWeek
+
+/-- If `d` is a weekday, `DayOrEnd d` is the type of vectors with five days of the week; otherwise,
+it's a type of vectors with two days of the week.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>| saturday  =&gt; sorry
 
 /-- If `d` is a weekday, `listDayOrEnd d` is the vector with weekdays; otherwise, it's the vector
