@@ -126,8 +126,6 @@ end Question05
 ## Question 6
 -/
 
-set_option warn.sorry false
-
 namespace Question06
 
 def Nat.Odd : Type := sorry
