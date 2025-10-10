@@ -951,8 +951,8 @@ alternative notation for &lt;g3&gt;(x : α) → p&lt;/g3&gt;.</seg>
         <seg>Develop a notion of composition for partial functions from &lt;g1&gt;α&lt;/g1&gt; to &lt;g2&gt;β&lt;/g2&gt; and &lt;g3&gt;β&lt;/g3&gt; to
 &lt;g4&gt;γ&lt;/g4&gt;, and show that it behaves as expected.</seg>
       </tuv>
-      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T043055Z" creationid="chabulhwi" creationdate="20251010T042550Z">
-        <seg>&lt;g1&gt;α&lt;/g1&gt;에서 &lt;g2&gt;β&lt;/g2&gt;로의 그리고 &lt;g3&gt;β&lt;/g3&gt;에서 &lt;g4&gt;γ&lt;/g4&gt;로의 부분 함수의 합성 개념을 개발하라. 그러고 나서, 이 개념이 우리가 예상한 대로 작동함을 보여라.</seg>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251010T051134Z" creationid="chabulhwi" creationdate="20251010T042550Z">
+        <seg>&lt;g1&gt;α&lt;/g1&gt;에서 &lt;g2&gt;β&lt;/g2&gt;로의 그리고 &lt;g3&gt;β&lt;/g3&gt;에서 &lt;g4&gt;γ&lt;/g4&gt;로의 부분 함수의 합성 개념을 정의하라. 그러고 나서, 이 개념이 우리가 예상한 대로 작동함을 보여라.</seg>
       </tuv>
     </tu>
     <tu>
