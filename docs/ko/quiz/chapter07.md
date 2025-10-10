@@ -26,7 +26,7 @@ deriving Repr
 namespace DayOfWeek
 
 /-- If `d` is a weekday, `DayOrEnd d` is the type of vectors with five days of the week; otherwise,
-it's a type of vectors with two days of the week. -/
+it's the type of vectors with two days of the week. -/
 def DayOrEnd (d : DayOfWeek) : Type :=
   match d with
   | sunday    => Vector DayOfWeek 2
