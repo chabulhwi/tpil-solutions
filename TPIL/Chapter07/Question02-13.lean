@@ -139,3 +139,132 @@ example : Odd := sorry
 end Nat
 
 end Question06
+
+/-!
+## Question 7
+-/
+
+namespace Question07
+
+theorem Nat.zero_add (n : Nat) : 0 + n = n :=
+  sorry
+
+end Question07
+
+/-!
+## Question 8
+-/
+
+namespace Question08
+
+namespace List
+
+theorem append_nil (as : List α) : as ++ [] = as :=
+  sorry
+
+theorem append_assoc (as bs cs : List α) : (as ++ bs) ++ cs = as ++ (bs ++ cs) := by
+  sorry
+
+end List
+
+end Question08
+
+/-!
+## Question 9
+-/
+
+namespace Question09
+
+/-- The type of binary trees. -/
+inductive BinaryTree where
+  | leaf : BinaryTree
+  | node : BinaryTree → BinaryTree → BinaryTree
+
+export BinaryTree (leaf node)
+
+/-- a binary tree corresponding to the following ASCII art:
+```
+    o
+   / \
+  o   o
+ / \
+o   o
+```
+-/
+def q09 : BinaryTree := sorry
+
+end Question09
+
+/-!
+## Question 10
+-/
+
+namespace Question10
+
+inductive Foo : Type where
+  | cons₁ : Nat → Foo
+  | cons₂ : Nat → Foo
+
+export Foo (cons₁ cons₂)
+
+end Question10
+
+/-!
+## Question 11
+-/
+
+namespace Question11
+
+open Question10
+
+example {a b : Nat} (h : cons₁ a = cons₁ b) {r : Nat → Nat → Prop} (h12 : a = b → r a b) : r a b :=
+  (show (a = b → r a b) → r a b from Eq.recOn h
+    (motive := fun (bar : Foo) (_ : cons₁ a = bar) ↦ Foo.recOn bar
+      (cons₁ := fun (c : Nat) ↦ (a = c → r a c) → r a c)
+      (cons₂ := fun (_ : Nat) ↦ sorry))
+    (refl := sorry))
+  (show a = b → r a b from sorry)
+
+example {a b : Nat} (h : cons₁ a = cons₂ b) (p : Prop) : p :=
+  Eq.recOn h
+    (motive := fun (bar : Foo) (_ : cons₁ a = bar) ↦ Foo.recOn bar
+      (cons₁ := fun (_ : Nat) ↦ sorry)
+      (cons₂ := fun (_ : Nat) ↦ p))
+    (refl := sorry)
+
+end Question11
+
+/-!
+## Question 12
+-/
+
+namespace Question12
+
+theorem Bool.false_ne_true : false ≠ true :=
+  sorry
+
+end Question12
+
+/-!
+## Question 13
+-/
+
+namespace Question13
+
+namespace Eq
+
+variable {α β : Type u} {a b c : α}
+
+theorem symm (h : a = b) : b = a :=
+  match h with
+  | rfl => rfl
+
+theorem trans (h₁ : a = b) (h₂ : b = c) : a = c :=
+  sorry
+
+theorem congr (f : α → β) (h : a = b) : f a = f b :=
+  sorry
+
+end Eq
+
+end Question13
