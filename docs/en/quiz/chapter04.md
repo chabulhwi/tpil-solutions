@@ -2,8 +2,7 @@
 
 ## Question 1
 
-Prove the following theorem, replacing the `sorry` identifier with an actual
-proof:
+Prove the following theorem:
 
 ```lean
 namespace Question01
