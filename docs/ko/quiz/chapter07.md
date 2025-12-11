@@ -99,3 +99,209 @@ end Question03
 ## 문제 6
 
 `Subtype`을 이용해 홀수의 유형을 정의하라.
+
+## 문제 7
+
+`Nat.recOn`을 이용해 정리 `Nat.zero_add`를 증명하라.
+
+## 문제 8
+
+다음 정리를 증명하라.
+
+```
+namespace Question08
+
+namespace List
+
+theorem append_nil (as : List α) : as ++ [] = as :=
+  sorry
+
+theorem append_assoc (as bs cs : List α) : (as ++ bs) ++ cs = as ++ (bs ++ cs) := by
+  sorry
+
+end List
+
+end Question08
+```
+
+## 문제 9
+
+```
+    o
+   / \
+  o   o
+ / \
+o   o
+```
+
+위의 아스키 아트에 대응하는 `BinaryTree`의 원소를 정의하라.
+
+```lean
+namespace Question09
+
+/-- The type of binary trees. -/
+inductive BinaryTree where
+  | leaf : BinaryTree
+  | node : BinaryTree → BinaryTree → BinaryTree
+
+export BinaryTree (leaf node)
+
+def q09 : BinaryTree := sorry
+
+end Question09
+```
+
+## 문제 10
+
+```lean
+namespace Question10
+
+inductive Foo : Type where
+  | cons₁ : Nat → Foo
+  | cons₂ : Nat → Foo
+
+export Foo (cons₁ cons₂)
+
+end Question10
+```
+
+위에서 정의된 귀납형 `Foo`의 구성자들에 대한 다음 명제가 참임을 증명하거나 거짓임을 증명하라.
+
+\(a\) `∀ {a b : Nat}, cons₁ a = cons₁ b → a = b` \
+\(b\) `∃ (a b : Nat), cons₁ a = cons₂ b`
+
+## 문제 11
+
+`sorry` 식별자를 실제 식으로 바꿔 다음 보기를 증명하라.
+
+```lean
+namespace Question11
+
+open Question10
+
+example {a b : Nat} (h : cons₁ a = cons₁ b) {r : Nat → Nat → Prop} (h12 : a = b → r a b) : r a b :=
+  (show (a = b → r a b) → r a b from Eq.recOn h
+    (motive := fun (bar : Foo) (_ : cons₁ a = bar) ↦ Foo.recOn bar
+      (cons₁ := fun (c : Nat) ↦ (a = c → r a c) → r a c)
+      (cons₂ := fun (_ : Nat) ↦ sorry))
+    (refl := sorry))
+  (show a = b → r a b from sorry)
+
+example {a b : Nat} (h : cons₁ a = cons₂ b) (p : Prop) : p :=
+  Eq.recOn h
+    (motive := fun (bar : Foo) (_ : cons₁ a = bar) ↦ Foo.recOn bar
+      (cons₁ := fun (_ : Nat) ↦ sorry)
+      (cons₂ := fun (_ : Nat) ↦ p))
+    (refl := sorry)
+
+end Question11
+```
+
+## 문제 12
+
+다음 정리를 증명하라.
+
+```lean
+namespace Question12
+
+theorem Bool.false_ne_true : false ≠ true :=
+  sorry
+
+end Question12
+```
+
+## 문제 13
+
+다음 정리를 증명하라.
+
+```lean
+namespace Question13
+
+namespace Eq
+
+variable {α β : Type u} {a b c : α}
+
+theorem symm (h : a = b) : b = a :=
+  match h with
+  | rfl => rfl
+
+theorem trans (h₁ : a = b) (h₂ : b = c) : a = c :=
+  sorry
+
+theorem congr (f : α → β) (h : a = b) : f a = f b :=
+  sorry
+
+end Eq
+
+end Question13
+```
+
+## 문제 14
+
+다음 문단에서, 대괄호로 묶인 명사구 'the latter'와 'it'은 무엇을 가리키는가?
+
+> We have seen that the constructor to an inductive type takes
+> *parameters*—intuitively, the arguments that remain fixed throughout the
+> inductive construction—and *indices*, the arguments parameterizing the family
+> of types that is simultaneously under construction. Each constructor should
+> have a type, where the argument types are built up from previously defined
+> types, the parameter and index types, and the inductive family currently being
+> defined. The requirement is that if **[the latter]** is present at all,
+> **[it]** occurs only *strictly positively*. This means simply that any
+> argument type to the constructor in which **[it]** occurs is a dependent arrow
+> type in which the inductive type under definition occurs only as the resulting
+> type, where the indices are given in terms of constants and previous
+> arguments.
+
+## 문제 15
+
+다음 정리를 증명하라.
+
+```lean
+namespace Question15
+
+namespace Nat
+
+mutual
+  inductive Even : Nat → Prop where
+    | even_zero : Even 0
+    | even_succ : (n : Nat) → Odd n → Even (n + 1)
+
+  inductive Odd : Nat → Prop where
+    | odd_succ : (n : Nat) → Even n → Odd (n + 1)
+end
+
+theorem odd_one : Odd 1 :=
+  sorry
+
+theorem even_two : Even 2 :=
+  sorry
+
+end Nat
+
+end Question15
+```
+
+## 문제 16
+
+```
+     0
+   / | \
+  1  2  3
+ / \     \
+4   5     6
+```
+
+위의 아스키 아트에 대응하는 `FinTree Nat`의 원소를 정의하라.
+
+```lean
+namespace Question16
+
+inductive FinTree (α : Type u) where
+  | mk : α → List (FinTree α) → FinTree α
+
+def q16 : FinTree Nat :=
+  sorry
+
+end Question16
+```

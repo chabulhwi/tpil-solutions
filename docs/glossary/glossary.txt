@@ -204,3 +204,5 @@ show	보이다
 subtype	부분 유형
 odd number	홀수
 inhabited	거주자가 있는
+ASCII	아스키
+ASCII art	아스키 아트

@@ -172,10 +172,90 @@ end Question34</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>(cons₁ := fun (_ : Nat) ↦ sorry)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103231Z" creationid="chabulhwi" creationdate="20251211T103231Z">
+        <seg>(cons₁ := fun (_ : Nat) ↦ sorry)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(cons₁ := fun (c : Nat) ↦ (a = c → r a c) → r a c)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103218Z" creationid="chabulhwi" creationdate="20251211T103218Z">
+        <seg>(cons₁ := fun (c : Nat) ↦ (a = c → r a c) → r a c)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(cons₂ := fun (_ : Nat) ↦ p))</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103232Z" creationid="chabulhwi" creationdate="20251211T103232Z">
+        <seg>(cons₂ := fun (_ : Nat) ↦ p))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(cons₂ := fun (_ : Nat) ↦ sorry))</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103219Z" creationid="chabulhwi" creationdate="20251211T103219Z">
+        <seg>(cons₂ := fun (_ : Nat) ↦ sorry))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>(ibid.)</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T065459Z" creationid="chabulhwi" creationdate="20240929T065424Z">
         <seg>(같은 문서 항목)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(motive := fun (bar : Foo) (_ : cons₁ a = bar) ↦ Foo.recOn bar</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103217Z" creationid="chabulhwi" creationdate="20251211T103217Z">
+        <seg>(motive := fun (bar : Foo) (_ : cons₁ a = bar) ↦ Foo.recOn bar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(refl := sorry)
+
+end Question11</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103233Z" creationid="chabulhwi" creationdate="20251211T103233Z">
+        <seg>(refl := sorry)
+
+end Question11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(refl := sorry))</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103220Z" creationid="chabulhwi" creationdate="20251211T103220Z">
+        <seg>(refl := sorry))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(show (a = b → r a b) → r a b from Eq.recOn h</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103216Z" creationid="chabulhwi" creationdate="20251211T103216Z">
+        <seg>(show (a = b → r a b) → r a b from Eq.recOn h</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>(show a = b → r a b from sorry)
+
+example {a b : Nat} (h : cons₁ a = cons₂ b) (p : Prop) : p :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103222Z" creationid="chabulhwi" creationdate="20251211T103222Z">
+        <seg>(show a = b → r a b from sorry)
+
+example {a b : Nat} (h : cons₁ a = cons₂ b) (p : Prop) : p :=</seg>
       </tuv>
     </tu>
     <tu>
@@ -241,6 +321,16 @@ def or (a b : Bool) : Bool :=</seg>
     <tu>
       <tuv lang="en">
         <seg>-/
+inductive BinaryTree where</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103011Z" creationid="chabulhwi" creationdate="20251211T103011Z">
+        <seg>-/
+inductive BinaryTree where</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>-/
 inductive DayOfWeek where</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041624Z" creationid="chabulhwi" creationdate="20251010T041624Z">
@@ -266,6 +356,58 @@ theorem not_involutive (a : Bool) : not (not a) = a :=</seg>
       <tuv lang="ko" changeid="chabulhwi" changedate="20251010T042536Z" creationid="chabulhwi" creationdate="20251010T042536Z">
         <seg>-/
 theorem not_involutive (a : Bool) : not (not a) = a :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>/ \</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102801Z" creationid="chabulhwi" creationdate="20251211T102801Z">
+        <seg>/ \</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>/ \
+o   o</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102808Z" creationid="chabulhwi" creationdate="20251211T102808Z">
+        <seg>/ \
+o   o</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>/ \     \
+4   5     6</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103436Z" creationid="chabulhwi" creationdate="20251211T103436Z">
+        <seg>/ \     \
+4   5     6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>/ | \</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103434Z" creationid="chabulhwi" creationdate="20251211T103434Z">
+        <seg>/ | \</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>0</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103433Z" creationid="chabulhwi" creationdate="20251211T103433Z">
+        <seg>0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1  2  3</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103435Z" creationid="chabulhwi" creationdate="20251211T103435Z">
+        <seg>1  2  3</seg>
       </tuv>
     </tu>
     <tu>
@@ -895,6 +1037,22 @@ the one less than or equal to the other.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Define an element of &lt;g1&gt;BinaryTree&lt;/g1&gt; that corresponds to the above ASCII art:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103009Z" creationid="chabulhwi" creationdate="20251211T102839Z">
+        <seg>위의 아스키 아트에 대응하는 &lt;g1&gt;BinaryTree&lt;/g1&gt;의 원소를 정의하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Define an element of &lt;g1&gt;FinTree Nat&lt;/g1&gt; that corresponds to the above ASCII art:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103458Z" creationid="chabulhwi" creationdate="20251211T103458Z">
+        <seg>위의 아스키 아트에 대응하는 &lt;g1&gt;FinTree Nat&lt;/g1&gt;의 원소를 정의하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Define boolean operations &lt;g1&gt;and&lt;/g1&gt;, &lt;g2&gt;or&lt;/g2&gt;, &lt;g3&gt;not&lt;/g3&gt; on the &lt;g4&gt;Bool&lt;/g4&gt; type, and verify the
 two identities listed below:</seg>
       </tuv>
@@ -980,6 +1138,20 @@ triple &lt;g6&gt;&lt;loving, b, a&gt;&lt;/g6&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T144817Z" creationid="chabulhwi" creationdate="20240929T065036Z">
         <seg>예를 들어, &lt;g1&gt;a&lt;/g1&gt;가 &lt;g2&gt;b&lt;/g2&gt;를 사랑한다는 명제가 순서세짝 &lt;g3&gt;&lt;사랑함, a, b&gt;&lt;/g3&gt;라면, &lt;g4&gt;b&lt;/g4&gt;가 &lt;g5&gt;a&lt;/g5&gt;를 사랑한다는 명제는 순서세짝 &lt;g6&gt;&lt;사랑함, b, a&gt;&lt;/g6&gt;가 될 것이고, 이 두 명제는 별개이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Each constructor should
+have a type, where the argument types are built up from previously defined
+types, the parameter and index types, and the inductive family currently being
+defined.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103417Z" creationid="chabulhwi" creationdate="20251211T103417Z">
+        <seg>Each constructor should
+have a type, where the argument types are built up from previously defined
+types, the parameter and index types, and the inductive family currently being
+defined.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1101,6 +1273,14 @@ q&lt;/g3&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241009T161507Z" creationid="chabulhwi" creationdate="20241009T161407Z">
         <seg>[English (영어)](./README.md) | 한국어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Eq.recOn h</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103223Z" creationid="chabulhwi" creationdate="20251211T103223Z">
+        <seg>Eq.recOn h</seg>
       </tuv>
     </tu>
     <tu>
@@ -1409,6 +1589,15 @@ email to &lt;x1/&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T115330Z" creationid="chabulhwi" creationdate="20240930T115330Z">
         <seg>함의</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>In the following paragraph, what do the noun phrases "the latter" and "it",
+enclosed in square brackets, refer to?</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103412Z" creationid="chabulhwi" creationdate="20251211T103412Z">
+        <seg>다음 문단에서, 대괄호로 묶인 명사구 'the latter'와 'it'은 무엇을 가리키는가?</seg>
       </tuv>
     </tu>
     <tu>
@@ -2003,6 +2192,15 @@ that (b) is also a proposition since we &lt;g1&gt;can&lt;/g1&gt; determine its t
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Prove or disprove each of the following propositions about the constructors for
+the inductive type &lt;g1&gt;Foo&lt;/g1&gt; defined above.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103155Z" creationid="chabulhwi" creationdate="20251211T103120Z">
+        <seg>위에서 정의된 귀납형 &lt;g1&gt;Foo&lt;/g1&gt;의 구성자들에 대한 다음 명제가 참임을 증명하거나 거짓임을 증명하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Prove the following example, replacing the &lt;g1&gt;sorry&lt;/g1&gt; identifier with an actual
 proof:</seg>
       </tuv>
@@ -2016,6 +2214,15 @@ proof:</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T033731Z" creationid="chabulhwi" creationdate="20241128T033731Z">
         <seg>다음 보기를 증명하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Prove the following examples, replacing each &lt;g1&gt;sorry&lt;/g1&gt; identifier with an actual
+expression:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103213Z" creationid="chabulhwi" creationdate="20251211T103213Z">
+        <seg>&lt;g1&gt;sorry&lt;/g1&gt; 식별자를 실제 식으로 바꿔 다음 보기를 증명하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2040,6 +2247,14 @@ proof:</seg>
         <seg>Prove the following theorem:</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102152Z" creationid="chabulhwi" creationdate="20251211T102152Z">
+        <seg>다음 정리를 증명하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Prove the following theorems:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102751Z" creationid="chabulhwi" creationdate="20251211T102751Z">
         <seg>다음 정리를 증명하라.</seg>
       </tuv>
     </tu>
@@ -2539,6 +2754,16 @@ be a proposition.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The requirement is that if &lt;g3&gt;&lt;g4&gt;the latter&lt;/g4&gt;&lt;/g3&gt; is present at all,
+&lt;g5&gt;&lt;g6&gt;it&lt;/g6&gt;&lt;/g5&gt; occurs only &lt;g7&gt;strictly positively&lt;/g7&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103418Z" creationid="chabulhwi" creationdate="20251211T103418Z">
+        <seg>The requirement is that if &lt;g3&gt;&lt;g4&gt;the latter&lt;/g4&gt;&lt;/g3&gt; is present at all,
+&lt;g5&gt;&lt;g6&gt;it&lt;/g6&gt;&lt;/g5&gt; occurs only &lt;g7&gt;strictly positively&lt;/g7&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The sentence ‘2 is prime’ is true and the expression ‘&lt;g1&gt;√2 + √3 = √5&lt;/g1&gt;’ is
 false.</seg>
       </tuv>
@@ -2597,6 +2822,22 @@ Community&lt;/g11&gt;&lt;g12&gt;&lt;/g12&gt;&lt;e19/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>This means simply that any
+argument type to the constructor in which &lt;g8&gt;&lt;g9&gt;it&lt;/g9&gt;&lt;/g8&gt; occurs is a dependent arrow
+type in which the inductive type under definition occurs only as the resulting
+type, where the indices are given in terms of constants and previous
+arguments.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103419Z" creationid="chabulhwi" creationdate="20251211T103419Z">
+        <seg>This means simply that any
+argument type to the constructor in which &lt;g8&gt;&lt;g9&gt;it&lt;/g9&gt;&lt;/g8&gt; occurs is a dependent arrow
+type in which the inductive type under definition occurs only as the resulting
+type, where the indices are given in terms of constants and previous
+arguments.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Truth</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240930T112845Z" creationid="chabulhwi" creationdate="20240930T112845Z">
@@ -2625,6 +2866,14 @@ Community&lt;/g11&gt;&lt;g12&gt;&lt;/g12&gt;&lt;e19/&gt;.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T034453Z" creationid="chabulhwi" creationdate="20241128T034453Z">
         <seg>&lt;g1&gt;Empty.elim&lt;/g1&gt;를 이용해, 다음 유형에 속하는 항의 보기를 들어라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Use &lt;g1&gt;Nat.recOn&lt;/g1&gt; to prove the theorem &lt;g2&gt;Nat.zero_add&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102746Z" creationid="chabulhwi" creationdate="20251211T102746Z">
+        <seg>&lt;g1&gt;Nat.recOn&lt;/g1&gt;을 이용해 정리 &lt;g2&gt;Nat.zero_add&lt;/g2&gt;를 증명하라.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2692,6 +2941,20 @@ no.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240929T091824Z" creationid="chabulhwi" creationdate="20240929T090947Z">
         <seg>2024년 현재 우리는 아직 이 추측이 참인지 거짓인지 모르니, 한국의 고등학교 수학 교사들은 그렇지 않다고 답할 것입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>We have seen that the constructor to an inductive type takes
+&lt;g1&gt;parameters&lt;/g1&gt;—intuitively, the arguments that remain fixed throughout the
+inductive construction—and &lt;g2&gt;indices&lt;/g2&gt;, the arguments parameterizing the family
+of types that is simultaneously under construction.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103416Z" creationid="chabulhwi" creationdate="20251211T103416Z">
+        <seg>We have seen that the constructor to an inductive type takes
+&lt;g1&gt;parameters&lt;/g1&gt;—intuitively, the arguments that remain fixed throughout the
+inductive construction—and &lt;g2&gt;indices&lt;/g2&gt;, the arguments parameterizing the family
+of types that is simultaneously under construction.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2893,6 +3156,16 @@ filters plugin for OmegaT&lt;/g5&gt;&lt;g6&gt;&lt;/g6&gt;&lt;e8/&gt; to make Ome
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>\(a\) &lt;g1&gt;∀ {a b : Nat}, cons₁ a = cons₁ b → a = b&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;∃ (a b : Nat), cons₁ a = cons₂ b&lt;/g3&gt;</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103139Z" creationid="chabulhwi" creationdate="20251211T103139Z">
+        <seg>\(a\) &lt;g1&gt;∀ {a b : Nat}, cons₁ a = cons₁ b → a = b&lt;/g1&gt; &lt;x2/&gt;
+\(b\) &lt;g3&gt;∃ (a b : Nat), cons₁ a = cons₂ b&lt;/g3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>\(a\) At least one of them is parametrically polymorphic.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240928T120258Z" creationid="chabulhwi" creationdate="20240928T120258Z">
@@ -3085,10 +3358,34 @@ def goldbach_conjecture : Prop :=</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>inductive Even : Nat → Prop where</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103424Z" creationid="chabulhwi" creationdate="20251211T103424Z">
+        <seg>inductive Even : Nat → Prop where</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>inductive Odd : Nat → Prop where</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103427Z" creationid="chabulhwi" creationdate="20251211T103427Z">
+        <seg>inductive Odd : Nat → Prop where</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>match d with</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20251010T045929Z" creationid="chabulhwi" creationdate="20251010T041636Z">
         <seg>match d with</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>match h with</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103245Z" creationid="chabulhwi" creationdate="20251211T103245Z">
+        <seg>match h with</seg>
       </tuv>
     </tu>
     <tu>
@@ -3199,6 +3496,34 @@ namespace Bool
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>namespace Question08
+
+namespace List
+
+theorem append_nil (as : List α) : as ++ [] = as :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102755Z" creationid="chabulhwi" creationdate="20251211T102755Z">
+        <seg>namespace Question08
+
+namespace List
+
+theorem append_nil (as : List α) : as ++ [] = as :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question09
+
+/-- The type of binary trees.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103010Z" creationid="chabulhwi" creationdate="20251211T103010Z">
+        <seg>namespace Question09
+
+/-- The type of binary trees.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>namespace Question10
 
 def f.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
@@ -3207,6 +3532,94 @@ def f.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
         <seg>namespace Question10
 
 def f.{u, v, w} : Type u → Type v → Type w → Type (max u v w) :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question10
+
+inductive Foo : Type where</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103018Z" creationid="chabulhwi" creationdate="20251211T103018Z">
+        <seg>namespace Question10
+
+inductive Foo : Type where</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question11
+
+open Question10
+
+example {a b : Nat} (h : cons₁ a = cons₁ b) {r : Nat → Nat → Prop} (h12 : a = b → r a b) : r a b :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103214Z" creationid="chabulhwi" creationdate="20251211T103214Z">
+        <seg>namespace Question11
+
+open Question10
+
+example {a b : Nat} (h : cons₁ a = cons₁ b) {r : Nat → Nat → Prop} (h12 : a = b → r a b) : r a b :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question12
+
+theorem Bool.false_ne_true : false ≠ true :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103237Z" creationid="chabulhwi" creationdate="20251211T103237Z">
+        <seg>namespace Question12
+
+theorem Bool.false_ne_true : false ≠ true :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question13
+
+namespace Eq
+
+variable {α β : Type u} {a b c : α}
+
+theorem symm (h : a = b) : b = a :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103244Z" creationid="chabulhwi" creationdate="20251211T103244Z">
+        <seg>namespace Question13
+
+namespace Eq
+
+variable {α β : Type u} {a b c : α}
+
+theorem symm (h : a = b) : b = a :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question15
+
+namespace Nat
+
+mutual</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103423Z" creationid="chabulhwi" creationdate="20251211T103423Z">
+        <seg>namespace Question15
+
+namespace Nat
+
+mutual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>namespace Question16
+
+inductive FinTree (α : Type u) where</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103501Z" creationid="chabulhwi" creationdate="20251211T103501Z">
+        <seg>namespace Question16
+
+inductive FinTree (α : Type u) where</seg>
       </tuv>
     </tu>
     <tu>
@@ -3315,6 +3728,22 @@ def f (α : Type u) (β : α → Type v) (a : α) (b : β a) : (a : α) × β a 
 universe u v
 
 def f (α : Type u) (β : α → Type v) (a : α) (b : β a) : (a : α) × β a :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>o</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102800Z" creationid="chabulhwi" creationdate="20251211T102800Z">
+        <seg>o</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>o   o</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102802Z" creationid="chabulhwi" creationdate="20251211T102802Z">
+        <seg>o   o</seg>
       </tuv>
     </tu>
     <tu>
@@ -3457,6 +3886,54 @@ end Question03</seg>
       <tuv lang="en">
         <seg>sorry
 
+end Eq
+
+end Question13</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103248Z" creationid="chabulhwi" creationdate="20251211T103248Z">
+        <seg>sorry
+
+end Eq
+
+end Question13</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+end List
+
+end Question08</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102758Z" creationid="chabulhwi" creationdate="20251211T102758Z">
+        <seg>sorry
+
+end List
+
+end Question08</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+end Nat
+
+end Question15</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103431Z" creationid="chabulhwi" creationdate="20251211T103431Z">
+        <seg>sorry
+
+end Nat
+
+end Question15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
 end Question01</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20250211T121153Z" creationid="chabulhwi" creationdate="20250211T121153Z">
@@ -3475,6 +3952,30 @@ end Question10</seg>
         <seg>sorry
 
 end Question10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+end Question12</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103240Z" creationid="chabulhwi" creationdate="20251211T103240Z">
+        <seg>sorry
+
+end Question12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+end Question16</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103507Z" creationid="chabulhwi" creationdate="20251211T103507Z">
+        <seg>sorry
+
+end Question16</seg>
       </tuv>
     </tu>
     <tu>
@@ -3719,6 +4220,42 @@ example {γ : Sort w} (p : (x : α) ×' β x) (f : (x : α) → β x → γ) : �
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>sorry
+
+theorem append_assoc (as bs cs : List α) : (as ++ bs) ++ cs = as ++ (bs ++ cs) := by</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102756Z" creationid="chabulhwi" creationdate="20251211T102756Z">
+        <seg>sorry
+
+theorem append_assoc (as bs cs : List α) : (as ++ bs) ++ cs = as ++ (bs ++ cs) := by</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+theorem congr (f : α → β) (h : a = b) : f a = f b :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103247Z" creationid="chabulhwi" creationdate="20251211T103247Z">
+        <seg>sorry
+
+theorem congr (f : α → β) (h : a = b) : f a = f b :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>sorry
+
+theorem even_two : Even 2 :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103430Z" creationid="chabulhwi" creationdate="20251211T103430Z">
+        <seg>sorry
+
+theorem even_two : Even 2 :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>tpil-solutions</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241009T154035Z" creationid="chabulhwi" creationdate="20241009T154035Z">
@@ -3755,6 +4292,46 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>| cons₁ : Nat → Foo</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103018Z" creationid="chabulhwi" creationdate="20251211T103018Z">
+        <seg>| cons₁ : Nat → Foo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| cons₂ : Nat → Foo
+
+export Foo (cons₁ cons₂)
+
+end Question10</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103019Z" creationid="chabulhwi" creationdate="20251211T103019Z">
+        <seg>| cons₂ : Nat → Foo
+
+export Foo (cons₁ cons₂)
+
+end Question10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| even_succ : (n : Nat) → Odd n → Even (n + 1)</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103426Z" creationid="chabulhwi" creationdate="20251211T103426Z">
+        <seg>| even_succ : (n : Nat) → Odd n → Even (n + 1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| even_zero : Even 0</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103425Z" creationid="chabulhwi" creationdate="20251211T103425Z">
+        <seg>| even_zero : Even 0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>| friday</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041629Z" creationid="chabulhwi" creationdate="20251010T041629Z">
@@ -3771,6 +4348,26 @@ end</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>| leaf : BinaryTree</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103012Z" creationid="chabulhwi" creationdate="20251211T103012Z">
+        <seg>| leaf : BinaryTree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| mk : α → List (FinTree α) → FinTree α
+
+def q16 : FinTree Nat :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103502Z" creationid="chabulhwi" creationdate="20251211T103502Z">
+        <seg>| mk : α → List (FinTree α) → FinTree α
+
+def q16 : FinTree Nat :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>| monday</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041625Z" creationid="chabulhwi" creationdate="20251010T041625Z">
@@ -3783,6 +4380,52 @@ end</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20251010T041654Z" creationid="chabulhwi" creationdate="20251010T041638Z">
         <seg>| monday    =&gt; sorry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| node : BinaryTree → BinaryTree → BinaryTree
+
+export BinaryTree (leaf node)
+
+def q09 : BinaryTree := sorry
+
+end Question09</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103013Z" creationid="chabulhwi" creationdate="20251211T103013Z">
+        <seg>| node : BinaryTree → BinaryTree → BinaryTree
+
+export BinaryTree (leaf node)
+
+def q09 : BinaryTree := sorry
+
+end Question09</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| odd_succ : (n : Nat) → Even n → Odd (n + 1)
+end
+
+theorem odd_one : Odd 1 :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103429Z" creationid="chabulhwi" creationdate="20251211T103429Z">
+        <seg>| odd_succ : (n : Nat) → Even n → Odd (n + 1)
+end
+
+theorem odd_one : Odd 1 :=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>| rfl =&gt; rfl
+
+theorem trans (h₁ : a = b) (h₂ : b = c) : a = c :=</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T103246Z" creationid="chabulhwi" creationdate="20251211T103246Z">
+        <seg>| rfl =&gt; rfl
+
+theorem trans (h₁ : a = b) (h₂ : b = c) : a = c :=</seg>
       </tuv>
     </tu>
     <tu>
