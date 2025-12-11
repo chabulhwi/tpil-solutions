@@ -21,7 +21,8 @@ Prop` and `t : p → q`.
 
 ## Question 3
 
-Prove the following example:
+Prove the following example, replacing the `sorry` identifier with an actual
+proof:
 
 ```lean
 example {p q : Prop} (hp : p) (hpq : p → q) : q :=
