@@ -2,7 +2,7 @@
 
 ## 문제 1
 
-`sorry` 식별자를 실제 증명으로 바꿔 다음 정리를 증명하라.
+다음 정리를 증명하라.
 
 ```lean
 namespace Question01

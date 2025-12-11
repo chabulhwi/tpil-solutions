@@ -2003,6 +2003,15 @@ that (b) is also a proposition since we &lt;g1&gt;can&lt;/g1&gt; determine its t
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Prove the following example, replacing the &lt;g1&gt;sorry&lt;/g1&gt; identifier with an actual
+proof:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102336Z" creationid="chabulhwi" creationdate="20251211T101935Z">
+        <seg>&lt;g1&gt;sorry&lt;/g1&gt; 식별자를 실제 증명으로 바꿔 다음 보기를 증명하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Prove the following example:</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20241128T033731Z" creationid="chabulhwi" creationdate="20241128T033731Z">
@@ -2024,6 +2033,14 @@ proof:</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20250211T121128Z" creationid="chabulhwi" creationdate="20250211T120954Z">
         <seg>&lt;g1&gt;sorry&lt;/g1&gt; 식별자를 실제 증명으로 바꿔 다음 정리를 증명하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Prove the following theorem:</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20251211T102152Z" creationid="chabulhwi" creationdate="20251211T102152Z">
+        <seg>다음 정리를 증명하라.</seg>
       </tuv>
     </tu>
     <tu>

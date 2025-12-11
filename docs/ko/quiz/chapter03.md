@@ -19,7 +19,7 @@
 
 ## 문제 3
 
-다음 보기를 증명하라.
+`sorry` 식별자를 실제 증명으로 바꿔 다음 보기를 증명하라.
 
 ```lean
 example {p q : Prop} (hp : p) (hpq : p → q) : q :=
