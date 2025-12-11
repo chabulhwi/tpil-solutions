@@ -128,10 +128,14 @@ end Question05
 
 namespace Question06
 
-def Nat.Odd : Type := sorry
+namespace Nat
 
-example : Nat.Odd := sorry
-example : Nat.Odd := sorry
-example : Nat.Odd := sorry
+def Odd : Type := sorry
+
+example : Odd := sorry
+example : Odd := sorry
+example : Odd := sorry
+
+end Nat
 
 end Question06
