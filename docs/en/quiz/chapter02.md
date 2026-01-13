@@ -235,7 +235,7 @@ Give the value and type of each expression listed below.
 
 ## Question 25
 
-Use the `print` command to check the type of the function `List.cons`, then
+Use the `#print` command to check the type of the function `List.cons`, then
 answer by true or false each of the following statements about the function.
 
 For information about parametric polymorphism, see

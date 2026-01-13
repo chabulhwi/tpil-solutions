@@ -2918,6 +2918,15 @@ arguments.</seg>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Use the &lt;g1&gt;#print&lt;/g1&gt; command to check the type of the function &lt;g2&gt;List.cons&lt;/g2&gt;, then
+answer by true or false each of the following statements about the function.</seg>
+      </tuv>
+      <tuv lang="ko" changeid="chabulhwi" changedate="20260113T103221Z" creationid="chabulhwi" creationdate="20260113T103221Z">
+        <seg>&lt;g1&gt;#print&lt;/g1&gt; 명령어를 이용해 함수 &lt;g2&gt;List.cons&lt;/g2&gt;의 유형을 확인하라. 그런 뒤, 이 함수에 대한 다음 진술이 참인지 거짓인지 각각 판단하라.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Use the &lt;g1&gt;def&lt;/g1&gt; keyword to declare a new constant of each type listed below.</seg>
       </tuv>
       <tuv lang="ko" changeid="chabulhwi" changedate="20240927T022011Z" creationid="chabulhwi" creationdate="20240927T015546Z">
