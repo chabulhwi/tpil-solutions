@@ -276,8 +276,6 @@ theorem exists_not_acc_lt_of_not_acc {α : Sort u} {a : α} {r : α → α → P
   rw [acc_def] at h
   simpa [and_comm] using h
 
-variable {α : Sort u} {r : α → α → Prop}
-
 /-- If every element of a nonempty set `p` is accessible through a binary relation `r`, then the set
 has a minimal element. -/
 theorem has_min {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex : ∃ (x : α), p x) :
