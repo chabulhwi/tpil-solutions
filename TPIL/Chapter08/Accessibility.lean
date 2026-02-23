@@ -12,6 +12,83 @@ Authors: Bulhwi Cha
 
 set_option pp.proofs true
 
+/-!
+### Lemmas about sequences
+-/
+
+namespace Sequence
+
+variable {α : Sort u} {f : Nat → α}
+
+/-- A sequence `f` is constant if its `n`th term equals the next term for every natural number `n`.
+-/
+theorem const_of_next_eq (hcon : ∀ (n : Nat), f (n + 1) = f n) (n : Nat) : f n = f 0 := by
+  induction n with
+  | zero => rfl
+  | succ k ih => rw [hcon k, ih]
+
+/-- A sequence `f` is constant if and only if its `n`th term equals the next term for every natural
+number `n`. -/
+theorem const_iff_next_eq : (∀ (n : Nat), f n = f 0) ↔ ∀ (n : Nat), f (n + 1) = f n := by
+  constructor
+  · intro hcon n
+    rw [hcon n, hcon (n + 1)]
+  · exact const_of_next_eq
+
+/-- A sequence `f` is eventually constant if the `n`th term of `f` equals the next term for every
+natural number `n` greater than or equal to some natural number. -/
+theorem eventually_const_of_eventually_next_eq {c : Nat} (hcon : ∀ ⦃n : Nat⦄,
+    c ≤ n → f (n + 1) = f n) ⦃n : Nat⦄ (hle : c ≤ n) : f n = f c := by
+  let g (d : Nat) : α := f (c + d)
+  have heq : g (n - c) = g 0 := by
+    refine const_of_next_eq ?_ (n - c)
+    intro d
+    exact hcon (show c ≤ c + d from Nat.le_add_right c d)
+  unfold g at heq
+  rwa [← Nat.add_sub_assoc hle, Nat.add_sub_self_left, Nat.add_zero] at heq
+
+/-- A sequence `f` is eventually constant if and only if the `n`th term of `f` equals the next term
+for every natural number `n` greater than or equal to some natural number. -/
+theorem eventually_const_iff_eventually_next_eq {c : Nat} : (∀ ⦃n : Nat⦄, c ≤ n → f n = f c) ↔
+    (∀ ⦃n : Nat⦄, c ≤ n → f (n + 1) = f n) := by
+  constructor
+  · intro hcon n hle
+    have hn1 : f (n + 1) = f c := hcon (show c ≤ n + 1 from Nat.le_trans hle (Nat.le_succ n))
+    rw [hcon hle, hn1]
+  · exact eventually_const_of_eventually_next_eq
+
+theorem induction_step_of_next_eq {p : α → Prop} (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n)
+    ⦃n : Nat⦄ (ih : p (f n)) : p (f (n + 1)) := by
+  have hrec : f (n + 1) = f n := hcon ih
+  rwa [hrec]
+
+theorem induction_of_next_eq {p : α → Prop} (base : p (f 0))
+    (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) (m : Nat) : p (f m) := by
+  induction m with
+  | zero => exact base
+  | succ k ih => exact induction_step_of_next_eq hcon ih
+
+theorem induction_of_eventually_next_eq {p : α → Prop} {c : Nat} (base : p (f c))
+    (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) := by
+  let g (d : Nat) : α := f (c + d)
+  have hp : p (g (m - c)) := by
+    refine induction_of_next_eq base ?_ (m - c)
+    intro d
+    exact hcon (n := c + d)
+  unfold g at hp
+  rwa [← Nat.add_sub_assoc hle, Nat.add_sub_self_left] at hp
+
+end Sequence
+
+/-!
+### Accessibility
+-/
+
+/-- `isMin_below min a` means that `min` is a minimal element of the set `{y : α | r y a}` with
+respect to `r`. -/
+def Relation.isMin_below {α : Sort u} (r : α → α → Prop) (min a : α) : Prop :=
+  r min a ∧ ∀ ⦃y : α⦄, r y a → ¬r y min
+
 /-- Every natural number is accessible through the less-than relation `<` on the natural numbers. -/
 theorem Nat.acc_lt (n : Nat) : Acc (· < ·) n :=
   match n with
@@ -20,15 +97,6 @@ theorem Nat.acc_lt (n : Nat) : Acc (· < ·) n :=
     match Nat.lt_add_one_iff_lt_or_eq.mp hk with
     | Or.inl hlt => let ⟨.(m), acc⟩ := Nat.acc_lt m; acc k hlt
     | Or.inr heq => heq ▸ Nat.acc_lt m)
-
-namespace Relation
-
-/-- `isMin_below min a` means that `min` is a minimal element of the set `{y : α | r y a}` with
-respect to `r`. -/
-def isMin_below {α : Sort u} (r : α → α → Prop) (min a : α) : Prop :=
-  r min a ∧ ∀ ⦃y : α⦄, r y a → ¬r y min
-
-end Relation
 
 namespace Acc
 
@@ -108,70 +176,6 @@ theorem not_rfl {a : α} (acc : Acc r a) : ¬r a a :=
   not_refl acc
 
 end Acc
-
-namespace Sequence
-
-variable {α : Sort u} {f : Nat → α}
-
-/-- A sequence `f` is constant if its `n`th term equals the next term for every natural number `n`.
--/
-theorem const_of_next_eq (hcon : ∀ (n : Nat), f (n + 1) = f n) (n : Nat) : f n = f 0 := by
-  induction n with
-  | zero => rfl
-  | succ k ih => rw [hcon k, ih]
-
-/-- A sequence `f` is constant if and only if its `n`th term equals the next term for every natural
-number `n`. -/
-theorem const_iff_next_eq : (∀ (n : Nat), f n = f 0) ↔ ∀ (n : Nat), f (n + 1) = f n := by
-  constructor
-  · intro hcon n
-    rw [hcon n, hcon (n + 1)]
-  · exact const_of_next_eq
-
-/-- A sequence `f` is eventually constant if the `n`th term of `f` equals the next term for every
-natural number `n` greater than or equal to some natural number. -/
-theorem eventually_const_of_eventually_next_eq {c : Nat} (hcon : ∀ ⦃n : Nat⦄,
-    c ≤ n → f (n + 1) = f n) ⦃n : Nat⦄ (hle : c ≤ n) : f n = f c := by
-  let g (d : Nat) : α := f (c + d)
-  have heq : g (n - c) = g 0 := by
-    refine const_of_next_eq ?_ (n - c)
-    intro d
-    exact hcon (show c ≤ c + d from Nat.le_add_right c d)
-  unfold g at heq
-  rwa [← Nat.add_sub_assoc hle, Nat.add_sub_self_left, Nat.add_zero] at heq
-
-/-- A sequence `f` is eventually constant if and only if the `n`th term of `f` equals the next term
-for every natural number `n` greater than or equal to some natural number. -/
-theorem eventually_const_iff_eventually_next_eq {c : Nat} : (∀ ⦃n : Nat⦄, c ≤ n → f n = f c) ↔
-    (∀ ⦃n : Nat⦄, c ≤ n → f (n + 1) = f n) := by
-  constructor
-  · intro hcon n hle
-    have hn1 : f (n + 1) = f c := hcon (show c ≤ n + 1 from Nat.le_trans hle (Nat.le_succ n))
-    rw [hcon hle, hn1]
-  · exact eventually_const_of_eventually_next_eq
-
-theorem induction_step_of_next_eq {p : α → Prop} (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n)
-    ⦃n : Nat⦄ (ih : p (f n)) : p (f (n + 1)) := by
-  have hrec : f (n + 1) = f n := hcon ih
-  rwa [hrec]
-
-theorem induction_of_next_eq {p : α → Prop} (base : p (f 0))
-    (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) (m : Nat) : p (f m) := by
-  induction m with
-  | zero => exact base
-  | succ k ih => exact induction_step_of_next_eq hcon ih
-
-theorem induction_of_eventually_next_eq {p : α → Prop} {c : Nat} (base : p (f c))
-    (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) := by
-  let g (d : Nat) : α := f (c + d)
-  have hp : p (g (m - c)) := by
-    refine induction_of_next_eq base ?_ (m - c)
-    intro d
-    exact hcon (n := c + d)
-  unfold g at hp
-  rwa [← Nat.add_sub_assoc hle, Nat.add_sub_self_left] at hp
-
-end Sequence
 
 namespace Acc
 
