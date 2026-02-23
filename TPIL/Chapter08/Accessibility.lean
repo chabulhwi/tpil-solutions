@@ -250,11 +250,11 @@ theorem not_not_descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : A
     (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n)
     (hdes : ∀ ⦃n : Nat⦄, ¬p (f n) → r (f (n + 1)) (f n)) :
     ¬¬∃ (c : Nat), p (f c) ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
-  have ind_of_rec {c : Nat} (hc : p (f c)) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) :=
+  have ind_of_next_eq {c : Nat} (hc : p (f c)) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) :=
     Sequence.induction_of_eventually_next_eq hc hcon hle
   have const_of_next_eq {c : Nat} (hc : p (f c)) ⦃m : Nat⦄ (hle : c ≤ m) : f m = f c :=
     Sequence.eventually_const_of_eventually_next_eq (fun n hle ↦ show f (n + 1) = f n from
-      hcon (ind_of_rec hc hle)) hle
+      hcon (ind_of_next_eq hc hle)) hle
   fun not_has_last ↦
     have not_has_min (c : Nat) : ¬p (f c) := fun hc ↦ not_has_last ⟨c, hc, const_of_next_eq hc⟩
     have is_infinite_descending_chain (m : Nat) : r (f (m + 1)) (f m) := hdes (not_has_min m)
