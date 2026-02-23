@@ -21,9 +21,20 @@ theorem Nat.acc_lt (n : Nat) : Acc (· < ·) n :=
     | Or.inl hlt => let ⟨.(m), acc⟩ := Nat.acc_lt m; acc k hlt
     | Or.inr heq => heq ▸ Nat.acc_lt m)
 
+namespace Relation
+
+/-- `isMin_below min a` means that `min` is a minimal element of the set `{y : α | r y a}` with
+respect to `r`. -/
+def isMin_below {α : Sort u} (r : α → α → Prop) (min a : α) : Prop :=
+  r min a ∧ ∀ ⦃y : α⦄, r y a → ¬r y min
+
+end Relation
+
 namespace Acc
 
 universe u
+
+open Relation
 
 /-- If `a` is a minimal element of a type `α` with respect to a binary relation `r`, then it is
 accessible through `r`. -/
@@ -78,7 +89,7 @@ example {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex : ∃ (
 /-- If `a` is accessible through a binary relation `r` and there exists an element below `a`, then
 it is not false that the set `{y : α | r y a}` has a minimal element. -/
 theorem not_not_has_min_below {a : α} (acc : Acc r a) (hex : ∃ (x : α), r x a) :
-    ¬¬∃ (min : α), r min a ∧ ∀ ⦃z : α⦄, r z a → ¬r z min :=
+    ¬¬∃ (min : α), isMin_below r min a :=
   let ⟨.(a), hrac⟩ := acc
   not_not_has_min (p := fun (x : α) ↦ r x a) (fun {x} (hrx : r x a) ↦ hrac x hrx) (show ∃ x, r x a
     from hex)
@@ -97,17 +108,6 @@ theorem not_rfl {a : α} (acc : Acc r a) : ¬r a a :=
   not_refl acc
 
 end Acc
-
-namespace Relation
-
-variable {α : Sort u} (r : α → α → Prop)
-
-/-- `isMin_below min a` means that `min` is a minimal element of the set `{y : α | r y a}` with
-respect to `r`. -/
-def isMin_below (min a : α) : Prop :=
-  r min a ∧ ∀ ⦃y : α⦄, r y a → ¬r y min
-
-end Relation
 
 namespace Sequence
 
@@ -284,8 +284,8 @@ theorem has_min {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex
 
 /-- If `a` is accessible through a binary relation `r` and there exists an element below `a`, then
 the set `{y : α | r y a}` has a minimal element. -/
-theorem has_min_below {a : α} (acc : Acc r a) (hex : ∃ (x : α), r x a) : ∃ (min : α), r min a ∧
-    ∀ ⦃z : α⦄, r z a → ¬r z min :=
+theorem has_min_below {a : α} (acc : Acc r a) (hex : ∃ (x : α), r x a) :
+    ∃ (min : α), isMin_below r min a :=
   Classical.byContradiction (not_not_has_min_below acc hex)
 
 /-- `x` is not accessible through a binary relation `r` if and only if there exists an infinite
