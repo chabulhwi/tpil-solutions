@@ -130,7 +130,7 @@ theorem const_iff_rec : (∀ (n : Nat), f n = f 0) ↔ ∀ (n : Nat), f (n + 1) 
 
 /-- A sequence `f` is eventually constant if the `n`th term of `f` equals the next term for every
 natural number `n` greater than or equal to some natural number. -/
-theorem eventually_const_of_strongRec {c : Nat} (hcon : ∀ ⦃n : Nat⦄, c ≤ n → f (n + 1) = f n)
+theorem eventually_const_of_le_imp_rec {c : Nat} (hcon : ∀ ⦃n : Nat⦄, c ≤ n → f (n + 1) = f n)
     ⦃n : Nat⦄ (hle : c ≤ n) : f n = f c := by
   let g (d : Nat) : α := f (c + d)
   have heq : g (n - c) = g 0 := by
@@ -142,13 +142,13 @@ theorem eventually_const_of_strongRec {c : Nat} (hcon : ∀ ⦃n : Nat⦄, c ≤
 
 /-- A sequence `f` is eventually constant if and only if the `n`th term of `f` equals the next term
 for every natural number `n` greater than or equal to some natural number. -/
-theorem eventually_const_iff_strongRec {c : Nat} : (∀ ⦃n : Nat⦄, c ≤ n → f n = f c) ↔
+theorem eventually_const_iff_le_imp_rec {c : Nat} : (∀ ⦃n : Nat⦄, c ≤ n → f n = f c) ↔
     (∀ ⦃n : Nat⦄, c ≤ n → f (n + 1) = f n) := by
   constructor
   · intro hcon n hle
     have hn1 : f (n + 1) = f c := hcon (show c ≤ n + 1 from Nat.le_trans hle (Nat.le_succ n))
     rw [hcon hle, hn1]
-  · exact eventually_const_of_strongRec
+  · exact eventually_const_of_le_imp_rec
 
 theorem induction_step_of_rec {p : α → Prop} (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n)
     ⦃n : Nat⦄ (ih : p (f n)) : p (f (n + 1)) := by
@@ -161,7 +161,7 @@ theorem induction_of_rec {p : α → Prop} (base : p (f 0))
   | zero => exact base
   | succ k ih => exact induction_step_of_rec hcon ih
 
-theorem induction_of_strongRec {p : α → Prop} {c : Nat} (base : p (f c))
+theorem induction_of_le_imp_rec {p : α → Prop} {c : Nat} (base : p (f c))
     (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) := by
   let g (d : Nat) : α := f (c + d)
   have hp : p (g (m - c)) := by
@@ -247,9 +247,9 @@ theorem not_not_descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : A
     (hdes : ∀ ⦃n : Nat⦄, ¬p (f n) → r (f (n + 1)) (f n)) :
     ¬¬∃ (c : Nat), p (f c) ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
   have ind_of_rec {c : Nat} (hc : p (f c)) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) :=
-    Sequence.induction_of_strongRec hc hcon hle
+    Sequence.induction_of_le_imp_rec hc hcon hle
   have const_of_rec {c : Nat} (hc : p (f c)) ⦃m : Nat⦄ (hle : c ≤ m) : f m = f c :=
-    Sequence.eventually_const_of_strongRec (fun n hle ↦ show f (n + 1) = f n from
+    Sequence.eventually_const_of_le_imp_rec (fun n hle ↦ show f (n + 1) = f n from
       hcon (ind_of_rec hc hle)) hle
   fun not_has_last ↦
     have not_has_min (c : Nat) : ¬p (f c) := fun hc ↦ not_has_last ⟨c, hc, const_of_rec hc⟩
