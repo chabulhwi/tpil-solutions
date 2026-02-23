@@ -262,8 +262,9 @@ theorem not_not_descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : A
       not_acc_of_exists_descending_chain ⟨f, hsta, is_infinite_descending_chain⟩
     hnac acc
 
-/-- If `a` is accessible through a binary relation `r`, then for every descending chain `f`, it is
-not false that `f` ends at a minimal element of the set `{y : α | r y a}` with respect to `r`.  -/
+/-- If `a` is accessible through a binary relation `r`, then for every descending chain `f` starting
+from `a`, it is not false that `f` ends at a minimal element of the set `{y : α | r y a}` with
+respect to `r`.  -/
 theorem not_not_descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
     (hcon : ∀ ⦃n : Nat⦄, isMin_below r a (f n) → f (n + 1) = f n)
@@ -318,8 +319,8 @@ theorem descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : Acc r a) 
     ∃ (c : Nat), p (f c) ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
   Classical.byContradiction (not_not_descending_chain_ends_of_acc acc hsta hcon hdes)
 
-/-- If `a` is accessible through a binary relation `r`, then every descending chain ends at a
-minimal element of the set `{y : α | r y a}` with respect to `r`. -/
+/-- If `a` is accessible through a binary relation `r`, then every descending chain starting from
+`a` ends at a minimal element of the set `{y : α | r y a}` with respect to `r`. -/
 theorem descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
     (hcon : ∀ ⦃n : Nat⦄, isMin_below r a (f n) → f (n + 1) = f n)
