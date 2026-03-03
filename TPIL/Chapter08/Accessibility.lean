@@ -61,7 +61,7 @@ theorem induction_of_next_eq {p : α → Prop} (base : p (f 0))
     (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) (m : Nat) : p (f m) := by
   induction m with
   | zero => exact base
-  | succ k ih => rw [hcon ih]; exact ih
+  | succ k ih => rwa [hcon ih]
 
 theorem induction_of_eventually_next_eq {p : α → Prop} {c : Nat} (base : p (f c))
     (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) := by
