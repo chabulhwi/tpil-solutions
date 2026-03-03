@@ -57,16 +57,11 @@ theorem eventually_const_iff_eventually_next_eq {c : Nat} : (∀ ⦃n : Nat⦄, 
     rw [hcon hle, hn1]
   · exact eventually_const_of_eventually_next_eq
 
-theorem induction_step_of_next_eq {p : α → Prop} (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n)
-    ⦃n : Nat⦄ (ih : p (f n)) : p (f (n + 1)) := by
-  have hrec : f (n + 1) = f n := hcon ih
-  rwa [hrec]
-
 theorem induction_of_next_eq {p : α → Prop} (base : p (f 0))
     (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) (m : Nat) : p (f m) := by
   induction m with
   | zero => exact base
-  | succ k ih => exact induction_step_of_next_eq hcon ih
+  | succ k ih => rw [hcon ih]; exact ih
 
 theorem induction_of_eventually_next_eq {p : α → Prop} {c : Nat} (base : p (f c))
     (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) := by
