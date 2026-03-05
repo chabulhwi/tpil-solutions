@@ -267,6 +267,10 @@ theorem not_not_descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f 
     ¬¬∃ (c : Nat), isMin_below r a (f c) ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
   not_not_descending_chain_ends_of_acc (p := isMin_below r a) acc hsta hcon hdes
 
+/-!
+### Theorems using classical logic
+-/
+
 open Classical
 
 /-- If `a` is not accessible through a binary relation `r`, then there exists an element `b` that is
