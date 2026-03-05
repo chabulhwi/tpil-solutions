@@ -79,7 +79,7 @@ end Sequence
 ### Accessibility
 -/
 
-/-- `isMin_below min a` means that `min` is a minimal element of the set `{y : α | r y a}` with
+/-- `isMin_below r min a` means that `min` is a minimal element of the set `{y : α | r y a}` with
 respect to `r`. -/
 def Relation.isMin_below {α : Sort u} (r : α → α → Prop) (min a : α) : Prop :=
   r min a ∧ ∀ ⦃y : α⦄, r y a → ¬r y min
