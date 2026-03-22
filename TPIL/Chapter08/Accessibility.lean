@@ -117,6 +117,14 @@ universe v
   {a : α} → (t : Acc r a) → ((x : α) → (h : ∀ y : α, r y x → Acc r y) → ((y : α) → (ryx : r y x) →
   motive y (h y ryx : Acc r y)) → motive x (h x (_ : r x x) : Acc r x)) → motive a t)
 
+#check (@Acc.ndrec : {α : Sort v} → {r : α → α → Prop} → {C : α → Sort u} →
+  (m : (x : α) → ((y : α) → r y x → Acc r y) → ((y : α) → (a : r y x) → C y) → C x) → {a : α} →
+  (n : Acc r a) → C a)
+
+#check (@Acc.ndrecOn : {α : Sort v} → {r : α → α → Prop} → {C : α → Sort u} → {a : α} →
+  (n : Acc r a) → (m : (x : α) → ((y : α) → r y x → Acc r y) → ((y : α) → (a : r y x) → C y) → C x)
+  → C a)
+
 end
 
 variable {α : Sort u} {r : α → α → Prop}
