@@ -184,6 +184,19 @@ example {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex : ∃ (
     intro z hqz hrzw
     exact ih z hrzw hqz not_has_min
 
+theorem not_refl {a : α} (acc : Acc r a) : ¬r a a :=
+  fun (hrfl : r a a) ↦
+    have hmin : ¬¬∃ (min : α), min = a ∧ ∀ ⦃z : α⦄, (fun x ↦ x = a) z → ¬r z min :=
+      not_not_has_min (p := fun (x : α) ↦ x = a) (fun {x} (heq : x = a) ↦ show Acc r x from
+        heq ▸ acc) (show ∃ x, x = a from ⟨a, rfl⟩)
+    hmin (fun ⟨min, (heq : min = a), hnrm⟩ ↦
+      have hnrf : ¬r min min := hnrm heq
+      (heq ▸ hnrf) hrfl)
+
+/-- An alias of `Acc.not_refl`. -/
+theorem not_rfl {a : α} (acc : Acc r a) : ¬r a a :=
+  not_refl acc
+
 /-- If `a` is accessible through a binary relation `r` and there exists an element below `a`, then
 it is not false that the set `{y : α | r y a}` has a minimal element. -/
 theorem not_not_has_min_below {a : α} (acc : Acc r a) (hex : ∃ (x : α), r x a) :
@@ -205,19 +218,6 @@ theorem not_not_has_min_below_TransGen {a : α} (acc : Acc r a) (hex : ∃ (x : 
         transGen (hrac y hrya)
       hatry x htrxy)
     (show ∃ x, TransGen r x a from hex)
-
-theorem not_refl {a : α} (acc : Acc r a) : ¬r a a :=
-  fun (hrfl : r a a) ↦
-    have hmin : ¬¬∃ (min : α), min = a ∧ ∀ ⦃z : α⦄, (fun x ↦ x = a) z → ¬r z min :=
-      not_not_has_min (p := fun (x : α) ↦ x = a) (fun {x} (heq : x = a) ↦ show Acc r x from
-        heq ▸ acc) (show ∃ x, x = a from ⟨a, rfl⟩)
-    hmin (fun ⟨min, (heq : min = a), hnrm⟩ ↦
-      have hnrf : ¬r min min := hnrm heq
-      (heq ▸ hnrf) hrfl)
-
-/-- An alias of `Acc.not_refl`. -/
-theorem not_rfl {a : α} (acc : Acc r a) : ¬r a a :=
-  not_refl acc
 
 end Acc
 
