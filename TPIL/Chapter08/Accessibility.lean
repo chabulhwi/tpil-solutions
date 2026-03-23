@@ -192,6 +192,20 @@ theorem not_not_has_min_below {a : α} (acc : Acc r a) (hex : ∃ (x : α), r x 
   not_not_has_min (p := fun (x : α) ↦ r x a) (fun {x} (hrx : r x a) ↦ hrac x hrx) (show ∃ x, r x a
     from hex)
 
+/-- If `a` is accessible through a binary relation `r` and there exists an element below `a`, then
+it is not false that the set `{y : α | TransGen r y a}` has a minimal element. -/
+theorem not_not_has_min_below_TransGen {a : α} (acc : Acc r a) (hex : ∃ (x : α), TransGen r x a) :
+    ¬¬∃ (min : α), isMin_below (TransGen r) min a :=
+  let ⟨.(a), hrac⟩ := acc
+  not_not_has_min (p := fun (x : α) ↦ TransGen r x a) (fun {x} (htrxa : TransGen r x a) ↦
+    match htrxa with
+    | TransGen.single hrxa => transGen (hrac x hrxa)
+    | TransGen.tail (b := y) htrxy hrya =>
+      have ⟨.(y), (hatry : ∀ (z : α), TransGen r z y → Acc (TransGen r) z)⟩ : Acc (TransGen r) y :=
+        transGen (hrac y hrya)
+      hatry x htrxy)
+    (show ∃ x, TransGen r x a from hex)
+
 theorem not_refl {a : α} (acc : Acc r a) : ¬r a a :=
   fun (hrfl : r a a) ↦
     have hmin : ¬¬∃ (min : α), min = a ∧ ∀ ⦃z : α⦄, (fun x ↦ x = a) z → ¬r z min :=
@@ -337,6 +351,12 @@ the set `{y : α | r y a}` has a minimal element. -/
 theorem has_min_below {a : α} (acc : Acc r a) (hex : ∃ (x : α), r x a) :
     ∃ (min : α), isMin_below r min a :=
   Classical.byContradiction (not_not_has_min_below acc hex)
+
+/-- If `a` is accessible through a binary relation `r` and there exists an element below `a`, then
+the set `{y : α | TransGen r y a}` has a minimal element. -/
+theorem has_min_below_TransGen {a : α} (acc : Acc r a) (hex : ∃ (x : α), TransGen r x a) :
+    ∃ (min : α), isMin_below (TransGen r) min a :=
+  Classical.byContradiction (not_not_has_min_below_TransGen acc hex)
 
 /-- `x` is not accessible through a binary relation `r` if and only if there exists an infinite
 descending chain starting from `x`. -/
