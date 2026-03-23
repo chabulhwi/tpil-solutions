@@ -142,6 +142,25 @@ open Relation
 
 variable {α : Sort u} {r : α → α → Prop}
 
+theorem transGen' {a : α} (h : Acc r a) : Acc (TransGen r) a :=
+  Acc.recOn h (motive := fun (x : α) (_ : Acc r x) ↦ Acc (TransGen r) x)
+    (fun x _hacx (ih : ∀ (y : α), r y x → Acc (TransGen r) y) ↦
+      show Acc (TransGen r) x from Acc.intro x (fun y htryx ↦
+        match htryx with
+        | TransGen.single hryx => ih y hryx
+        | TransGen.tail (b := z) htryz hrzx =>
+          have ⟨.(z), hatrz⟩ : Acc (TransGen r) z := ih z hrzx
+          hatrz y htryz))
+
+theorem _root_.acc_transGen_iff' : Acc (TransGen r) a ↔ Acc r a := by
+  refine ⟨?_, Acc.transGen⟩
+  intro h
+  induction h with
+  | intro x _hacx ih =>
+    apply Acc.intro x
+    intro y hryx
+    exact ih y (TransGen.single hryx)
+
 /-- If every element of a nonempty set `p` is accessible through a binary relation `r`, then it is
 not false that the set has a minimal element. -/
 theorem not_not_has_min {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex : ∃ (x : α), p x) :
