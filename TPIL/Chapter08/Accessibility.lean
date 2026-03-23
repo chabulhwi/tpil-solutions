@@ -284,14 +284,15 @@ theorem not_not_descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : A
     hnac acc
 
 /-- If `a` is accessible through a binary relation `r`, then for every descending chain `f` starting
-from `a`, it is not false that `f` ends at a minimal element of the set `{y : α | r y a}` with
-respect to `r`.  -/
+from `a`, it is not false that `f` ends at a minimal element of the set `{y : α | TransGen r y a}`
+with respect to `r`.  -/
 theorem not_not_descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
-    (hcon : ∀ ⦃n : Nat⦄, isMin_below r (f n) a → f (n + 1) = f n)
-    (hdes : ∀ ⦃n : Nat⦄, ¬isMin_below r (f n) a → r (f (n + 1)) (f n)) :
-    ¬¬∃ (c : Nat), isMin_below r (f c) a ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
-  not_not_descending_chain_ends_of_acc (p := fun (x : α) ↦ isMin_below r x a) acc hsta hcon hdes
+    (hcon : ∀ ⦃n : Nat⦄, isMin_below (TransGen r) (f n) a → f (n + 1) = f n)
+    (hdes : ∀ ⦃n : Nat⦄, ¬isMin_below (TransGen r) (f n) a → r (f (n + 1)) (f n)) :
+    ¬¬∃ (c : Nat), isMin_below (TransGen r) (f c) a ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
+  not_not_descending_chain_ends_of_acc (p := fun (x : α) ↦ isMin_below (TransGen r) x a) acc hsta
+    hcon hdes
 
 /-!
 ### Theorems using classical logic
@@ -345,12 +346,12 @@ theorem descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : Acc r a) 
   Classical.byContradiction (not_not_descending_chain_ends_of_acc acc hsta hcon hdes)
 
 /-- If `a` is accessible through a binary relation `r`, then every descending chain starting from
-`a` ends at a minimal element of the set `{y : α | r y a}` with respect to `r`. -/
+`a` ends at a minimal element of the set `{y : α | TransGen r y a}` with respect to `r`. -/
 theorem descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
-    (hcon : ∀ ⦃n : Nat⦄, isMin_below r (f n) a → f (n + 1) = f n)
-    (hdes : ∀ ⦃n : Nat⦄, ¬isMin_below r (f n) a → r (f (n + 1)) (f n)) :
-    ∃ (c : Nat), isMin_below r (f c) a ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
+    (hcon : ∀ ⦃n : Nat⦄, isMin_below (TransGen r) (f n) a → f (n + 1) = f n)
+    (hdes : ∀ ⦃n : Nat⦄, ¬isMin_below (TransGen r) (f n) a → r (f (n + 1)) (f n)) :
+    ∃ (c : Nat), isMin_below (TransGen r) (f c) a ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
   Classical.byContradiction (not_not_descending_chain_ends_at_min_of_acc acc hsta hcon hdes)
 
 end Acc
