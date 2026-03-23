@@ -226,7 +226,7 @@ theorem Int.not_acc_lt (a : Int) : ¬Acc (· < ·) a :=
   fun (acc : Acc (· < ·) a) ↦
     have hnnm := Acc.not_not_has_min_below acc (show ∃ z, z < a from ⟨a - 1, by simp +arith⟩)
     hnnm <| fun hmin ↦
-    let ⟨min, hlma, hnlm⟩ := hmin
+    let ⟨min, (hlma : min < a), (hnlm : ∀ ⦃y : Int⦄, y < a → ¬y < min)⟩ := hmin
     have hlpm : min - 1 < min := by simp +arith
     have hnlpm : ¬min - 1 < min := hnlm (show min -1 < a from Int.lt_trans hlpm hlma)
     hnlpm hlpm
