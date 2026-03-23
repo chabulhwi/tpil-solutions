@@ -270,10 +270,10 @@ from `a`, it is not false that `f` ends at a minimal element of the set `{y : α
 respect to `r`.  -/
 theorem not_not_descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
-    (hcon : ∀ ⦃n : Nat⦄, isMin_below r a (f n) → f (n + 1) = f n)
-    (hdes : ∀ ⦃n : Nat⦄, ¬isMin_below r a (f n) → r (f (n + 1)) (f n)) :
-    ¬¬∃ (c : Nat), isMin_below r a (f c) ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
-  not_not_descending_chain_ends_of_acc (p := isMin_below r a) acc hsta hcon hdes
+    (hcon : ∀ ⦃n : Nat⦄, isMin_below r (f n) a → f (n + 1) = f n)
+    (hdes : ∀ ⦃n : Nat⦄, ¬isMin_below r (f n) a → r (f (n + 1)) (f n)) :
+    ¬¬∃ (c : Nat), isMin_below r (f c) a ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
+  not_not_descending_chain_ends_of_acc (p := fun (x : α) ↦ isMin_below r x a) acc hsta hcon hdes
 
 /-!
 ### Theorems using classical logic
@@ -330,9 +330,9 @@ theorem descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : Acc r a) 
 `a` ends at a minimal element of the set `{y : α | r y a}` with respect to `r`. -/
 theorem descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
-    (hcon : ∀ ⦃n : Nat⦄, isMin_below r a (f n) → f (n + 1) = f n)
-    (hdes : ∀ ⦃n : Nat⦄, ¬isMin_below r a (f n) → r (f (n + 1)) (f n)) :
-    ∃ (c : Nat), isMin_below r a (f c) ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
+    (hcon : ∀ ⦃n : Nat⦄, isMin_below r (f n) a → f (n + 1) = f n)
+    (hdes : ∀ ⦃n : Nat⦄, ¬isMin_below r (f n) a → r (f (n + 1)) (f n)) :
+    ∃ (c : Nat), isMin_below r (f c) a ∧ ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
   Classical.byContradiction (not_not_descending_chain_ends_at_min_of_acc acc hsta hcon hdes)
 
 end Acc
