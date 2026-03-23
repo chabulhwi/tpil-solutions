@@ -84,15 +84,6 @@ respect to `r`. -/
 def Relation.isMin_below {α : Sort u} (r : α → α → Prop) (min a : α) : Prop :=
   r min a ∧ ∀ ⦃y : α⦄, r y a → ¬r y min
 
-/-- Every natural number is accessible through the less-than relation `<` on the natural numbers. -/
-theorem Nat.acc_lt (n : Nat) : Acc (· < ·) n :=
-  match n with
-  | 0 => ⟨0, fun m hm ↦ False.elim (Nat.not_lt_zero m hm)⟩
-  | m + 1 => Acc.intro (m + 1) (fun k hk ↦
-    match Nat.lt_add_one_iff_lt_or_eq.mp hk with
-    | Or.inl hlt => let ⟨.(m), acc⟩ := Nat.acc_lt m; acc k hlt
-    | Or.inr heq => heq ▸ Nat.acc_lt m)
-
 namespace Acc
 
 universe u
@@ -103,6 +94,11 @@ open Relation
 accessible through `r`. -/
 theorem acc_of_is_min {α : Sort u} {r : α → α → Prop} {a : α} (h : ∀ (x : α), ¬r x a) : Acc r a :=
   ⟨a, fun x hrxa ↦ False.elim (h x hrxa)⟩
+
+/-- `a` is accessible from below if and only if all its predecessors are accessible. -/
+theorem acc_def {a : α} : Acc r a ↔ ∀ (b : α), r b a → Acc r b where
+  mp h := Acc.recOn h (fun x h _ih ↦ show ∀ (b : α), r b x → Acc r b from h)
+  mpr := Acc.intro a
 
 section
 
@@ -127,12 +123,24 @@ universe v
 
 end
 
-variable {α : Sort u} {r : α → α → Prop}
+end Acc
 
-/-- `a` is accessible from below if and only if all its predecessors are accessible. -/
-theorem acc_def {a : α} : Acc r a ↔ ∀ (b : α), r b a → Acc r b where
-  mp h := Acc.recOn h (fun x h _ih ↦ show ∀ (b : α), r b x → Acc r b from h)
-  mpr := Acc.intro a
+/-- Every natural number is accessible through the less-than relation `<` on the natural numbers. -/
+theorem Nat.acc_lt (n : Nat) : Acc (· < ·) n :=
+  match n with
+  | 0 => ⟨0, fun m hm ↦ False.elim (Nat.not_lt_zero m hm)⟩
+  | m + 1 => Acc.intro (m + 1) (fun k hk ↦
+    match Nat.lt_add_one_iff_lt_or_eq.mp hk with
+    | Or.inl hlt => let ⟨.(m), acc⟩ := Nat.acc_lt m; acc k hlt
+    | Or.inr heq => heq ▸ Nat.acc_lt m)
+
+namespace Acc
+
+universe u
+
+open Relation
+
+variable {α : Sort u} {r : α → α → Prop}
 
 /-- If every element of a nonempty set `p` is accessible through a binary relation `r`, then it is
 not false that the set has a minimal element. -/
@@ -179,6 +187,16 @@ theorem not_rfl {a : α} (acc : Acc r a) : ¬r a a :=
   not_refl acc
 
 end Acc
+
+/-- No integer is accessible through the less-than relation `<` on the integers. -/
+theorem Int.not_acc_lt (a : Int) : ¬Acc (· < ·) a :=
+  fun (acc : Acc (· < ·) a) ↦
+    have hnnm := Acc.not_not_has_min_below acc (show ∃ z, z < a from ⟨a - 1, by simp +arith⟩)
+    hnnm <| fun hmin ↦
+    let ⟨min, hlma, hnlm⟩ := hmin
+    have hlpm : min - 1 < min := by simp +arith
+    have hnlpm : ¬min - 1 < min := hnlm (show min -1 < a from Int.lt_trans hlpm hlma)
+    hnlpm hlpm
 
 namespace Acc
 
@@ -336,13 +354,3 @@ theorem descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat �
   Classical.byContradiction (not_not_descending_chain_ends_at_min_of_acc acc hsta hcon hdes)
 
 end Acc
-
-/-- No integer is accessible through the less-than relation `<` on the integers. -/
-theorem Int.not_acc_lt (a : Int) : ¬Acc (· < ·) a :=
-  fun (acc : Acc (· < ·) a) ↦
-    have hnnm := Acc.not_not_has_min_below acc (show ∃ z, z < a from ⟨a - 1, by simp +arith⟩)
-    hnnm <| fun hmin ↦
-    let ⟨min, hlma, hnlm⟩ := hmin
-    have hlpm : min - 1 < min := by simp +arith
-    have hnlpm : ¬min - 1 < min := hnlm (show min -1 < a from Int.lt_trans hlpm hlma)
-    hnlpm hlpm
