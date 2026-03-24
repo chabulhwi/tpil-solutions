@@ -79,10 +79,32 @@ end Sequence
 ### Accessibility
 -/
 
+namespace Relation
+
 /-- `isMin_below r min a` means that `min` is a minimal element of the set `{y : α | r y a}` with
 respect to `r`. -/
-def Relation.isMin_below {α : Sort u} (r : α → α → Prop) (min a : α) : Prop :=
+def isMin_below {α : Sort u} (r : α → α → Prop) (min a : α) : Prop :=
   r min a ∧ ∀ ⦃y : α⦄, r y a → ¬r y min
+
+theorem isMin_below_transGen_iff {α : Sort u} (r : α → α → Prop) (min a : α) :
+    isMin_below (TransGen r) min a ↔ TransGen r min a ∧ ∀ ⦃y : α⦄, ¬r y min := by
+  constructor
+  · intro h
+    refine ⟨h.1, fun y hrym ↦ ?_⟩
+    match h.1 with
+    | .single hrma =>
+      have htrya : TransGen r y a := .tail (.single hrym) hrma
+      exact h.2 htrya (.single hrym)
+    | .tail (b := z) htrmz hrza =>
+      have htrya : TransGen r y a := .tail (.trans (.single hrym) htrmz) hrza
+      exact h.2 htrya (.single hrym)
+  · intro h
+    refine ⟨h.1, fun y htrya htrym ↦ ?_⟩
+    match htrym with
+    | .single hrym => exact h.2 hrym
+    | .tail (b := z) _htryz hrzm => exact h.2 hrzm
+
+end Relation
 
 namespace Acc
 
