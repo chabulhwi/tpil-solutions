@@ -147,8 +147,8 @@ theorem transGen' {a : α} (h : Acc r a) : Acc (TransGen r) a :=
     (fun x _hacx (ih : ∀ (y : α), r y x → Acc (TransGen r) y) ↦
       show Acc (TransGen r) x from Acc.intro x (fun y htryx ↦
         match htryx with
-        | TransGen.single hryx => ih y hryx
-        | TransGen.tail (b := z) htryz hrzx =>
+        | .single hryx => ih y hryx
+        | .tail (b := z) htryz hrzx =>
           have ⟨.(z), hatrz⟩ : Acc (TransGen r) z := ih z hrzx
           hatrz y htryz))
 
@@ -159,7 +159,7 @@ theorem _root_.acc_transGen_iff' : Acc (TransGen r) a ↔ Acc r a := by
   | intro x _hacx ih =>
     apply Acc.intro x
     intro y hryx
-    exact ih y (TransGen.single hryx)
+    exact ih y (.single hryx)
 
 /-- If every element of a nonempty set `p` is accessible through a binary relation `r`, then it is
 not false that the set has a minimal element. -/
@@ -213,8 +213,8 @@ theorem not_not_has_min_below_TransGen {a : α} (acc : Acc r a) (hex : ∃ (x : 
   let ⟨.(a), hrac⟩ := acc
   not_not_has_min (p := fun (x : α) ↦ TransGen r x a) (fun {x} (htrxa : TransGen r x a) ↦
     match htrxa with
-    | TransGen.single hrxa => transGen (hrac x hrxa)
-    | TransGen.tail (b := y) htrxy hrya =>
+    | .single hrxa => transGen (hrac x hrxa)
+    | .tail (b := y) htrxy hrya =>
       have ⟨.(y), (hatry : ∀ (z : α), TransGen r z y → Acc (TransGen r) z)⟩ : Acc (TransGen r) y :=
         transGen (hrac y hrya)
       hatry x htrxy)
