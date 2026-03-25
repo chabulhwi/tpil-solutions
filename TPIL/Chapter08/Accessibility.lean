@@ -37,8 +37,8 @@ theorem const_iff_next_eq : (∀ (n : Nat), f n = f 0) ↔ ∀ (n : Nat), f (n +
 
 /-- A sequence `f` is eventually constant if the `n`th term of `f` equals the next term for every
 natural number `n` greater than or equal to some natural number. -/
-theorem eventually_const_of_eventually_next_eq {c : Nat} (hcon : ∀ ⦃n : Nat⦄,
-    c ≤ n → f (n + 1) = f n) ⦃n : Nat⦄ (hle : c ≤ n) : f n = f c := by
+theorem eventually_const_of_eventually_next_eq {c : Nat} (hcon : ∀ {n : Nat},
+    c ≤ n → f (n + 1) = f n) {n : Nat} (hle : c ≤ n) : f n = f c := by
   let g (d : Nat) : α := f (c + d)
   have heq : g (n - c) = g 0 := by
     refine const_of_next_eq ?_ (n - c)
@@ -49,8 +49,8 @@ theorem eventually_const_of_eventually_next_eq {c : Nat} (hcon : ∀ ⦃n : Nat�
 
 /-- A sequence `f` is eventually constant if and only if the `n`th term of `f` equals the next term
 for every natural number `n` greater than or equal to some natural number. -/
-theorem eventually_const_iff_eventually_next_eq {c : Nat} : (∀ ⦃n : Nat⦄, c ≤ n → f n = f c) ↔
-    (∀ ⦃n : Nat⦄, c ≤ n → f (n + 1) = f n) := by
+theorem eventually_const_iff_eventually_next_eq {c : Nat} : (∀ {n : Nat}, c ≤ n → f n = f c) ↔
+    (∀ {n : Nat}, c ≤ n → f (n + 1) = f n) := by
   constructor
   · intro hcon n hle
     have hn1 : f (n + 1) = f c := hcon (show c ≤ n + 1 from Nat.le_trans hle (Nat.le_succ n))
@@ -58,13 +58,13 @@ theorem eventually_const_iff_eventually_next_eq {c : Nat} : (∀ ⦃n : Nat⦄, 
   · exact eventually_const_of_eventually_next_eq
 
 theorem induction_of_next_eq {p : α → Prop} (base : p (f 0))
-    (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) (m : Nat) : p (f m) := by
+    (hcon : ∀ {n : Nat}, p (f n) → f (n + 1) = f n) (m : Nat) : p (f m) := by
   induction m with
   | zero => exact base
   | succ k ih => rwa [hcon ih]
 
 theorem induction_of_eventually_next_eq {p : α → Prop} {c : Nat} (base : p (f c))
-    (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) := by
+    (hcon : ∀ {n : Nat}, p (f n) → f (n + 1) = f n) {m : Nat} (hle : c ≤ m) : p (f m) := by
   let g (d : Nat) : α := f (c + d)
   have hp : p (g (m - c)) := by
     refine induction_of_next_eq base ?_ (m - c)
@@ -84,13 +84,13 @@ namespace Relation
 /-- `isMin_below r min a` means that `min` is a minimal element of the set `{y : α | r y a}` with
 respect to `r`. -/
 def isMin_below {α : Sort u} (r : α → α → Prop) (min a : α) : Prop :=
-  r min a ∧ ∀ ⦃y : α⦄, r y a → ¬r y min
+  r min a ∧ ∀ {y : α}, r y a → ¬r y min
 
 theorem isMin_below_transGen_iff {α : Sort u} (r : α → α → Prop) (min a : α) :
-    isMin_below (TransGen r) min a ↔ TransGen r min a ∧ ∀ ⦃y : α⦄, ¬r y min := by
+    isMin_below (TransGen r) min a ↔ TransGen r min a ∧ ∀ {y : α}, ¬r y min := by
   constructor
   · intro h
-    refine ⟨h.1, fun y hrym ↦ ?_⟩
+    refine ⟨h.1, fun {y} hrym ↦ ?_⟩
     match h.1 with
     | .single hrma =>
       have htrya : TransGen r y a := .tail (.single hrym) hrma
@@ -99,7 +99,7 @@ theorem isMin_below_transGen_iff {α : Sort u} (r : α → α → Prop) (min a :
       have htrya : TransGen r y a := .tail (.trans (.single hrym) htrmz) hrza
       exact h.2 htrya (.single hrym)
   · intro h
-    refine ⟨h.1, fun y htrya htrym ↦ ?_⟩
+    refine ⟨h.1, fun {y} htrya htrym ↦ ?_⟩
     match htrym with
     | .single hrym => exact h.2 hrym
     | .tail (b := z) _htryz hrzm => exact h.2 hrzm
@@ -185,19 +185,19 @@ theorem _root_.acc_transGen_iff' : Acc (TransGen r) a ↔ Acc r a := by
 
 /-- If every element of a nonempty set `p` is accessible through a binary relation `r`, then it is
 not false that the set has a minimal element. -/
-theorem not_not_has_min {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex : ∃ (x : α), p x) :
-    ¬¬∃ (min : α), p min ∧ ∀ ⦃z : α⦄, p z → ¬r z min :=
+theorem not_not_has_min {p : α → Prop} (acc : ∀ {x : α}, p x → Acc r x) (hex : ∃ (x : α), p x) :
+    ¬¬∃ (min : α), p min ∧ ∀ {z : α}, p z → ¬r z min :=
   let ⟨w, hpw⟩ := hex
   Acc.recOn (acc hpw) (motive := fun (x : α) (_ : Acc r x) ↦ p x → ¬¬∃ (min : α), p min ∧
-      ∀ ⦃z : α⦄, p z → ¬r z min)
-    (fun x _hacx (ih : ∀ (y : α), r y x → p y → ¬¬∃ min, p min ∧ ∀ ⦃z : α⦄, p z → ¬r z min) ↦
-      show p x → ¬¬∃ min, p min ∧ ∀ ⦃z : α⦄, p z → ¬r z min from fun hpx not_has_min ↦
+      ∀ {z : α}, p z → ¬r z min)
+    (fun x _hacx (ih : ∀ (y : α), r y x → p y → ¬¬∃ min, p min ∧ ∀ {z : α}, p z → ¬r z min) ↦
+      show p x → ¬¬∃ min, p min ∧ ∀ {z : α}, p z → ¬r z min from fun hpx not_has_min ↦
         not_has_min ⟨x, hpx, fun {z} hpz hrzx ↦ ih z hrzx hpz not_has_min⟩)
     (show p w from hpw)
 
 -- alternative proof of `Acc.not_not_has_min`
-example {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex : ∃ (x : α), p x) :
-    ¬¬∃ (min : α), p min ∧ ∀ ⦃z : α⦄, p z → ¬r z min := by
+example {p : α → Prop} (acc : ∀ {x : α}, p x → Acc r x) (hex : ∃ (x : α), p x) :
+    ¬¬∃ (min : α), p min ∧ ∀ {z : α}, p z → ¬r z min := by
   let ⟨w, hqw⟩ := hex
   induction acc hqw with
   | intro w _ ih =>
@@ -208,7 +208,7 @@ example {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex : ∃ (
 
 theorem not_refl {a : α} (acc : Acc r a) : ¬r a a :=
   fun (hrfl : r a a) ↦
-    have hmin : ¬¬∃ (min : α), min = a ∧ ∀ ⦃z : α⦄, (fun x ↦ x = a) z → ¬r z min :=
+    have hmin : ¬¬∃ (min : α), min = a ∧ ∀ {z : α}, (fun x ↦ x = a) z → ¬r z min :=
       not_not_has_min (p := fun (x : α) ↦ x = a) (fun {x} (heq : x = a) ↦ show Acc r x from
         heq ▸ acc) (show ∃ x, x = a from ⟨a, rfl⟩)
     hmin (fun ⟨min, (heq : min = a), hnrm⟩ ↦
@@ -249,7 +249,7 @@ theorem Int.not_acc_lt (a : Int) : ¬Acc (· < ·) a :=
   fun (acc : Acc (· < ·) a) ↦
     have hnnm := Acc.not_not_has_min_below acc (show ∃ z, z < a from ⟨a - 1, by simp +arith⟩)
     hnnm <| fun hmin ↦
-    let ⟨min, (hlma : min < a), (hnlm : ∀ ⦃y : Int⦄, y < a → ¬y < min)⟩ := hmin
+    let ⟨min, (hlma : min < a), (hnlm : ∀ {y : Int}, y < a → ¬y < min)⟩ := hmin
     have hlpm : min - 1 < min := by simp +arith
     have hnlpm : ¬min - 1 < min := hnlm (show min -1 < a from Int.lt_trans hlpm hlma)
     hnlpm hlpm
@@ -274,7 +274,7 @@ theorem not_acc_of_exists_descending_chain {a : α} (h : ∃ (f : Nat → α), f
             fun n ↦ show r (f (n + 2)) (f (n + 1)) from hdes (n + 1)⟩))
     (h : ∃ (f : Nat → α), f 0 = a ∧ ∀ (n : Nat), r (f (n + 1)) (f n))
 
-theorem asymm_of_acc_above {a : α} (acc : Acc r a) ⦃b : α⦄ : r b a → ¬r a b := by
+theorem asymm_of_acc_above {a : α} (acc : Acc r a) {b : α} : r b a → ¬r a b := by
   intro hr hnr
   let f (n : Nat) : α := if n % 2 = 0 then a else b
   have is_infinite_descending_chain (n : Nat) : r (f (n + 1)) (f n) := by
@@ -288,16 +288,16 @@ theorem asymm_of_acc_above {a : α} (acc : Acc r a) ⦃b : α⦄ : r b a → ¬r
     not_acc_of_exists_descending_chain ⟨f, by simp [f], is_infinite_descending_chain⟩
   contradiction
 
-theorem asymm_of_acc_below {a : α} (acc : Acc r a) ⦃b : α⦄ : r a b → ¬r b a :=
+theorem asymm_of_acc_below {a : α} (acc : Acc r a) {b : α} : r a b → ¬r b a :=
   imp.swap.mp (asymm_of_acc_above acc (b := b))
 
 /-- `a` is not accessible through a binary relation `r` if there exists a descending cycle starting
 from and ending at `a`. -/
 theorem not_acc_of_has_cycle {a : α} {f : Nat → α}
     (hsta : f 0 = a)
-    ⦃last : Nat⦄
+    {last : Nat}
     (hpos : 0 < last)
-    (hdes : ∀ ⦃n : Nat⦄, n < last → r (f (n + 1)) (f n))
+    (hdes : ∀ {n : Nat}, n < last → r (f (n + 1)) (f n))
     (hlas : f last = a) :
     ¬Acc r a := by
   let g (n : Nat) : α := f (n % last)
@@ -324,20 +324,20 @@ theorem not_acc_of_has_cycle {a : α} {f : Nat → α}
 
 theorem not_not_descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
-    (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n)
-    (hdes : ∀ ⦃n : Nat⦄, ¬p (f n) → r (f (n + 1)) (f n)) :
-    ¬¬∃ (c : Nat), p (f c) ∧ (∀ ⦃n : Nat⦄, n < c → r (f (n + 1)) (f n)) ∧
-      ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
-  have ind_of_next_eq {c : Nat} (hc : p (f c)) ⦃m : Nat⦄ (hle : c ≤ m) : p (f m) :=
+    (hcon : ∀ {n : Nat}, p (f n) → f (n + 1) = f n)
+    (hdes : ∀ {n : Nat}, ¬p (f n) → r (f (n + 1)) (f n)) :
+    ¬¬∃ (c : Nat), p (f c) ∧ (∀ {n : Nat}, n < c → r (f (n + 1)) (f n)) ∧
+      ∀ {m : Nat}, c ≤ m → f m = f c :=
+  have ind_of_next_eq {c : Nat} (hc : p (f c)) {m : Nat} (hle : c ≤ m) : p (f m) :=
     Sequence.induction_of_eventually_next_eq hc hcon hle
-  have const_of_next_eq {c : Nat} (hc : p (f c)) ⦃m : Nat⦄ (hle : c ≤ m) : f m = f c :=
-    Sequence.eventually_const_of_eventually_next_eq (fun n hle ↦ show f (n + 1) = f n from
+  have const_of_next_eq {c : Nat} (hc : p (f c)) {m : Nat} (hle : c ≤ m) : f m = f c :=
+    Sequence.eventually_const_of_eventually_next_eq (fun {n} hle ↦ show f (n + 1) = f n from
       hcon (ind_of_next_eq hc hle)) hle
   fun not_has_last ↦
-    have not_des_of_lt ⦃m : Nat⦄ (hm : p (f m)) : ¬∀ ⦃k : Nat⦄, k < m → r (f (k + 1)) (f k) :=
+    have not_des_of_lt {m : Nat} (hm : p (f m)) : ¬∀ {k : Nat}, k < m → r (f (k + 1)) (f k) :=
       fun des_of_lt ↦ not_has_last ⟨m, hm, des_of_lt, const_of_next_eq hm⟩
-    have not_not_exists_lt_ends ⦃m : Nat⦄ (hm : p (f m)) : ¬¬∃ (k : Nat), k < m ∧ p (f k) :=
-      fun hnex ↦ not_des_of_lt hm (fun k hlt ↦ hdes (fun hn ↦ hnex ⟨k, hlt, hn⟩))
+    have not_not_exists_lt_ends {m : Nat} (hm : p (f m)) : ¬¬∃ (k : Nat), k < m ∧ p (f k) :=
+      fun hnex ↦ not_des_of_lt hm (fun {k} hlt ↦ hdes (fun hn ↦ hnex ⟨k, hlt, hn⟩))
     have not_ends (m : Nat) : ¬p (f m) := by
       intro h
       induction m with
@@ -359,11 +359,11 @@ theorem not_not_descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : A
 from `a`, it is not false that `f` ends at a minimal element of a type `α` with respect to `r`. -/
 theorem not_not_descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
-    (hcon : ∀ ⦃n : Nat⦄, (∀ ⦃y : α⦄, ¬r y (f n)) → f (n + 1) = f n)
-    (hdes : ∀ ⦃n : Nat⦄, ¬(∀ ⦃y : α⦄, ¬r y (f n)) → r (f (n + 1)) (f n)) :
-    ¬¬∃ (c : Nat), (∀ ⦃y : α⦄, ¬r y (f c)) ∧ (∀ ⦃n : Nat⦄, n < c → r (f (n + 1)) (f n)) ∧
-      ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
-  not_not_descending_chain_ends_of_acc (p := fun (x : α) ↦ ∀ ⦃y : α⦄, ¬r y x) acc hsta
+    (hcon : ∀ {n : Nat}, (∀ {y : α}, ¬r y (f n)) → f (n + 1) = f n)
+    (hdes : ∀ {n : Nat}, ¬(∀ {y : α}, ¬r y (f n)) → r (f (n + 1)) (f n)) :
+    ¬¬∃ (c : Nat), (∀ {y : α}, ¬r y (f c)) ∧ (∀ {n : Nat}, n < c → r (f (n + 1)) (f n)) ∧
+      ∀ {m : Nat}, c ≤ m → f m = f c :=
+  not_not_descending_chain_ends_of_acc (p := fun (x : α) ↦ ∀ {y : α}, ¬r y x) acc hsta
     hcon hdes
 
 /-!
@@ -381,8 +381,8 @@ theorem exists_not_acc_lt_of_not_acc {α : Sort u} {a : α} {r : α → α → P
 
 /-- If every element of a nonempty set `p` is accessible through a binary relation `r`, then the set
 has a minimal element. -/
-theorem has_min {p : α → Prop} (acc : ∀ ⦃x : α⦄, p x → Acc r x) (hex : ∃ (x : α), p x) :
-    ∃ (min : α), p min ∧ ∀ ⦃z : α⦄, p z → ¬r z min :=
+theorem has_min {p : α → Prop} (acc : ∀ {x : α}, p x → Acc r x) (hex : ∃ (x : α), p x) :
+    ∃ (min : α), p min ∧ ∀ {z : α}, p z → ¬r z min :=
   Classical.byContradiction (not_not_has_min acc hex)
 
 /-- If `a` is accessible through a binary relation `r` and there exists an element below `a`, then
@@ -419,20 +419,20 @@ theorem not_acc_iff_exists_descending_chain {x : α} :
 
 theorem descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
-    (hcon : ∀ ⦃n : Nat⦄, p (f n) → f (n + 1) = f n)
-    (hdes : ∀ ⦃n : Nat⦄, ¬p (f n) → r (f (n + 1)) (f n)) :
-    ∃ (c : Nat), p (f c) ∧ (∀ ⦃n : Nat⦄, n < c → r (f (n + 1)) (f n)) ∧
-      ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
+    (hcon : ∀ {n : Nat}, p (f n) → f (n + 1) = f n)
+    (hdes : ∀ {n : Nat}, ¬p (f n) → r (f (n + 1)) (f n)) :
+    ∃ (c : Nat), p (f c) ∧ (∀ {n : Nat}, n < c → r (f (n + 1)) (f n)) ∧
+      ∀ {m : Nat}, c ≤ m → f m = f c :=
   Classical.byContradiction (not_not_descending_chain_ends_of_acc acc hsta hcon hdes)
 
 /-- If `a` is accessible through a binary relation `r`, then every descending chain starting from
 `a` ends at a minimal element of a type `α` with respect to `r`. -/
 theorem descending_chain_ends_at_min_of_acc {a : α} (acc : Acc r a) {f : Nat → α}
     (hsta : f 0 = a)
-    (hcon : ∀ ⦃n : Nat⦄, (∀ (y : α), ¬r y (f n)) → f (n + 1) = f n)
-    (hdes : ∀ ⦃n : Nat⦄, ¬(∀ (y : α), ¬r y (f n)) → r (f (n + 1)) (f n)) :
-    ∃ (c : Nat), (∀ ⦃y : α⦄, ¬r y (f c)) ∧ (∀ ⦃n : Nat⦄, n < c → r (f (n + 1)) (f n)) ∧
-      ∀ ⦃m : Nat⦄, c ≤ m → f m = f c :=
+    (hcon : ∀ {n : Nat}, (∀ (y : α), ¬r y (f n)) → f (n + 1) = f n)
+    (hdes : ∀ {n : Nat}, ¬(∀ (y : α), ¬r y (f n)) → r (f (n + 1)) (f n)) :
+    ∃ (c : Nat), (∀ {y : α}, ¬r y (f c)) ∧ (∀ {n : Nat}, n < c → r (f (n + 1)) (f n)) ∧
+      ∀ {m : Nat}, c ≤ m → f m = f c :=
   Classical.byContradiction (not_not_descending_chain_ends_at_min_of_acc acc hsta hcon hdes)
 
 end Acc
