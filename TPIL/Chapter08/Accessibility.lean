@@ -338,7 +338,7 @@ theorem not_not_descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : A
       fun des_of_lt ↦ not_has_last ⟨m, hm, des_of_lt, const_of_next_eq hm⟩
     have not_not_exists_lt_ends ⦃m : Nat⦄ (hm : p (f m)) : ¬¬∃ (k : Nat), k < m ∧ p (f k) :=
       fun hnex ↦ not_des_of_lt hm (fun k hlt ↦ hdes (fun hn ↦ hnex ⟨k, hlt, hn⟩))
-    have not_ends {m : Nat} : ¬p (f m) := by
+    have not_ends (m : Nat) : ¬p (f m) := by
       intro h
       induction m with
       | zero =>
@@ -350,7 +350,7 @@ theorem not_not_descending_chain_ends_of_acc {p : α → Prop} {a : α} (acc : A
         intro ⟨k, hlt, hend⟩
         have heq : f l = f k := const_of_next_eq hend (Nat.lt_add_one_iff.mp hlt)
         exact ih (heq ▸ hend)
-    have is_infinite_descending_chain (m : Nat) : r (f (m + 1)) (f m) := hdes not_ends
+    have is_infinite_descending_chain (m : Nat) : r (f (m + 1)) (f m) := hdes (not_ends m)
     have hnac : ¬Acc r a :=
       not_acc_of_exists_descending_chain ⟨f, hsta, is_infinite_descending_chain⟩
     hnac acc
