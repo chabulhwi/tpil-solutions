@@ -150,6 +150,6 @@ theorem fib_eq_fib' (n : Nat) : fib n = fib' n := by
 -- Slow:
 #eval fib 30
 -- Fast:
-#reduce fib 169
+#reduce fib 126
 
 end Nat
